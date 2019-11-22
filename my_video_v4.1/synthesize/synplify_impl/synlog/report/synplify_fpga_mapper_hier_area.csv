@@ -1,0 +1,91 @@
+
+. Module name, LUTS, REGISTERS, LATCHES, ADDSUB, MUXES, DEDICATED RAMS, DISTRIBUTED RAMS, MULTS, BUFS
+. top, 2427, 2725, 6, 0, 18, 20, 242, 0, 0
+.	. aq_axi_master, 120, 127, 0, 0, 0, 0, 0, 0, 0
+.	. cmos_8_16bit, 18, 26, 0, 0, 0, 0, 0, 0, 0
+.	. cmos_write_req_gen, 2, 7, 0, 0, 0, 0, 0, 0, 0
+.	. ddr3, 218, 117, 0, 0, 0, 0, 30, 0, 0
+.	.	. ipsl_hmemc_ddrc_top_Z23_layer0, 171, 25, 0, 0, 0, 0, 30, 0, 0
+.	.	.	. ipsl_ddrc_reset_ctrl_Z22_layer0, 171, 25, 0, 0, 0, 0, 30, 0, 0
+.	.	.	.	. ipsl_ddrc_apb_reset_Z21_layer0, 114, 10, 0, 0, 0, 0, 30, 0, 0
+.	.	. ipsl_hmemc_phy_top_Z20_layer0, 47, 92, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_ddrphy_dll_update_ctrl, 7, 9, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_ddrphy_reset_ctrl, 26, 31, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_ddrphy_training_ctrl, 5, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_ddrphy_update_ctrl_16BIT_2s_0s_1s_2s_3s_1, 9, 44, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_phy_io_Z19_layer0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. pll_50_400, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. dvi_encoder, 184, 144, 0, 0, 0, 0, 0, 0, 0
+.	.	. encode, 54, 35, 0, 0, 0, 0, 0, 0, 0
+.	.	. encode_0, 52, 39, 0, 0, 0, 0, 0, 0, 0
+.	.	. encode_0_0, 48, 29, 0, 0, 0, 0, 0, 0, 0
+.	.	. serdes_4b_10to1, 30, 41, 0, 0, 0, 0, 0, 0, 0
+.	. frame_read_write, 91, 131, 0, 0, 0, 2, 0, 0, 0
+.	.	. afifo_16i_64o_512, 40, 77, 0, 0, 0, 2, 0, 0, 0
+.	.	.	. ipml_fifo_v1_4_afifo_16i_64o_512_Z10_layer0, 40, 77, 0, 0, 0, 2, 0, 0, 0
+.	.	.	.	. ipml_fifo_ctrl_v1_3_10s_8s_ASYN_1020s_4s, 40, 77, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. ipml_sdpram_v1_4_afifo_16i_64o_512_Z9_layer0, 0, 0, 0, 0, 0, 2, 0, 0, 0
+.	.	. frame_fifo_write_Z11_layer0, 51, 54, 0, 0, 0, 0, 0, 0, 0
+.	. gen_new_frame_sign, 2, 8, 0, 0, 0, 0, 0, 0, 0
+.	. gen_raotation_addr_640s_480s_800s_600s_4294966896s_4294966996s_8_4_2_1_3_layer0, 33, 51, 0, 0, 0, 0, 0, 0, 0
+.	.	. APM_multi_add_s16, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipml_multadd_v1_1_Z2_layer0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. APM_multi_add_s16_0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipml_multadd_v1_1_Z2_layer0_0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. get_mpu_angle, 8, 73, 0, 0, 0, 0, 0, 0, 0
+.	. i2c_config, 155, 136, 0, 0, 0, 0, 0, 0, 0
+.	.	. i2c_master_top, 139, 123, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. i2c_master_byte_ctrl, 110, 101, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. i2c_master_bit_ctrl, 63, 75, 0, 0, 0, 0, 0, 0, 0
+.	. lut_ov5640_rgb565_1280_960, 93, 0, 0, 0, 0, 0, 29, 0, 0
+.	. lut_sin_cos, 236, 0, 0, 0, 0, 0, 167, 0, 0
+.	. my_aq_axi_master, 250, 180, 0, 0, 0, 0, 0, 0, 0
+.	. my_frame_read_write, 188, 276, 0, 0, 0, 6, 0, 0, 0
+.	.	. afifo_64i_16o_128, 36, 82, 0, 0, 0, 2, 0, 0, 0
+.	.	.	. ipml_fifo_v1_4_afifo_64i_16o_128_Z13_layer0, 36, 82, 0, 0, 0, 2, 0, 0, 0
+.	.	.	.	. ipml_fifo_ctrl_v1_3_8s_10s_ASYN_252s_4s, 36, 82, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. ipml_sdpram_v1_4_afifo_64i_16o_128_Z12_layer0, 0, 0, 0, 0, 0, 2, 0, 0, 0
+.	.	. afifo_64i_64o_512, 47, 91, 0, 0, 0, 4, 0, 0, 0
+.	.	.	. ipml_fifo_v1_4_afifo_64i_64o_512_Z18_layer0, 47, 91, 0, 0, 0, 4, 0, 0, 0
+.	.	.	.	. ipml_fifo_ctrl_v1_3_10s_10s_ASYN_500s_4s, 47, 91, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. ipml_sdpram_v1_4_afifo_64i_64o_512_Z17_layer0, 0, 0, 0, 0, 0, 4, 0, 0, 0
+.	.	. frame_fifo_read_Z14_layer0, 49, 46, 0, 0, 0, 0, 0, 0, 0
+.	.	. frame_fifo_write_Z11_layer0_0, 54, 57, 0, 0, 0, 0, 0, 0, 0
+.	. osd_display_angle, 220, 217, 0, 0, 1, 1, 0, 0, 0
+.	.	. Binary2BCD, 26, 28, 0, 0, 1, 0, 0, 0, 0
+.	.	. osd_rom, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	. ipml_rom_v1_3_osd_rom_Z16_layer0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	. ipml_spram_v1_3_osd_rom_Z15_layer0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	.	. timing_gen_xy, 28, 62, 0, 0, 0, 0, 0, 0, 0
+.	. pixel_read_block_1280_960_0s_1s_2s_3s_4s_5s_6s, 303, 732, 6, 0, 16, 3, 0, 0, 0
+.	.	. calculate_ddr3_addr_block_1280_960_0s_1s_2s_3s_4s_5s, 18, 51, 6, 0, 0, 0, 0, 0, 0
+.	.	.	. APM_11mult11, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. ipml_mult_v1_1_Z6_layer0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. fifo_22i_22o, 10, 34, 0, 0, 0, 2, 0, 0, 0
+.	.	.	. ipml_fifo_v1_4_fifo_22i_22o_Z5_layer0, 10, 34, 0, 0, 0, 2, 0, 0, 0
+.	.	.	.	. ipml_fifo_ctrl_v1_3_10s_10s_SYN_1010s_4s, 10, 34, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. ipml_sdpram_v1_4_fifo_22i_22o_Z4_layer0, 0, 0, 0, 0, 0, 2, 0, 0, 0
+.	.	. fifo_26i_26o, 11, 31, 0, 0, 0, 1, 0, 0, 0
+.	.	.	. ipml_fifo_v1_4_fifo_26i_26o_Z8_layer0, 11, 31, 0, 0, 0, 1, 0, 0, 0
+.	.	.	.	. ipml_fifo_ctrl_v1_3_9s_9s_SYN_510s_4s, 11, 31, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. ipml_sdpram_v1_4_fifo_26i_26o_Z7_layer0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+.	. pixel_to_block, 107, 284, 0, 0, 0, 8, 0, 0, 0
+.	.	. work_linebuffer_wapper_rtl_4_1280_16_1_no_of_linessamples_per_linedata_width, 97, 264, 0, 0, 0, 8, 0, 0, 0
+.	.	.	. linebuffer_16_1280_4_false, 97, 264, 0, 0, 0, 8, 0, 0, 0
+.	.	.	.	. dp_bram_16_1280, 23, 55, 0, 0, 0, 2, 0, 0, 0
+.	.	.	.	. dp_bram_16_1280_3, 16, 32, 0, 0, 0, 2, 0, 0, 0
+.	.	.	.	. dp_bram_16_1280_4, 23, 44, 0, 0, 0, 2, 0, 0, 0
+.	.	.	.	. dp_bram_16_1280_5, 16, 32, 0, 0, 0, 2, 0, 0, 0
+.	. usart_tx_rx_Z1_layer0, 72, 82, 0, 0, 1, 0, 8, 0, 0
+.	.	. afifo_8in8out_2, 44, 43, 0, 0, 0, 0, 8, 0, 0
+.	.	.	. ipm_distributed_fifo_v1_2_afifo_8in8out_4s_8s_ASYNC_1s_ASYNC_FIFO_12s_4s_2, 44, 43, 0, 0, 0, 0, 8, 0, 0
+.	.	.	.	. ipm_distributed_fifo_ctr_v1_0_4s_ASYNC_FIFO_12s_4s_2, 28, 34, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. ipm_distributed_sdpram_v1_2_afifo_8in8out_4s_8s_ASYNC_1s_NONE_BIN_2, 16, 9, 0, 0, 0, 0, 8, 0, 0
+.	. usart_tx_rx_Z1_layer0_0, 81, 69, 0, 0, 0, 0, 8, 0, 0
+.	.	. afifo_8in8out_3, 43, 43, 0, 0, 0, 0, 8, 0, 0
+.	.	.	. ipm_distributed_fifo_v1_2_afifo_8in8out_4s_8s_ASYNC_1s_ASYNC_FIFO_12s_4s_3, 43, 43, 0, 0, 0, 0, 8, 0, 0
+.	.	.	.	. ipm_distributed_fifo_ctr_v1_0_4s_ASYNC_FIFO_12s_4s_3, 28, 34, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. ipm_distributed_sdpram_v1_2_afifo_8in8out_4s_8s_ASYNC_1s_NONE_BIN_3, 15, 9, 0, 0, 0, 0, 8, 0, 0
+.	. video_pll, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. video_timing_data, 42, 54, 0, 0, 0, 0, 0, 0, 0
+.	.	. color_bar, 25, 31, 0, 0, 0, 0, 0, 0, 0

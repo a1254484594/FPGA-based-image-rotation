@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the job information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<job_run_status name="Mapper">
+<report_link name="Detailed report">
+<data>C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synlog\synplify_premap.srr</data>
+<title></title>
+</report_link>
+<job_status>
+<data>Completed</data>
+</job_status>
+<job_info>
+<info name="Notes">
+<data>73</data>
+<report_link name="more">
+<data>C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synlog\report\synplify_premap_notes.txt</data>
+</report_link>
+</info>
+<info name="Warnings">
+<data>541</data>
+<report_link name="more">
+<data>C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synlog\report\synplify_premap_warnings.txt</data>
+</report_link>
+</info>
+<info name="Errors">
+<data>0</data>
+<report_link name="more">
+<data>C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synlog\report\synplify_premap_errors.txt</data>
+</report_link>
+</info>
+<info name="CPU Time">
+<data>0h:00m:09s</data>
+</info>
+<info name="Real Time">
+<data>0h:00m:09s</data>
+</info>
+<info name="Peak Memory">
+<data>276MB</data>
+</info>
+<info name="Date &amp; Time">
+<data type="timestamp">1574404540</data>
+</info>
+</job_info>
+</job_run_status>

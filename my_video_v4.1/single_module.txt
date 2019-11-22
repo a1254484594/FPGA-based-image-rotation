@@ -1,0 +1,37 @@
+(action wgt_my_design_src
+ )
+(action wgt_my_ips_src
+    (module pll_50_400
+        (file "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v4.1/ipcore/ddr3/inst.idf" 2019-11-22-13:03:44 )
+    )
+    (module ipsl_ddrc_apb_reset
+        (file "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v4.1/ipcore/ddr3/inst.idf" 2019-11-22-13:03:44 )
+    )
+    (module ipsl_ddrc_reset_ctrl
+        (file "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v4.1/ipcore/ddr3/inst.idf" 2019-11-22-13:03:44 )
+    )
+    (module ipsl_ddrphy_dll_update_ctrl
+        (file "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v4.1/ipcore/ddr3/inst.idf" 2019-11-22-13:03:44 )
+    )
+    (module ipsl_ddrphy_reset_ctrl
+        (file "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v4.1/ipcore/ddr3/inst.idf" 2019-11-22-13:03:44 )
+    )
+    (module ipsl_ddrphy_training_ctrl
+        (file "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v4.1/ipcore/ddr3/inst.idf" 2019-11-22-13:03:44 )
+    )
+    (module ipsl_ddrphy_update_ctrl
+        (file "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v4.1/ipcore/ddr3/inst.idf" 2019-11-22-13:03:44 )
+    )
+    (module ipsl_hmemc_ddrc_top
+        (file "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v4.1/ipcore/ddr3/inst.idf" 2019-11-22-13:03:44 )
+    )
+    (module ipsl_hmemc_phy_top
+        (file "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v4.1/ipcore/ddr3/inst.idf" 2019-11-22-13:03:44 )
+    )
+    (module ipsl_phy_io
+        (file "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v4.1/ipcore/ddr3/inst.idf" 2019-11-22-13:03:44 )
+    )
+    (module ddr3
+        (file "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v4.1/ipcore/ddr3/inst.idf" 2019-11-22-13:03:44 )
+    )
+ )

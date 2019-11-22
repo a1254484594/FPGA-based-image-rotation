@@ -1,0 +1,1346 @@
+#Build: Synplify Pro (R) P-2019.03P-Beta2, Build 3717R, Feb 25 2019
+#install: C:\pango\PDS_2019.1-patch11\syn
+#OS: Windows 8 6.2
+#Hostname: 1FIX62AK6M9QF8G
+
+# Fri Nov 22 14:34:04 2019
+
+#Implementation: synplify_impl
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch11\syn
+OS: Windows 6.2
+
+Hostname: 1FIX62AK6M9QF8G
+
+Implementation : synplify_impl
+Synopsys HDL Compiler, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch11\syn
+OS: Windows 6.2
+
+Hostname: 1FIX62AK6M9QF8G
+
+Implementation : synplify_impl
+Synopsys VHDL Compiler, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+@N|Running in 64-bit mode
+@N:"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\linebuffer_Wapper.vhd":8:7:8:23|Top entity is set to linebuffer_Wapper.
+VHDL syntax check successful!
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 84MB)
+
+
+Process completed successfully.
+# Fri Nov 22 14:34:04 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch11\syn
+OS: Windows 6.2
+
+Hostname: 1FIX62AK6M9QF8G
+
+Implementation : synplify_impl
+Synopsys Verilog Compiler, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+@N|Running in 64-bit mode
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_config.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v" (library work)
+@N: CG334 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":137:12:137:24|Read directive translate_off.
+@N: CG333 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":139:12:139:23|Read directive translate_on.
+@I:"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_defines.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":185:36:185:45|Unrecognized synthesis directive enum_state. Verify the correct directive name.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":406:41:406:49|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":406:51:406:63|Read a parallel_case directive.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":410:47:410:55|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":410:57:410:69|Read a parallel_case directive.
+@W: CG286 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":410:24:410:27|Case statement has both a full_case directive and a default clause -- ignoring full_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_byte_ctrl.v" (library work)
+@N: CG334 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_byte_ctrl.v":69:12:69:24|Read directive translate_off.
+@N: CG333 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_byte_ctrl.v":71:12:71:23|Read directive translate_on.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_byte_ctrl.v":199:32:199:41|Unrecognized synthesis directive enum_state. Verify the correct directive name.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_byte_ctrl.v":230:34:230:42|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_byte_ctrl.v":230:44:230:56|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_top.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\color_bar.v" (library work)
+@I:"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\color_bar.v":"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\video_define.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\dvi_encoder.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\encode.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\encode.v":7:9:7:12|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\serdes_4b_10to1.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\frame_fifo_read.v" (library work)
+@W: CG921 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\frame_fifo_read.v":80:37:80:44|read_cnt is already declared in this scope.
+@W: CG921 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\frame_fifo_read.v":110:10:110:17|read_cnt is already declared in this scope.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\frame_fifo_write.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\frame_read_write.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\aq_axi_master.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\cmos_8_16bit.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\cmos_write_req_gen.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\ax_debounce.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\ax_debounce.v":4:26:4:29|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\video_timing_data.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\gen_new_frame_sign.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\my_aq_axi_master.v" (library work)
+@W: CG921 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\my_aq_axi_master.v":162:6:162:11|MUX_wr is already declared in this scope.
+@W: CG921 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\my_aq_axi_master.v":163:6:163:11|MUX_rd is already declared in this scope.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\usart_tx_rx.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\get_mpu_angle.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\my_lut_ov5640_rgb565_1280_960.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\gen_rotation_addr.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\lut_sin_cos.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\pixel_to_block.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\pixel_read_block.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\my_frame_read_write.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\calculate_ddr3_addr_block.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\top.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\osd\soure\osd_display_angle.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\osd\soure\timing_gen_xy.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\Binary2BCD.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\APM_11mult11\APM_11mult11.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\APM_multi_add_s16\APM_multi_add_s16.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_8in8out\rtl\ipm_distributed_sdpram_v1_2_afifo_8in8out.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_8in8out\afifo_8in8out.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_8in8out\rtl\ipm_distributed_fifo_v1_2_afifo_8in8out.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_rom_v1_3_osd_rom.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\osd_rom.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_fifo_v1_4_fifo_22i_22o.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_fifo_v1_4_fifo_26i_26o.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_v1_4_afifo_16i_64o_512.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_16o_128\rtl\ipml_fifo_v1_4_afifo_64i_16o_128.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_64o_512\rtl\ipml_fifo_v1_4_afifo_64i_64o_512.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\fifo_26i_26o.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\fifo_22i_22o.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_16o_128\afifo_64i_16o_128.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\afifo_16i_64o_512.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_64o_512\afifo_64i_64o_512.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\pll\pll_50_400.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\video_pll\video_pll.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_8in8out\rtl\ipm_distributed_fifo_ctr_v1_0.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_ctrl_v1_3.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v" (library work)
+@I:"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\osd_rom_init_param.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":129:128:129:136|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":133:130:133:138|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":137:133:137:141|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":141:125:141:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":145:124:145:132|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":149:129:149:137|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":153:142:153:150|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":157:147:157:155|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":161:121:161:129|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":165:129:165:137|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":169:153:169:161|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":173:154:173:162|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":177:124:177:132|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":181:131:181:139|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":185:125:185:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":190:131:190:139|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":194:132:194:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":199:176:199:184|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":207:137:207:145|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\ddr3.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\APM_11mult11\rtl\ipml_mult_v1_1.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\APM_multi_add_s16\rtl\ipml_multadd_v1_1.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":289:249:289:257|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":295:162:295:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":301:162:301:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":307:132:307:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":311:134:311:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":315:132:315:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":319:134:319:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":323:134:323:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":327:126:327:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":331:133:331:141|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":335:125:335:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":339:143:339:151|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":343:151:343:159|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":347:140:347:148|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":351:156:351:164|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":355:154:355:162|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":359:155:359:163|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":363:125:363:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":367:126:367:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":372:132:372:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":376:136:376:144|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":381:132:381:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":385:148:385:156|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":389:146:389:154|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":393:150:393:158|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":397:138:397:146|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":660:40:660:52|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":289:249:289:257|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":295:162:295:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":301:162:301:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":307:132:307:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":311:134:311:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":315:132:315:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":319:134:319:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":323:134:323:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":327:126:327:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":331:133:331:141|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":335:125:335:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":339:143:339:151|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":343:151:343:159|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":347:140:347:148|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":351:156:351:164|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":355:154:355:162|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":359:155:359:163|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":363:125:363:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":367:126:367:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":372:132:372:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":376:136:376:144|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":381:132:381:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":385:148:385:156|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":389:146:389:154|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":393:150:393:158|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":397:138:397:146|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":656:40:656:52|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":289:249:289:257|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":295:162:295:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":301:162:301:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":307:132:307:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":311:134:311:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":315:132:315:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":319:134:319:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":323:134:323:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":327:126:327:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":331:133:331:141|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":335:125:335:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":339:143:339:151|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":343:151:343:159|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":347:140:347:148|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":351:156:351:164|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":355:154:355:162|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":359:155:359:163|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":363:125:363:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":367:126:367:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":372:132:372:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":376:136:376:144|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":381:132:381:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":385:148:385:156|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":389:146:389:154|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":393:150:393:158|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+
+Only the first 100 messages of id 'CS141' are reported. To see all messages use 'report_messages -log C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synlog\synplify_compiler.srr -id CS141' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CS141} -count unlimited' in the Tcl shell.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":656:40:656:52|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v" (library work)
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":656:40:656:52|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_64o_512\rtl\ipml_sdpram_v1_4_afifo_64i_64o_512.v" (library work)
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_64o_512\rtl\ipml_sdpram_v1_4_afifo_64i_64o_512.v":656:40:656:52|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_phy_io.v" (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Process completed successfully.
+# Fri Nov 22 14:34:05 2019
+
+###########################################################]
+###########################################################[
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_config.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v" (library work)
+@N: CG334 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":137:12:137:24|Read directive translate_off.
+@N: CG333 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":139:12:139:23|Read directive translate_on.
+@I:"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_defines.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":185:36:185:45|Unrecognized synthesis directive enum_state. Verify the correct directive name.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":406:41:406:49|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":406:51:406:63|Read a parallel_case directive.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":410:47:410:55|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":410:57:410:69|Read a parallel_case directive.
+@W: CG286 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v":410:24:410:27|Case statement has both a full_case directive and a default clause -- ignoring full_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_byte_ctrl.v" (library work)
+@N: CG334 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_byte_ctrl.v":69:12:69:24|Read directive translate_off.
+@N: CG333 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_byte_ctrl.v":71:12:71:23|Read directive translate_on.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_byte_ctrl.v":199:32:199:41|Unrecognized synthesis directive enum_state. Verify the correct directive name.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_byte_ctrl.v":230:34:230:42|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_byte_ctrl.v":230:44:230:56|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_top.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\color_bar.v" (library work)
+@I:"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\color_bar.v":"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\video_define.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\dvi_encoder.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\encode.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\encode.v":7:9:7:12|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\serdes_4b_10to1.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\frame_fifo_read.v" (library work)
+@W: CG921 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\frame_fifo_read.v":80:37:80:44|read_cnt is already declared in this scope.
+@W: CG921 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\frame_fifo_read.v":110:10:110:17|read_cnt is already declared in this scope.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\frame_fifo_write.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\frame_read_write.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\aq_axi_master.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\cmos_8_16bit.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\cmos_write_req_gen.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\ax_debounce.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\ax_debounce.v":4:26:4:29|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\video_timing_data.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\gen_new_frame_sign.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\my_aq_axi_master.v" (library work)
+@W: CG921 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\my_aq_axi_master.v":162:6:162:11|MUX_wr is already declared in this scope.
+@W: CG921 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\my_aq_axi_master.v":163:6:163:11|MUX_rd is already declared in this scope.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\usart_tx_rx.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\get_mpu_angle.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\my_lut_ov5640_rgb565_1280_960.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\gen_rotation_addr.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\lut_sin_cos.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\pixel_to_block.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\pixel_read_block.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\my_frame_read_write.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\calculate_ddr3_addr_block.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\top.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\osd\soure\osd_display_angle.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\osd\soure\timing_gen_xy.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\Binary2BCD.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\APM_11mult11\APM_11mult11.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\APM_multi_add_s16\APM_multi_add_s16.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_8in8out\rtl\ipm_distributed_sdpram_v1_2_afifo_8in8out.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_8in8out\afifo_8in8out.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_8in8out\rtl\ipm_distributed_fifo_v1_2_afifo_8in8out.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_rom_v1_3_osd_rom.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\osd_rom.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_fifo_v1_4_fifo_22i_22o.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_fifo_v1_4_fifo_26i_26o.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_v1_4_afifo_16i_64o_512.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_16o_128\rtl\ipml_fifo_v1_4_afifo_64i_16o_128.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_64o_512\rtl\ipml_fifo_v1_4_afifo_64i_64o_512.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\fifo_26i_26o.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\fifo_22i_22o.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_16o_128\afifo_64i_16o_128.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\afifo_16i_64o_512.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_64o_512\afifo_64i_64o_512.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\pll\pll_50_400.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\video_pll\video_pll.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_8in8out\rtl\ipm_distributed_fifo_ctr_v1_0.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_ctrl_v1_3.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v" (library work)
+@I:"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\osd_rom_init_param.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":129:128:129:136|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":133:130:133:138|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":137:133:137:141|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":141:125:141:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":145:124:145:132|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":149:129:149:137|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":153:142:153:150|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":157:147:157:155|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":161:121:161:129|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":165:129:165:137|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":169:153:169:161|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":173:154:173:162|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":177:124:177:132|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":181:131:181:139|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":185:125:185:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":190:131:190:139|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":194:132:194:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":199:176:199:184|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":207:137:207:145|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\ddr3.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\APM_11mult11\rtl\ipml_mult_v1_1.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\APM_multi_add_s16\rtl\ipml_multadd_v1_1.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":289:249:289:257|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":295:162:295:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":301:162:301:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":307:132:307:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":311:134:311:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":315:132:315:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":319:134:319:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":323:134:323:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":327:126:327:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":331:133:331:141|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":335:125:335:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":339:143:339:151|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":343:151:343:159|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":347:140:347:148|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":351:156:351:164|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":355:154:355:162|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":359:155:359:163|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":363:125:363:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":367:126:367:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":372:132:372:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":376:136:376:144|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":381:132:381:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":385:148:385:156|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":389:146:389:154|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":393:150:393:158|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":397:138:397:146|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":660:40:660:52|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":289:249:289:257|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":295:162:295:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":301:162:301:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":307:132:307:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":311:134:311:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":315:132:315:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":319:134:319:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":323:134:323:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":327:126:327:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":331:133:331:141|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":335:125:335:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":339:143:339:151|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":343:151:343:159|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":347:140:347:148|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":351:156:351:164|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":355:154:355:162|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":359:155:359:163|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":363:125:363:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":367:126:367:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":372:132:372:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":376:136:376:144|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":381:132:381:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":385:148:385:156|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":389:146:389:154|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":393:150:393:158|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":397:138:397:146|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":656:40:656:52|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":289:249:289:257|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":295:162:295:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":301:162:301:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":307:132:307:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":311:134:311:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":315:132:315:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":319:134:319:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":323:134:323:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":327:126:327:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":331:133:331:141|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":335:125:335:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":339:143:339:151|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":343:151:343:159|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":347:140:347:148|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":351:156:351:164|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":355:154:355:162|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":359:155:359:163|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":363:125:363:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":367:126:367:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":372:132:372:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":376:136:376:144|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":381:132:381:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":385:148:385:156|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":389:146:389:154|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":393:150:393:158|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+
+Only the first 100 messages of id 'CS141' are reported. To see all messages use 'report_messages -log C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synlog\synplify_compiler.srr -id CS141' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CS141} -count unlimited' in the Tcl shell.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":656:40:656:52|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v" (library work)
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":656:40:656:52|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_64o_512\rtl\ipml_sdpram_v1_4_afifo_64i_64o_512.v" (library work)
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_64o_512\rtl\ipml_sdpram_v1_4_afifo_64i_64o_512.v":656:40:656:52|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_phy_io.v" (library work)
+Verilog syntax check successful!
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\ax_debounce.v":22:8:22:18|Synthesizing module ax_debounce in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\ax_debounce.v":87:22:87:31|Removing redundant assignment.
+Running optimization stage 1 on ax_debounce .......
+Running optimization stage 2 on ax_debounce .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 102MB)
+
+
+Process completed successfully.
+# Fri Nov 22 14:34:05 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch11\syn
+OS: Windows 6.2
+
+Hostname: 1FIX62AK6M9QF8G
+
+Implementation : synplify_impl
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 86MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Nov 22 14:34:06 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synwork\synplify_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 19MB peak: 20MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Nov 22 14:34:06 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch11\syn
+OS: Windows 6.2
+
+Hostname: 1FIX62AK6M9QF8G
+
+Implementation : synplify_impl
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 86MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Nov 22 14:34:07 2019
+
+###########################################################]
+Premap Report
+
+# Fri Nov 22 14:34:08 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch11\syn
+OS: Windows 6.2
+
+Hostname: 1FIX62AK6M9QF8G
+
+Implementation : synplify_impl
+Synopsys Generic Technology Pre-mapping, Version map2019q1p1, Build 1238R, Built Mar 15 2019 09:38:46
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+Reading constraint file: C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ddr3_ov5640_hdmi.fdc
+@L: C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synplify_scck.rpt 
+Printing clock  summary report in "C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synplify_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 126MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 127MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 128MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 130MB)
+
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 207MB peak: 207MB)
+
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 207MB peak: 208MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 207MB peak: 208MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 207MB peak: 208MB)
+
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 207MB peak: 208MB)
+
+@W: MT548 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":4:0:4:0|Source for clock sys_clk not found in netlist.
+@W: MT548 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":5:0:5:0|Source for clock coms_pclk not found in netlist.
+
+
+Clock Summary
+******************
+
+          Start               Requested     Requested     Clock        Clock                   Clock
+Level     Clock               Frequency     Period        Type         Group                   Load 
+----------------------------------------------------------------------------------------------------
+0 -       ax_debounce|clk     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0     38   
+====================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                    Clock     Source        Clock Pin       Non-clock Pin     Non-clock Pin
+Clock               Load      Pin           Seq Example     Seq Example       Comb Example 
+-------------------------------------------------------------------------------------------
+ax_debounce|clk     38        clk(port)     DFF1.C          -                 -            
+===========================================================================================
+
+@W: MT529 :"c:\users\administrator.1fix62ak6m9qf8g\desktop\fpga\git\fpga-based-image-rotation\my_video_v4.1\source\test\ax_debounce.v":63:0:63:5|Found inferred clock ax_debounce|clk which controls 38 sequential elements including q_reg[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 38 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_0       clk                 port                   38         q_reg[31:0]    
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":42:0:42:0|Cannot apply constraint PAP_LOC to u_ipsl_hmemc_top.u_pll_50_400.u_pll_e1
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":46:0:46:0|Cannot apply constraint PAP_IO_DIRECTION to cmos_scl
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":47:0:47:0|Cannot apply constraint PAP_IO_LOC to cmos_scl
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":48:0:48:0|Cannot apply constraint PAP_IO_VCCIO to cmos_scl
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":49:0:49:0|Cannot apply constraint PAP_IO_STANDARD to cmos_scl
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":50:0:50:0|Cannot apply constraint PAP_IO_DRIVE to cmos_scl
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":51:0:51:0|Cannot apply constraint PAP_IO_PULLUP to cmos_scl
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":52:0:52:0|Cannot apply constraint PAP_IO_SLEW to cmos_scl
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":53:0:53:0|Cannot apply constraint PAP_IO_HYS_DRIVE_MODE to cmos_scl
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":55:0:55:0|Cannot apply constraint PAP_IO_DIRECTION to cmos_sda
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":56:0:56:0|Cannot apply constraint PAP_IO_LOC to cmos_sda
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":57:0:57:0|Cannot apply constraint PAP_IO_VCCIO to cmos_sda
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":58:0:58:0|Cannot apply constraint PAP_IO_STANDARD to cmos_sda
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":59:0:59:0|Cannot apply constraint PAP_IO_DRIVE to cmos_sda
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":60:0:60:0|Cannot apply constraint PAP_IO_PULLUP to cmos_sda
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":61:0:61:0|Cannot apply constraint PAP_IO_SLEW to cmos_sda
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":62:0:62:0|Cannot apply constraint PAP_IO_HYS_DRIVE_MODE to cmos_sda
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":64:0:64:0|Cannot apply constraint PAP_IO_DIRECTION to pad_dq_ch0[0]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":65:0:65:0|Cannot apply constraint PAP_IO_LOC to pad_dq_ch0[0]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":66:0:66:0|Cannot apply constraint PAP_IO_VCCIO to pad_dq_ch0[0]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":67:0:67:0|Cannot apply constraint PAP_IO_STANDARD to pad_dq_ch0[0]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":68:0:68:0|Cannot apply constraint PAP_IO_DRIVE to pad_dq_ch0[0]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":69:0:69:0|Cannot apply constraint PAP_IO_UNUSED to pad_dq_ch0[0]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":70:0:70:0|Cannot apply constraint PAP_IO_SLEW to pad_dq_ch0[0]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":71:0:71:0|Cannot apply constraint PAP_IO_VREF_MODE to pad_dq_ch0[0]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":72:0:72:0|Cannot apply constraint PAP_IO_VREF_MODE_VALUE to pad_dq_ch0[0]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":73:0:73:0|Cannot apply constraint PAP_IO_DDR_TERM_MODE to pad_dq_ch0[0]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":75:0:75:0|Cannot apply constraint PAP_IO_DIRECTION to pad_dq_ch0[10]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":76:0:76:0|Cannot apply constraint PAP_IO_LOC to pad_dq_ch0[10]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":77:0:77:0|Cannot apply constraint PAP_IO_VCCIO to pad_dq_ch0[10]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":78:0:78:0|Cannot apply constraint PAP_IO_STANDARD to pad_dq_ch0[10]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":79:0:79:0|Cannot apply constraint PAP_IO_DRIVE to pad_dq_ch0[10]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":80:0:80:0|Cannot apply constraint PAP_IO_UNUSED to pad_dq_ch0[10]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":81:0:81:0|Cannot apply constraint PAP_IO_SLEW to pad_dq_ch0[10]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":82:0:82:0|Cannot apply constraint PAP_IO_VREF_MODE to pad_dq_ch0[10]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":83:0:83:0|Cannot apply constraint PAP_IO_VREF_MODE_VALUE to pad_dq_ch0[10]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":84:0:84:0|Cannot apply constraint PAP_IO_DDR_TERM_MODE to pad_dq_ch0[10]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":86:0:86:0|Cannot apply constraint PAP_IO_DIRECTION to pad_dq_ch0[11]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":87:0:87:0|Cannot apply constraint PAP_IO_LOC to pad_dq_ch0[11]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":88:0:88:0|Cannot apply constraint PAP_IO_VCCIO to pad_dq_ch0[11]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":89:0:89:0|Cannot apply constraint PAP_IO_STANDARD to pad_dq_ch0[11]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":90:0:90:0|Cannot apply constraint PAP_IO_DRIVE to pad_dq_ch0[11]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":91:0:91:0|Cannot apply constraint PAP_IO_UNUSED to pad_dq_ch0[11]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":92:0:92:0|Cannot apply constraint PAP_IO_SLEW to pad_dq_ch0[11]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":93:0:93:0|Cannot apply constraint PAP_IO_VREF_MODE to pad_dq_ch0[11]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":94:0:94:0|Cannot apply constraint PAP_IO_VREF_MODE_VALUE to pad_dq_ch0[11]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":95:0:95:0|Cannot apply constraint PAP_IO_DDR_TERM_MODE to pad_dq_ch0[11]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":97:0:97:0|Cannot apply constraint PAP_IO_DIRECTION to pad_dq_ch0[12]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":98:0:98:0|Cannot apply constraint PAP_IO_LOC to pad_dq_ch0[12]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":99:0:99:0|Cannot apply constraint PAP_IO_VCCIO to pad_dq_ch0[12]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":100:0:100:0|Cannot apply constraint PAP_IO_STANDARD to pad_dq_ch0[12]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":101:0:101:0|Cannot apply constraint PAP_IO_DRIVE to pad_dq_ch0[12]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":102:0:102:0|Cannot apply constraint PAP_IO_UNUSED to pad_dq_ch0[12]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":103:0:103:0|Cannot apply constraint PAP_IO_SLEW to pad_dq_ch0[12]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":104:0:104:0|Cannot apply constraint PAP_IO_VREF_MODE to pad_dq_ch0[12]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":105:0:105:0|Cannot apply constraint PAP_IO_VREF_MODE_VALUE to pad_dq_ch0[12]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":106:0:106:0|Cannot apply constraint PAP_IO_DDR_TERM_MODE to pad_dq_ch0[12]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":108:0:108:0|Cannot apply constraint PAP_IO_DIRECTION to pad_dq_ch0[13]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":109:0:109:0|Cannot apply constraint PAP_IO_LOC to pad_dq_ch0[13]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":110:0:110:0|Cannot apply constraint PAP_IO_VCCIO to pad_dq_ch0[13]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":111:0:111:0|Cannot apply constraint PAP_IO_STANDARD to pad_dq_ch0[13]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":112:0:112:0|Cannot apply constraint PAP_IO_DRIVE to pad_dq_ch0[13]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":113:0:113:0|Cannot apply constraint PAP_IO_UNUSED to pad_dq_ch0[13]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":114:0:114:0|Cannot apply constraint PAP_IO_SLEW to pad_dq_ch0[13]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":115:0:115:0|Cannot apply constraint PAP_IO_VREF_MODE to pad_dq_ch0[13]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":116:0:116:0|Cannot apply constraint PAP_IO_VREF_MODE_VALUE to pad_dq_ch0[13]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":117:0:117:0|Cannot apply constraint PAP_IO_DDR_TERM_MODE to pad_dq_ch0[13]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":119:0:119:0|Cannot apply constraint PAP_IO_DIRECTION to pad_dq_ch0[14]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":120:0:120:0|Cannot apply constraint PAP_IO_LOC to pad_dq_ch0[14]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":121:0:121:0|Cannot apply constraint PAP_IO_VCCIO to pad_dq_ch0[14]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":122:0:122:0|Cannot apply constraint PAP_IO_STANDARD to pad_dq_ch0[14]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":123:0:123:0|Cannot apply constraint PAP_IO_DRIVE to pad_dq_ch0[14]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":124:0:124:0|Cannot apply constraint PAP_IO_UNUSED to pad_dq_ch0[14]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":125:0:125:0|Cannot apply constraint PAP_IO_SLEW to pad_dq_ch0[14]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":126:0:126:0|Cannot apply constraint PAP_IO_VREF_MODE to pad_dq_ch0[14]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":127:0:127:0|Cannot apply constraint PAP_IO_VREF_MODE_VALUE to pad_dq_ch0[14]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":128:0:128:0|Cannot apply constraint PAP_IO_DDR_TERM_MODE to pad_dq_ch0[14]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":130:0:130:0|Cannot apply constraint PAP_IO_DIRECTION to pad_dq_ch0[15]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":131:0:131:0|Cannot apply constraint PAP_IO_LOC to pad_dq_ch0[15]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":132:0:132:0|Cannot apply constraint PAP_IO_VCCIO to pad_dq_ch0[15]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":133:0:133:0|Cannot apply constraint PAP_IO_STANDARD to pad_dq_ch0[15]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":134:0:134:0|Cannot apply constraint PAP_IO_DRIVE to pad_dq_ch0[15]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":135:0:135:0|Cannot apply constraint PAP_IO_UNUSED to pad_dq_ch0[15]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":136:0:136:0|Cannot apply constraint PAP_IO_SLEW to pad_dq_ch0[15]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":137:0:137:0|Cannot apply constraint PAP_IO_VREF_MODE to pad_dq_ch0[15]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":138:0:138:0|Cannot apply constraint PAP_IO_VREF_MODE_VALUE to pad_dq_ch0[15]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":139:0:139:0|Cannot apply constraint PAP_IO_DDR_TERM_MODE to pad_dq_ch0[15]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":141:0:141:0|Cannot apply constraint PAP_IO_DIRECTION to pad_dq_ch0[1]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":142:0:142:0|Cannot apply constraint PAP_IO_LOC to pad_dq_ch0[1]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":143:0:143:0|Cannot apply constraint PAP_IO_VCCIO to pad_dq_ch0[1]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":144:0:144:0|Cannot apply constraint PAP_IO_STANDARD to pad_dq_ch0[1]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":145:0:145:0|Cannot apply constraint PAP_IO_DRIVE to pad_dq_ch0[1]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":146:0:146:0|Cannot apply constraint PAP_IO_UNUSED to pad_dq_ch0[1]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":147:0:147:0|Cannot apply constraint PAP_IO_SLEW to pad_dq_ch0[1]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":148:0:148:0|Cannot apply constraint PAP_IO_VREF_MODE to pad_dq_ch0[1]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":149:0:149:0|Cannot apply constraint PAP_IO_VREF_MODE_VALUE to pad_dq_ch0[1]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":150:0:150:0|Cannot apply constraint PAP_IO_DDR_TERM_MODE to pad_dq_ch0[1]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":152:0:152:0|Cannot apply constraint PAP_IO_DIRECTION to pad_dq_ch0[2]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":153:0:153:0|Cannot apply constraint PAP_IO_LOC to pad_dq_ch0[2]
+@W: BN105 :"c:/users/administrator.1fix62ak6m9qf8g/desktop/fpga/git/fpga-based-image-rotation/my_video_v4.1/ddr3_ov5640_hdmi.fdc":154:0:154:0|Cannot apply constraint PAP_IO_VCCIO to pad_dq_ch0[2]
+
+Only the first 100 messages of id 'BN105' are reported. To see all messages use 'report_messages -log C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synlog\synplify_premap.srr -id BN105' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN105} -count unlimited' in the Tcl shell.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synplify.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 209MB peak: 209MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 209MB peak: 209MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synplify_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 209MB peak: 209MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 130MB peak: 211MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Fri Nov 22 14:34:11 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Nov 22 14:34:11 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch11\syn
+OS: Windows 6.2
+
+Hostname: 1FIX62AK6M9QF8G
+
+Implementation : synplify_impl
+Synopsys Generic Technology Mapper, Version map2019q1p1, Build 1238R, Built Mar 15 2019 09:38:46
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 119MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 119MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 120MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 124MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 204MB peak: 204MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 207MB peak: 207MB)
+
+@N: MO231 :"c:\users\administrator.1fix62ak6m9qf8g\desktop\fpga\git\fpga-based-image-rotation\my_video_v4.1\source\test\ax_debounce.v":63:0:63:5|Found counter in view:work.ax_debounce(verilog) instance q_reg[31:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 208MB peak: 208MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 209MB peak: 209MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 209MB peak: 209MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 210MB peak: 210MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 210MB peak: 210MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 210MB peak: 210MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 210MB peak: 210MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 210MB peak: 210MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -1.33ns		  76 /        38
+   2		0h:00m:01s		    -1.33ns		  76 /        38
+
+   3		0h:00m:01s		    -1.33ns		  76 /        38
+
+
+   4		0h:00m:01s		    -1.33ns		  76 /        38
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 211MB peak: 211MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 211MB peak: 211MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 139MB peak: 212MB)
+
+Writing Analyst data base C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synwork\synplify_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:05s; Memory used current: 212MB peak: 212MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:07s; Memory used current: 248MB peak: 248MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 248MB peak: 248MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 212MB peak: 249MB)
+
+@W: MT420 |Found inferred clock ax_debounce|clk with period 2.98ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Fri Nov 22 14:34:21 2019
+#
+
+
+Top view:               ax_debounce
+Requested Frequency:    335.4 MHz
+Wire load mode:         top
+Paths requested:        8
+Constraint File(s):    C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ddr3_ov5640_hdmi.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.526
+
+                    Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock      Frequency     Frequency     Period        Period        Slack      Type         Group              
+-----------------------------------------------------------------------------------------------------------------------
+ax_debounce|clk     335.4 MHz     285.1 MHz     2.982         3.508         -0.526     inferred     Inferred_clkgroup_0
+=======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------
+ax_debounce|clk  ax_debounce|clk  |  2.982       -0.526  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: ax_debounce|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+              Starting                                                 Arrival           
+Instance      Reference           Type           Pin     Net           Time        Slack 
+              Clock                                                                      
+-----------------------------------------------------------------------------------------
+q_reg[24]     ax_debounce|clk     GTP_DFF_CE     Q       q_reg[24]     0.290       -0.526
+=========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                              Required           
+Instance     Reference           Type           Pin     Net        Time         Slack 
+             Clock                                                                    
+--------------------------------------------------------------------------------------
+q_reg[0]     ax_debounce|clk     GTP_DFF_CE     CE      q_rege     2.618        -0.526
+======================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      2.982
+    - Setup time:                            0.364
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.618
+
+    - Propagation time:                      3.144
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.526
+
+    Number of logic level(s):                3
+    Starting point:                          q_reg[24] / Q
+    Ending point:                            q_reg[0] / CE
+    The start point is clocked by            ax_debounce|clk [rising] on pin CLK
+    The end   point is clocked by            ax_debounce|clk [rising] on pin CLK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name               Type           Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+q_reg[24]          GTP_DFF_CE     Q        Out     0.290     0.290       -         
+q_reg[24]          Net            -        -       0.289     -           2         
+un4_q_add_4        GTP_LUT5       I3       In      -         0.579       -         
+un4_q_add_4        GTP_LUT5       Z        Out     0.420     0.999       -         
+un4_q_add_4        Net            -        -       0.269     -           1         
+un4_q_add_2_3      GTP_LUT4       I2       In      -         1.267       -         
+un4_q_add_2_3      GTP_LUT4       Z        Out     0.416     1.683       -         
+un4_q_add_2_3      Net            -        -       0.289     -           2         
+q_reglde           GTP_LUT4       I2       In      -         1.972       -         
+q_reglde           GTP_LUT4       Z        Out     0.416     2.388       -         
+q_rege             Net            -        -       0.756     -           32        
+q_reg[0]           GTP_DFF_CE     CE       In      -         3.144       -         
+===================================================================================
+Total path delay (propagation time + setup) of 3.508 is 1.906(54.3%) logic and 1.602(45.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      2.982
+    - Setup time:                            0.364
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.618
+
+    - Propagation time:                      3.144
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.526
+
+    Number of logic level(s):                3
+    Starting point:                          q_reg[24] / Q
+    Ending point:                            q_reg[1] / CE
+    The start point is clocked by            ax_debounce|clk [rising] on pin CLK
+    The end   point is clocked by            ax_debounce|clk [rising] on pin CLK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name               Type           Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+q_reg[24]          GTP_DFF_CE     Q        Out     0.290     0.290       -         
+q_reg[24]          Net            -        -       0.289     -           2         
+un4_q_add_4        GTP_LUT5       I3       In      -         0.579       -         
+un4_q_add_4        GTP_LUT5       Z        Out     0.420     0.999       -         
+un4_q_add_4        Net            -        -       0.269     -           1         
+un4_q_add_2_3      GTP_LUT4       I2       In      -         1.267       -         
+un4_q_add_2_3      GTP_LUT4       Z        Out     0.416     1.683       -         
+un4_q_add_2_3      Net            -        -       0.289     -           2         
+q_reglde           GTP_LUT4       I2       In      -         1.972       -         
+q_reglde           GTP_LUT4       Z        Out     0.416     2.388       -         
+q_rege             Net            -        -       0.756     -           32        
+q_reg[1]           GTP_DFF_CE     CE       In      -         3.144       -         
+===================================================================================
+Total path delay (propagation time + setup) of 3.508 is 1.906(54.3%) logic and 1.602(45.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      2.982
+    - Setup time:                            0.364
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.618
+
+    - Propagation time:                      3.144
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.526
+
+    Number of logic level(s):                3
+    Starting point:                          q_reg[24] / Q
+    Ending point:                            q_reg[2] / CE
+    The start point is clocked by            ax_debounce|clk [rising] on pin CLK
+    The end   point is clocked by            ax_debounce|clk [rising] on pin CLK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name               Type           Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+q_reg[24]          GTP_DFF_CE     Q        Out     0.290     0.290       -         
+q_reg[24]          Net            -        -       0.289     -           2         
+un4_q_add_4        GTP_LUT5       I3       In      -         0.579       -         
+un4_q_add_4        GTP_LUT5       Z        Out     0.420     0.999       -         
+un4_q_add_4        Net            -        -       0.269     -           1         
+un4_q_add_2_3      GTP_LUT4       I2       In      -         1.267       -         
+un4_q_add_2_3      GTP_LUT4       Z        Out     0.416     1.683       -         
+un4_q_add_2_3      Net            -        -       0.289     -           2         
+q_reglde           GTP_LUT4       I2       In      -         1.972       -         
+q_reglde           GTP_LUT4       Z        Out     0.416     2.388       -         
+q_rege             Net            -        -       0.756     -           32        
+q_reg[2]           GTP_DFF_CE     CE       In      -         3.144       -         
+===================================================================================
+Total path delay (propagation time + setup) of 3.508 is 1.906(54.3%) logic and 1.602(45.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      2.982
+    - Setup time:                            0.364
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.618
+
+    - Propagation time:                      3.144
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.526
+
+    Number of logic level(s):                3
+    Starting point:                          q_reg[24] / Q
+    Ending point:                            q_reg[3] / CE
+    The start point is clocked by            ax_debounce|clk [rising] on pin CLK
+    The end   point is clocked by            ax_debounce|clk [rising] on pin CLK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name               Type           Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+q_reg[24]          GTP_DFF_CE     Q        Out     0.290     0.290       -         
+q_reg[24]          Net            -        -       0.289     -           2         
+un4_q_add_4        GTP_LUT5       I3       In      -         0.579       -         
+un4_q_add_4        GTP_LUT5       Z        Out     0.420     0.999       -         
+un4_q_add_4        Net            -        -       0.269     -           1         
+un4_q_add_2_3      GTP_LUT4       I2       In      -         1.267       -         
+un4_q_add_2_3      GTP_LUT4       Z        Out     0.416     1.683       -         
+un4_q_add_2_3      Net            -        -       0.289     -           2         
+q_reglde           GTP_LUT4       I2       In      -         1.972       -         
+q_reglde           GTP_LUT4       Z        Out     0.416     2.388       -         
+q_rege             Net            -        -       0.756     -           32        
+q_reg[3]           GTP_DFF_CE     CE       In      -         3.144       -         
+===================================================================================
+Total path delay (propagation time + setup) of 3.508 is 1.906(54.3%) logic and 1.602(45.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      2.982
+    - Setup time:                            0.364
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.618
+
+    - Propagation time:                      3.144
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.526
+
+    Number of logic level(s):                3
+    Starting point:                          q_reg[24] / Q
+    Ending point:                            q_reg[4] / CE
+    The start point is clocked by            ax_debounce|clk [rising] on pin CLK
+    The end   point is clocked by            ax_debounce|clk [rising] on pin CLK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name               Type           Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+q_reg[24]          GTP_DFF_CE     Q        Out     0.290     0.290       -         
+q_reg[24]          Net            -        -       0.289     -           2         
+un4_q_add_4        GTP_LUT5       I3       In      -         0.579       -         
+un4_q_add_4        GTP_LUT5       Z        Out     0.420     0.999       -         
+un4_q_add_4        Net            -        -       0.269     -           1         
+un4_q_add_2_3      GTP_LUT4       I2       In      -         1.267       -         
+un4_q_add_2_3      GTP_LUT4       Z        Out     0.416     1.683       -         
+un4_q_add_2_3      Net            -        -       0.289     -           2         
+q_reglde           GTP_LUT4       I2       In      -         1.972       -         
+q_reglde           GTP_LUT4       Z        Out     0.416     2.388       -         
+q_rege             Net            -        -       0.756     -           32        
+q_reg[4]           GTP_DFF_CE     CE       In      -         3.144       -         
+===================================================================================
+Total path delay (propagation time + setup) of 3.508 is 1.906(54.3%) logic and 1.602(45.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 6: 
+      Requested Period:                      2.982
+    - Setup time:                            0.364
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.618
+
+    - Propagation time:                      3.144
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.526
+
+    Number of logic level(s):                3
+    Starting point:                          q_reg[24] / Q
+    Ending point:                            q_reg[5] / CE
+    The start point is clocked by            ax_debounce|clk [rising] on pin CLK
+    The end   point is clocked by            ax_debounce|clk [rising] on pin CLK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name               Type           Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+q_reg[24]          GTP_DFF_CE     Q        Out     0.290     0.290       -         
+q_reg[24]          Net            -        -       0.289     -           2         
+un4_q_add_4        GTP_LUT5       I3       In      -         0.579       -         
+un4_q_add_4        GTP_LUT5       Z        Out     0.420     0.999       -         
+un4_q_add_4        Net            -        -       0.269     -           1         
+un4_q_add_2_3      GTP_LUT4       I2       In      -         1.267       -         
+un4_q_add_2_3      GTP_LUT4       Z        Out     0.416     1.683       -         
+un4_q_add_2_3      Net            -        -       0.289     -           2         
+q_reglde           GTP_LUT4       I2       In      -         1.972       -         
+q_reglde           GTP_LUT4       Z        Out     0.416     2.388       -         
+q_rege             Net            -        -       0.756     -           32        
+q_reg[5]           GTP_DFF_CE     CE       In      -         3.144       -         
+===================================================================================
+Total path delay (propagation time + setup) of 3.508 is 1.906(54.3%) logic and 1.602(45.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 7: 
+      Requested Period:                      2.982
+    - Setup time:                            0.364
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.618
+
+    - Propagation time:                      3.144
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.526
+
+    Number of logic level(s):                3
+    Starting point:                          q_reg[24] / Q
+    Ending point:                            q_reg[6] / CE
+    The start point is clocked by            ax_debounce|clk [rising] on pin CLK
+    The end   point is clocked by            ax_debounce|clk [rising] on pin CLK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name               Type           Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+q_reg[24]          GTP_DFF_CE     Q        Out     0.290     0.290       -         
+q_reg[24]          Net            -        -       0.289     -           2         
+un4_q_add_4        GTP_LUT5       I3       In      -         0.579       -         
+un4_q_add_4        GTP_LUT5       Z        Out     0.420     0.999       -         
+un4_q_add_4        Net            -        -       0.269     -           1         
+un4_q_add_2_3      GTP_LUT4       I2       In      -         1.267       -         
+un4_q_add_2_3      GTP_LUT4       Z        Out     0.416     1.683       -         
+un4_q_add_2_3      Net            -        -       0.289     -           2         
+q_reglde           GTP_LUT4       I2       In      -         1.972       -         
+q_reglde           GTP_LUT4       Z        Out     0.416     2.388       -         
+q_rege             Net            -        -       0.756     -           32        
+q_reg[6]           GTP_DFF_CE     CE       In      -         3.144       -         
+===================================================================================
+Total path delay (propagation time + setup) of 3.508 is 1.906(54.3%) logic and 1.602(45.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 8: 
+      Requested Period:                      2.982
+    - Setup time:                            0.364
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.618
+
+    - Propagation time:                      3.144
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.526
+
+    Number of logic level(s):                3
+    Starting point:                          q_reg[24] / Q
+    Ending point:                            q_reg[7] / CE
+    The start point is clocked by            ax_debounce|clk [rising] on pin CLK
+    The end   point is clocked by            ax_debounce|clk [rising] on pin CLK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name               Type           Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+q_reg[24]          GTP_DFF_CE     Q        Out     0.290     0.290       -         
+q_reg[24]          Net            -        -       0.289     -           2         
+un4_q_add_4        GTP_LUT5       I3       In      -         0.579       -         
+un4_q_add_4        GTP_LUT5       Z        Out     0.420     0.999       -         
+un4_q_add_4        Net            -        -       0.269     -           1         
+un4_q_add_2_3      GTP_LUT4       I2       In      -         1.267       -         
+un4_q_add_2_3      GTP_LUT4       Z        Out     0.416     1.683       -         
+un4_q_add_2_3      Net            -        -       0.289     -           2         
+q_reglde           GTP_LUT4       I2       In      -         1.972       -         
+q_reglde           GTP_LUT4       Z        Out     0.416     2.388       -         
+q_rege             Net            -        -       0.756     -           32        
+q_reg[7]           GTP_DFF_CE     CE       In      -         3.144       -         
+===================================================================================
+Total path delay (propagation time + setup) of 3.508 is 1.906(54.3%) logic and 1.602(45.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 213MB peak: 249MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 213MB peak: 249MB)
+
+---------------------------------------
+Resource Usage Report for ax_debounce 
+
+Mapping to part: pgl22gbg324-7
+Cell usage:
+GTP_DFF_C       4 uses
+GTP_DFF_CE      32 uses
+GTP_DFF_P       2 uses
+GTP_GRS         1 use
+GTP_LUT2        36 uses
+GTP_LUT4        2 uses
+GTP_LUT5        7 uses
+GTP_LUT5CARRY   32 uses
+GTP_ONE         1 use
+GTP_ZERO        1 use
+
+I/O ports: 6
+GTP_INBUF      3 uses
+GTP_OUTBUF     3 uses
+
+
+Mapping Summary:
+Total LUTs: 77 of 17536 (0.44%)
+	LUTs as dram: 0 of 4440 (0.00%)
+	LUTs as logic: 77 
+Total Registers: 38 of 26304 (0.14%)
+
+DRM18K:
+Total DRM18K =  0 of 48 (0.00%)
+
+APMs:
+Total APMs =  0.00 of 30 (0.00%)
+
+Total I/O primitives =  6 of 240 (2.50%)
+
+
+ Number of unique control sets:              3
+ CLK(clk_c), C(GND), P(rst_c), CE(VCC)		: 2
+ CLK(clk_c), C(rst_c), P(GND), CE(VCC)		: 4
+ CLK(clk_c), C(rst_c), P(GND), CE(q_rege)		: 32
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 67MB peak: 249MB)
+
+Process took 0h:00m:10s realtime, 0h:00m:09s cputime
+# Fri Nov 22 14:34:22 2019
+
+###########################################################]

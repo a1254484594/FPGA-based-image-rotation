@@ -1,0 +1,214 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch11\syn
+OS: Windows 6.2
+
+Hostname: 1FIX62AK6M9QF8G
+
+Implementation : synplify_impl
+Synopsys HDL compiler and linker, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+Modified Files: 13
+FID:  path (prevtimestamp, timestamp)
+78       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\ImageXlib_arch.vhd (N/A, 2017-01-14 22:50:11)
+79       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\ImageXlib_utils.vhd (N/A, 2017-01-14 22:50:11)
+80       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\linebuffer_Wapper.vhd (N/A, 2017-01-14 22:50:12)
+81       C:\pango\PDS_2019.1-patch11\syn\lib\vhd\arith.vhd (N/A, 2019-06-17 17:37:44)
+82       C:\pango\PDS_2019.1-patch11\syn\lib\vhd\hyperents.vhd (N/A, 2019-06-17 17:37:44)
+83       C:\pango\PDS_2019.1-patch11\syn\lib\vhd\location.map (N/A, 2019-06-17 17:37:44)
+84       C:\pango\PDS_2019.1-patch11\syn\lib\vhd\numeric.vhd (N/A, 2019-06-17 17:37:44)
+85       C:\pango\PDS_2019.1-patch11\syn\lib\vhd\signed.vhd (N/A, 2019-06-17 17:37:44)
+86       C:\pango\PDS_2019.1-patch11\syn\lib\vhd\snps_haps_pkg.vhd (N/A, 2019-06-17 17:37:44)
+87       C:\pango\PDS_2019.1-patch11\syn\lib\vhd\std.vhd (N/A, 2019-06-17 17:37:44)
+88       C:\pango\PDS_2019.1-patch11\syn\lib\vhd\std1164.vhd (N/A, 2019-06-17 17:37:44)
+89       C:\pango\PDS_2019.1-patch11\syn\lib\vhd\umr_capim.vhd (N/A, 2019-06-17 17:37:44)
+90       C:\pango\PDS_2019.1-patch11\syn\lib\vhd\unsigned.vhd (N/A, 2019-06-17 17:37:44)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 8
+MID:  lib.cell.view
+70       work.active_delay.rtl may have changed because the following files changed:
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\ImageXlib_arch.vhd (N/A, 2017-01-14 22:50:11) <-- (architecture and entity definition)
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\linebuffer_Wapper.vhd (N/A, 2017-01-14 22:50:12) <-- (may instantiate this module)
+72       work.base_2d_linebuffer.rtl may have changed because the following files changed:
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\ImageXlib_arch.vhd (N/A, 2017-01-14 22:50:11) <-- (architecture and entity definition)
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\linebuffer_Wapper.vhd (N/A, 2017-01-14 22:50:12) <-- (may instantiate this module)
+74       work.base_single_linebuffer.rtl may have changed because the following files changed:
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\ImageXlib_arch.vhd (N/A, 2017-01-14 22:50:11) <-- (architecture and entity definition)
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\linebuffer_Wapper.vhd (N/A, 2017-01-14 22:50:12) <-- (may instantiate this module)
+76       work.dp_bram.rtl may have changed because the following files changed:
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\ImageXlib_arch.vhd (N/A, 2017-01-14 22:50:11) <-- (architecture and entity definition)
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\linebuffer_Wapper.vhd (N/A, 2017-01-14 22:50:12) <-- (may instantiate this module)
+78       work.h_pipe.rtl may have changed because the following files changed:
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\ImageXlib_arch.vhd (N/A, 2017-01-14 22:50:11) <-- (architecture and entity definition)
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\linebuffer_Wapper.vhd (N/A, 2017-01-14 22:50:12) <-- (may instantiate this module)
+80       work.linebuffer.rtl may have changed because the following files changed:
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\ImageXlib_arch.vhd (N/A, 2017-01-14 22:50:11) <-- (architecture and entity definition)
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\linebuffer_Wapper.vhd (N/A, 2017-01-14 22:50:12) <-- (may instantiate this module)
+82       work.linebuffer_wapper.rtl may have changed because the following files changed:
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\linebuffer_Wapper.vhd (N/A, 2017-01-14 22:50:12) <-- (architecture and entity definition)
+84       work.mc_h_pipe.rtl may have changed because the following files changed:
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\ImageXlib_arch.vhd (N/A, 2017-01-14 22:50:11) <-- (architecture and entity definition)
+                        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\linebuffer_Wapper.vhd (N/A, 2017-01-14 22:50:12) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 78
+FID:  path (timestamp)
+0        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\APM_11mult11\APM_11mult11.v (2019-10-15 00:53:40)
+1        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\APM_11mult11\rtl\ipml_mult_v1_1.v (2019-10-15 00:53:40)
+2        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\APM_multi_add_s16\APM_multi_add_s16.v (2019-11-10 21:23:54)
+3        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\APM_multi_add_s16\rtl\ipml_multadd_v1_1.v (2019-11-10 21:23:54)
+4        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\afifo_16i_64o_512.v (2019-10-29 10:45:50)
+5        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_ctrl_v1_3.v (2019-06-17 17:36:48)
+6        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_v1_4_afifo_16i_64o_512.v (2019-10-29 10:45:50)
+7        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v (2019-10-29 10:45:50)
+8        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_16o_128\afifo_64i_16o_128.v (2019-09-27 11:50:56)
+9        C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_16o_128\rtl\ipml_fifo_v1_4_afifo_64i_16o_128.v (2019-09-27 11:50:56)
+10       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v (2019-09-27 11:50:56)
+11       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_64o_512\afifo_64i_64o_512.v (2019-11-15 16:38:58)
+12       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_64o_512\rtl\ipml_fifo_v1_4_afifo_64i_64o_512.v (2019-11-15 16:38:58)
+13       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_64i_64o_512\rtl\ipml_sdpram_v1_4_afifo_64i_64o_512.v (2019-11-15 16:38:58)
+14       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_8in8out\afifo_8in8out.v (2019-11-12 22:31:29)
+15       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_8in8out\rtl\ipm_distributed_fifo_ctr_v1_0.v (2019-06-17 17:37:00)
+16       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_8in8out\rtl\ipm_distributed_fifo_v1_2_afifo_8in8out.v (2019-11-12 22:31:29)
+17       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\afifo_8in8out\rtl\ipm_distributed_sdpram_v1_2_afifo_8in8out.v (2019-11-12 22:31:29)
+18       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\ddr3.v (2019-11-22 13:03:44)
+19       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v (2019-11-14 23:47:04)
+20       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v (2019-11-14 23:47:04)
+21       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v (2019-11-14 23:47:04)
+22       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v (2019-11-14 23:47:04)
+23       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v (2019-11-14 23:47:04)
+24       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v (2019-11-14 23:47:04)
+25       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v (2019-11-14 23:47:04)
+26       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v (2019-11-14 23:47:04)
+27       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\ipsl_phy_io.v (2019-11-14 23:47:04)
+28       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\ddr3\rtl\pll\pll_50_400.v (2019-11-22 13:03:44)
+29       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\fifo_22i_22o.v (2019-11-11 22:54:16)
+30       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_fifo_v1_4_fifo_22i_22o.v (2019-11-11 22:54:16)
+31       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v (2019-11-11 22:54:16)
+32       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\fifo_26i_26o.v (2019-10-30 13:03:24)
+33       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_fifo_v1_4_fifo_26i_26o.v (2019-10-30 13:03:24)
+34       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v (2019-10-30 13:03:24)
+35       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\osd_rom.v (2019-11-16 20:19:38)
+36       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_rom_v1_3_osd_rom.v (2019-11-16 20:19:38)
+37       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v (2019-11-16 20:19:38)
+38       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\osd_rom\rtl\osd_rom_init_param.v (2019-11-16 20:19:39)
+39       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\ipcore\video_pll\video_pll.v (2019-11-11 23:05:51)
+40       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\aq_axi_master.v (2019-10-29 09:48:32)
+41       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\cmos_8_16bit.v (2017-07-25 12:32:56)
+42       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\cmos_write_req_gen.v (2019-10-05 14:38:24)
+43       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\color_bar.v (2019-10-22 19:05:14)
+44       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\dvi_encoder.v (2018-02-28 18:33:24)
+45       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\encode.v (2008-07-24 16:13:50)
+46       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\serdes_4b_10to1.v (2019-05-06 16:15:18)
+47       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\video_define.v (2019-11-11 23:04:14)
+48       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\dvi_tx\video_timing_data.v (2017-07-25 12:32:56)
+49       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\frame_fifo_read.v (2019-10-24 00:30:26)
+50       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\frame_fifo_write.v (2019-10-24 00:30:36)
+51       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\frame_read_write.v (2019-10-30 14:15:20)
+52       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_config.v (2017-07-25 12:32:56)
+53       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_bit_ctrl.v (2017-07-25 12:32:56)
+54       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_byte_ctrl.v (2017-07-25 12:32:56)
+55       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_defines.v (2017-07-25 12:32:56)
+56       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\i2c_master\i2c_master_top.v (2017-07-25 12:32:56)
+57       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\osd\soure\osd_display_angle.v (2019-11-17 18:59:12)
+58       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\osd\soure\timing_gen_xy.v (2019-05-14 09:19:29)
+59       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\Binary2BCD.v (2019-11-17 16:04:09)
+60       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\ax_debounce.v (2019-09-24 23:17:32)
+61       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\calculate_ddr3_addr_block.v (2019-11-16 15:51:31)
+62       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\gen_new_frame_sign.v (2019-10-30 13:58:40)
+63       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\gen_rotation_addr.v (2019-11-14 23:10:54)
+64       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\get_mpu_angle.v (2019-11-13 18:53:07)
+65       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\lut_sin_cos.v (2019-11-11 12:31:23)
+66       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\my_aq_axi_master.v (2019-10-29 16:26:40)
+67       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\my_frame_read_write.v (2019-11-15 16:20:17)
+68       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\my_lut_ov5640_rgb565_1280_960.v (2019-11-16 17:42:38)
+69       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\pixel_read_block.v (2019-11-17 21:15:57)
+70       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\pixel_to_block.v (2019-11-17 19:21:11)
+71       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\test\usart_tx_rx.v (2019-11-13 17:25:51)
+72       C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\top.v (2019-11-17 19:19:10)
+73       C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v (2019-06-17 17:37:32)
+74       C:\pango\PDS_2019.1-patch11\syn\lib\vlog\hypermods.v (2019-06-17 17:37:44)
+75       C:\pango\PDS_2019.1-patch11\syn\lib\vlog\scemi_objects.v (2019-06-17 17:37:44)
+76       C:\pango\PDS_2019.1-patch11\syn\lib\vlog\scemi_pipes.svh (2019-06-17 17:37:44)
+77       C:\pango\PDS_2019.1-patch11\syn\lib\vlog\umr_capim.v (2019-06-17 17:37:44)
+
+*******************************************************************
+Unchanged modules: 70
+MID:  lib.cell.view
+0        work.APM_11mult11.verilog
+1        work.APM_multi_add_s16.verilog
+2        work.Binary2BCD.verilog
+3        work.afifo_16i_64o_512.verilog
+4        work.afifo_64i_16o_128.verilog
+5        work.afifo_64i_64o_512.verilog
+6        work.afifo_8in8out.verilog
+7        work.aq_axi_master.verilog
+8        work.ax_debounce.verilog
+9        work.calculate_ddr3_addr_block.verilog
+10       work.cmos_8_16bit.verilog
+11       work.cmos_write_req_gen.verilog
+12       work.color_bar.verilog
+13       work.ddr3.verilog
+14       work.dvi_encoder.verilog
+15       work.encode.verilog
+16       work.fifo_22i_22o.verilog
+17       work.fifo_26i_26o.verilog
+18       work.frame_fifo_read.verilog
+19       work.frame_fifo_write.verilog
+20       work.frame_read_write.verilog
+21       work.gen_new_frame_sign.verilog
+22       work.gen_raotation_addr.verilog
+23       work.get_mpu_angle.verilog
+24       work.i2c_config.verilog
+25       work.i2c_master_bit_ctrl.verilog
+26       work.i2c_master_byte_ctrl.verilog
+27       work.i2c_master_top.verilog
+28       work.ipm_distributed_fifo_ctr_v1_0.verilog
+29       work.ipm_distributed_fifo_v1_2_afifo_8in8out.verilog
+30       work.ipm_distributed_sdpram_v1_2_afifo_8in8out.verilog
+31       work.ipml_fifo_ctrl_v1_3.verilog
+32       work.ipml_fifo_v1_4_afifo_16i_64o_512.verilog
+33       work.ipml_fifo_v1_4_afifo_64i_16o_128.verilog
+34       work.ipml_fifo_v1_4_afifo_64i_64o_512.verilog
+35       work.ipml_fifo_v1_4_fifo_22i_22o.verilog
+36       work.ipml_fifo_v1_4_fifo_26i_26o.verilog
+37       work.ipml_mult_v1_1.verilog
+38       work.ipml_multadd_v1_1.verilog
+39       work.ipml_rom_v1_3_osd_rom.verilog
+40       work.ipml_sdpram_v1_4_afifo_16i_64o_512.verilog
+41       work.ipml_sdpram_v1_4_afifo_64i_16o_128.verilog
+42       work.ipml_sdpram_v1_4_afifo_64i_64o_512.verilog
+43       work.ipml_sdpram_v1_4_fifo_22i_22o.verilog
+44       work.ipml_sdpram_v1_4_fifo_26i_26o.verilog
+45       work.ipml_spram_v1_3_osd_rom.verilog
+46       work.ipsl_ddrc_apb_reset.verilog
+47       work.ipsl_ddrc_reset_ctrl.verilog
+48       work.ipsl_ddrphy_dll_update_ctrl.verilog
+49       work.ipsl_ddrphy_reset_ctrl.verilog
+50       work.ipsl_ddrphy_training_ctrl.verilog
+51       work.ipsl_ddrphy_update_ctrl.verilog
+52       work.ipsl_hmemc_ddrc_top.verilog
+53       work.ipsl_hmemc_phy_top.verilog
+54       work.ipsl_phy_io.verilog
+55       work.lut_ov5640_rgb565_1280_960.verilog
+56       work.lut_sin_cos.verilog
+57       work.my_aq_axi_master.verilog
+58       work.my_frame_read_write.verilog
+59       work.osd_display_angle.verilog
+60       work.osd_rom.verilog
+61       work.pixel_read_block.verilog
+62       work.pixel_to_block.verilog
+63       work.pll_50_400.verilog
+64       work.serdes_4b_10to1.verilog
+65       work.timing_gen_xy.verilog
+66       work.top.verilog
+67       work.usart_tx_rx.verilog
+68       work.video_pll.verilog
+69       work.video_timing_data.verilog

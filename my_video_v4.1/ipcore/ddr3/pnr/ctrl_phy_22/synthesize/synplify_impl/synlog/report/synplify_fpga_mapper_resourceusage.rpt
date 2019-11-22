@@ -1,0 +1,92 @@
+---------------------------------------
+Resource Usage Report for ipsl_hmemc_top_test 
+
+Mapping to part: pgl22gbg324-7
+Cell usage:
+GTP_DDC_E1      5 uses
+GTP_DDRC        1 use
+GTP_DDRPHY      1 use
+GTP_DFF         3 uses
+GTP_DFF_C       194 uses
+GTP_DFF_CE      190 uses
+GTP_DFF_P       9 uses
+GTP_DFF_PE      27 uses
+GTP_DLL         2 uses
+GTP_GRS         1 use
+GTP_INV         54 uses
+GTP_IOCLKBUF    2 uses
+GTP_IOCLKDIV    1 use
+GTP_IODELAY     16 uses
+GTP_ISERDES     16 uses
+GTP_LUT2        162 uses
+GTP_LUT3        84 uses
+GTP_LUT4        127 uses
+GTP_LUT5        144 uses
+GTP_LUT5CARRY   309 uses
+GTP_OSERDES     46 uses
+GTP_PLL_E1      1 use
+GTP_ROM64X1     30 uses
+
+I/O ports: 61
+GTP_INBUF      2 uses
+GTP_INBUFG     2 uses
+GTP_IOBUF      16 uses
+GTP_IOBUFCO    2 uses
+GTP_OUTBUF     7 uses
+GTP_OUTBUFT    28 uses
+GTP_OUTBUFTCO  1 use
+
+
+RAM/ROM usage summary
+Distributed Rams : 30.00 of 1110 (2.70%)
+
+
+Mapping Summary:
+Total LUTs: 886 of 17536 (5.05%)
+	LUTs as dram: 0 of 4440 (0.00%)
+	LUTs as logic: 886 
+Total Registers: 423 of 26304 (1.61%)
+
+DRM18K:
+Total DRM18K =  0 of 48 (0.00%)
+
+APMs:
+Total APMs =  0.00 of 30 (0.00%)
+
+Total I/O primitives =  58 of 240 (24.17%)
+
+
+ Number of unique control sets:              32
+ CLK(clkout1_i), C(global_reset_i_0), P(GND), CE(dll_step_copy_synced4_NE_i_0)		: 8
+ CLK(clkout1_i), C(GND), P(global_reset_i_0), CE(VCC)		: 5
+ CLK(clkout1_i), C(global_reset_i_0), P(GND), CE(VCC)		: 41
+ CLK(dll_update_n_i), C(global_reset_i_0), P(GND), CE(VCC)		: 8
+ CLK(clkout1_i), C(GND), P(GND), CE(VCC)		: 3
+ CLK(clkout1_i), C(GND), P(global_reset_i_0), CE(N_82_i_0)		: 1
+ CLK(clkout1_i), C(global_reset_i_0), P(GND), CE(N_82_i_0)		: 1
+ CLK(clkout1_i), C(resetn_c_i_0), P(GND), CE(VCC)		: 17
+ CLK(clkout1_i), C(GND), P(resetn_c_i_0), CE(VCC)		: 1
+ CLK(clkout1_i), C(resetn_c_i_0), P(GND), CE(N_6_i_0)		: 8
+ CLK(clkout1_i), C(presetn_i_0), P(GND), CE(VCC)		: 3
+ CLK(clkout1_i), C(presetn_i_0), P(GND), CE(cnte)		: 7
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(un1_init_preset8_0_a2)		: 1
+ CLK(clkout1_i), C(GND), P(resetn_i_0), CE(un1_init_preset8_0_a2)		: 1
+ CLK(clkout1_i), C(GND), P(resetn_i_0), CE(VCC)		: 1
+ CLK(clkout1_i), C(GND), P(resetn_i_0), CE(ddrc_init_done)		: 1
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(ddrc_init_done)		: 1
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(ddrc_rst_cnte)		: 5
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(rst_cnt7)		: 5
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(state_0_sqmuxa)		: 25
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(VCC)		: 125
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(N_27_i_0)		: 5
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(rvalid_1)		: 16
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(N_972_0)		: 8
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(N_30_i_0)		: 2
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(N_58_i_0)		: 16
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(init_addr7)		: 27
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(N_125_i_0)		: 8
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(execute_wr_cnte)		: 16
+ CLK(clkout3), C(GND), P(resetn_c_i_0), CE(N_36_i_0)		: 24
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(N_36_i_0)		: 31
+ CLK(clkout3), C(GND), P(resetn_c_i_0), CE(VCC)		: 2
+

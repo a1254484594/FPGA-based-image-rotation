@@ -1,0 +1,7 @@
+C:\pango\PDS_2019.1-patch11\syn\bin64\syn_nfilter.exe  -link  -top  top  -multisrs  C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synwork\synplify_comp.srs  -osyn  C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synwork\synplify_mult.srs  -log  C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\synthesize\synplify_impl\synlog\synplify_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\pango\PDS_2019.1-patch11\syn\bin64\syn_nfilter.exe -link -top top -multisrs ..\synwork\synplify_comp.srs -osyn ..\synwork\synplify_mult.srs -log ..\synlog\synplify_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\synplify_comp.srs|io:i|time:1574404528|size:367079|exec:0|csum:B72E0A20825988697AE20C2467551C5E
+file:..\synwork\synplify_mult.srs|io:o|time:1574404530|size:29915|exec:0|csum:
+file:..\synlog\synplify_multi_srs_gen.srr|io:o|time:1574404530|size:1224|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\pango\PDS_2019.1-patch11\syn\bin64\syn_nfilter.exe|io:i|time:1560764248|size:8823808|exec:1|csum:3618916D7958985CF38A6328459776F6

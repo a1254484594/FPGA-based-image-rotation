@@ -1,0 +1,57 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":11:7:11:19|Synthesizing module prbs31_128bit in library work.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_main_ctrl.v":7:7:7:20|Synthesizing module test_main_ctrl in library work.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":2:7:2:24|Synthesizing module test_wr_ctrl_64bit in library work.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":4:7:4:24|Synthesizing module test_rd_ctrl_64bit in library work.
+@N: CG179 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":284:23:284:29|Removing redundant assignment.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":2251:7:2251:16|Synthesizing module GTP_PLL_E1 in library work.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\pll\pll_50_400.v":5:7:5:16|Synthesizing module pll_50_400 in library work.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v":1:7:1:28|Synthesizing module ipsl_ddrphy_reset_ctrl in library work.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v":1:7:1:31|Synthesizing module ipsl_ddrphy_training_ctrl in library work.
+@N: CG179 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v":34:37:34:61|Removing redundant assignment.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v":1:7:1:33|Synthesizing module ipsl_ddrphy_dll_update_ctrl in library work.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":1:7:1:29|Synthesizing module ipsl_ddrphy_update_ctrl in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1316:7:1316:13|Synthesizing module GTP_DLL in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":696:7:696:16|Synthesizing module GTP_DDRPHY in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1737:7:1737:18|Synthesizing module GTP_IOCLKBUF in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1766:7:1766:18|Synthesizing module GTP_IOCLKDIV in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":195:7:195:16|Synthesizing module GTP_DDC_E1 in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":2154:7:2154:17|Synthesizing module GTP_OSERDES in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1779:7:1779:17|Synthesizing module GTP_IODELAY in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1819:7:1819:17|Synthesizing module GTP_ISERDES in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1612:7:1612:16|Synthesizing module GTP_INBUFG in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":2175:7:2175:16|Synthesizing module GTP_OUTBUF in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":2212:7:2212:17|Synthesizing module GTP_OUTBUFT in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1645:7:1645:15|Synthesizing module GTP_IOBUF in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":2226:7:2226:19|Synthesizing module GTP_OUTBUFTCO in library work.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_phy_io.v":27:7:27:17|Synthesizing module ipsl_phy_io in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1636:7:1636:13|Synthesizing module GTP_INV in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1661:7:1661:17|Synthesizing module GTP_IOBUFCO in library work.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v":1:7:1:24|Synthesizing module ipsl_hmemc_phy_top in library work.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v":1:7:1:25|Synthesizing module ipsl_ddrc_apb_reset in library work.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":2:7:2:26|Synthesizing module ipsl_ddrc_reset_ctrl in library work.
+@N: CG179 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":93:15:93:21|Removing redundant assignment.
+@N: CG179 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":122:20:122:31|Removing redundant assignment.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":248:7:248:14|Synthesizing module GTP_DDRC in library work.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v":1:7:1:25|Synthesizing module ipsl_hmemc_ddrc_top in library work.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\ddr3.v":10:7:10:10|Synthesizing module ddr3 in library work.
+@N: CG364 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":5:7:5:25|Synthesizing module ipsl_hmemc_top_test in library work.
+@N: CL159 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v":215:25:215:33|Input dfi_error is unused.
+@N: CL159 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v":216:25:216:38|Input dfi_error_info is unused.
+@N: CL159 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_phy_io.v":90:41:90:52|Input SRB_CORE_CLK is unused.
+@N: CL201 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":293:0:293:5|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v":36:0:36:5|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v":52:0:52:5|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":94:0:94:5|Trying to extract state machine for register state.
+@N: CL159 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":36:24:36:30|Input axi_rid is unused.
+@N: CL159 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":37:24:37:32|Input axi_rlast is unused.
+@N: CL159 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":40:24:40:32|Input axi_rresp is unused.
+@N: CL201 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Trying to extract state machine for register state.
+@N: CL159 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":40:41:40:47|Input axi_bid is unused.
+@N: CL159 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":41:41:41:49|Input axi_bresp is unused.
+@N: CL159 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":42:41:42:50|Input axi_bvalid is unused.
+@N: CL201 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_main_ctrl.v":38:0:38:5|Trying to extract state machine for register state.
+@N: CL159 :"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":20:14:20:16|Input din is unused.
+@N|Running in 64-bit mode
+

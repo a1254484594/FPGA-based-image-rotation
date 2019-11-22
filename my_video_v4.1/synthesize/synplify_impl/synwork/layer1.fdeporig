@@ -1,0 +1,48 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.linebuffer_Wapper|-mpparams|C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\git\\FPGA-based-image-rotation\\my_video_v4.1\\synthesize\\synplify_impl\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\git\\FPGA-based-image-rotation\\my_video_v4.1\\synthesize\\synplify_impl\\synwork\\synplify_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-dspmac|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\bin64\\c_vhdl.exe":1560764244
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\location.map":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\std.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\snps_haps_pkg.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\std1164.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\numeric.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\umr_capim.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\arith.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\unsigned.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\hyperents.vhd":1560764264
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\git\\FPGA-based-image-rotation\\my_video_v4.1\\source\\img_buf\\ImageXlib_arch.vhd":1484405411
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\git\\FPGA-based-image-rotation\\my_video_v4.1\\source\\img_buf\\ImageXlib_utils.vhd":1484405411
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\git\\FPGA-based-image-rotation\\my_video_v4.1\\source\\img_buf\\linebuffer_Wapper.vhd":1484405412
+0 "C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\ImageXlib_arch.vhd" vhdl
+1 "C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\ImageXlib_utils.vhd" vhdl
+2 "C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\git\FPGA-based-image-rotation\my_video_v4.1\source\img_buf\linebuffer_Wapper.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 1 
+1 -1
+2 0 1 
+
+# Dependency Lists (Users Of)
+0 2 
+1 2 0 
+2 -1
+
+# Design Unit to File Association
+arch work active_delay rtl 0
+module work active_delay 0
+arch work mc_h_pipe rtl 0
+module work mc_h_pipe 0
+arch work h_pipe rtl 0
+module work h_pipe 0
+arch work base_2d_linebuffer rtl 0
+module work base_2d_linebuffer 0
+arch work base_single_linebuffer rtl 0
+module work base_single_linebuffer 0
+arch work linebuffer rtl 0
+module work linebuffer 0
+arch work dp_bram rtl 0
+module work dp_bram 0
+arch work linebuffer_wapper rtl 2
+module work linebuffer_wapper 2
+
+# Unbound Instances to File Association
