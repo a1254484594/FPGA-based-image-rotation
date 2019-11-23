@@ -1,38 +1,16 @@
-//////////////////////////////////////////////////////////////////////////////////
-//  ov5640 lcd display                                                          //
-//                                                                              //
-//  Author: lhj                                                                 //
-//                                                                              //
-//          ALINX(shanghai) Technology Co.,Ltd                                  //
-//          heijin                                                              //
-//     WEB: http://www.alinx.cn/                                                //
-//     BBS: http://www.heijin.org/                                              //
-//                                                                              //
-//////////////////////////////////////////////////////////////////////////////////
-//                                                                              //
-// Copyright (c) 2017,ALINX(shanghai) Technology Co.,Ltd                        //
-//                    All rights reserved                                       //
-//                                                                              //
-// This source file may be used and distributed without restriction provided    //
-// that this copyright statement is not removed from the file and that any      //
-// derivative work contains the original copyright notice and the associated    //
-// disclaimer.                                                                  //
-//                                                                              //
-//////////////////////////////////////////////////////////////////////////////////
-
 //================================================================================
 //  Revision History:
 //  Date          By            Revision    Change Description
 //--------------------------------------------------------------------------------
-//  2018/01/11     lhj          1.0         Original
-//*******************************************************************************/
 //  2019/11/16     zzl          4.1
-//µ¥ÏñËØ¶ÁÊ¹ÓÃaxi port2£¬Á¬Ğø¶Á³öĞ´ÈëÊ¹ÓÃport1
-//µ¥ÏñËØ¶Á³öÕûÖ¡Ğ´Èë·Ö±æÂÊ800*600
-//²âÊÔOK£¡ĞÂÖ¡Ğ´ÈëÊ¹ÓÃaxi port2Ê±ÓĞbug
-//½Ç¶È¶ÁÈ¡OK
-//ÈÎÒâ½Ç¶ÈĞı×ª
-//Ô­Í¼ÏñÊ¹ÓÃ¿é·½Ê½´¢´æ£¬Ìá¸ßÖ¡ÂÊ£¬²âÊÔOK
+//å•åƒç´ è¯»ä½¿ç”¨axi port2ï¼Œè¿ç»­è¯»å‡ºå†™å…¥ä½¿ç”¨port1
+//å•åƒç´ è¯»å‡ºæ•´å¸§å†™å…¥åˆ†è¾¨ç‡800*600
+//æµ‹è¯•OKï¼æ–°å¸§å†™å…¥ä½¿ç”¨axi port2æ—¶æœ‰bug
+//è§’åº¦è¯»å–OK
+//ä»»æ„è§’åº¦æ—‹è½¬
+//åŸå›¾åƒä½¿ç”¨å—æ–¹å¼å‚¨å­˜ï¼Œæé«˜å¸§ç‡ï¼Œæµ‹è¯•OK
+//*******************************************************************************/
+
 module top(
 
     input            key1,
@@ -180,7 +158,7 @@ wire                            s00_axi_rvalid;
 wire                            s00_axi_rready;
 wire                            clk_200MHz;
 
-//Í¼ÏñĞı×ª¶Á³öĞ´ÈëÓÃ
+//å›¾åƒæ—‹è½¬è¯»å‡ºå†™å…¥ç”¨
 // Master Write Address
 wire [3:0]                      rotating_axi_awid;
 wire [63:0]                     rotating_axi_awaddr;
@@ -232,21 +210,21 @@ wire                            rotating_axi_rready;
 wire                            osd_hs;
 wire                            osd_vs;
 wire                            osd_de;
-wire[23:0]                      osd_data;//µş¼ÓosdºóµÄÊÓÆµĞÅºÅ
+wire[23:0]                      osd_data;//å åŠ osdåçš„è§†é¢‘ä¿¡å·
 wire                            hdmi_hs;
 wire                            hdmi_vs;
 wire                            hdmi_de;
 wire[7:0]                       hdmi_r;
 wire[7:0]                       hdmi_g;
 wire[7:0]                       hdmi_b;
-//µş¼ÓosdÊä³ö
+//å åŠ osdè¾“å‡º
 assign  hdmi_hs    = osd_hs;
 assign  hdmi_vs    = osd_vs;
 assign  hdmi_de    = osd_de;
 assign hdmi_r      = {osd_data[15:11],3'd0};
 assign hdmi_g      = {osd_data[10:5],2'd0};
 assign hdmi_b      = {osd_data[4:0],3'd0};
-/*//Ô­ÊÓÆµ
+/*//åŸè§†é¢‘
 assign hdmi_hs     = hs;
 assign hdmi_vs     = vs;
 assign hdmi_de     = de;
@@ -321,7 +299,7 @@ usart_tx_rx (
     .rx_pin    (rx_pin)
 );
 
-//¹ÜÀí·¢ËÍ
+//ç®¡ç†å‘é€
 wire [7:0] pixel_read_debug;
 reg [1:0] tx_wr_cnt;
 always @(posedge ui_clk or negedge rst_n)
@@ -363,7 +341,7 @@ end
 wire mpu_rd_rx_en;
 wire mpu_rx_fifo_empty;
 wire [7:0] mpu_rx_data;
-//mpu´®¿Ú
+//mpuä¸²å£
 usart_tx_rx
 #(
     .INPUT_CLK        (50000000),
@@ -384,7 +362,7 @@ usart_rx_mpu (
     .rx_pin    (mpu_rx_pin)
 );
 
-//¸ù¾İÔ­Ê¼Ö¡ĞÅºÅ»ñÈ¡½Ç¶ÈÊı¾İ
+//æ ¹æ®åŸå§‹å¸§ä¿¡å·è·å–è§’åº¦æ•°æ®
 get_mpu_angle get_mpu_angle (
     .clk    (ui_clk),
     .rst    (~rst_n),
@@ -396,7 +374,7 @@ get_mpu_angle get_mpu_angle (
     .angle_data      (),
     .angle_data_d0   (angle_data_d0)
 );
-//¸ù¾İĞÂÖ¡ĞÅºÅËø´æ½Ç¶ÈÊı¾İ
+//æ ¹æ®æ–°å¸§ä¿¡å·é”å­˜è§’åº¦æ•°æ®
 always@(posedge ui_clk_2 or negedge rst_n) begin
     if(!rst_n)
         angle_data_latch <= 16'd0;
@@ -408,7 +386,7 @@ end
 
 wire signed [15:0] sin;
 wire signed [15:0] coa;
-//Êä³ö¶ÔÓ¦½Ç¶ÈµÄÈı½Çº¯ÊıÖµ
+//è¾“å‡ºå¯¹åº”è§’åº¦çš„ä¸‰è§’å‡½æ•°å€¼
 lut_sin_cos lut_sin_cos
 (
     .angle_div4  (angle_data_latch),
@@ -423,11 +401,11 @@ localparam new_frame_base_addr0 = 24'd2073600;
 localparam new_frame_base_addr1 = 24'd2592000;
 localparam new_frame_base_addr2 = 24'd3110400;
 localparam new_frame_base_addr3 = 24'd3628800;
-localparam new_frame_len = 24'd120000;//Ö¡³¤¶È=ÏñËØ/4
+localparam new_frame_len = 24'd120000;//å¸§é•¿åº¦=åƒç´ /4
 wire [1:0] new_read_addr_index;//
-wire [1:0] new_write_addr_index;//ĞÂÖ¡Ğ´ÈëµØÖ·Ö¸Õë
+wire [1:0] new_write_addr_index;//æ–°å¸§å†™å…¥åœ°å€æŒ‡é’ˆ
 
-////²úÉú²ÃÇĞÍ¼ÏñµØÖ·
+////äº§ç”Ÿè£åˆ‡å›¾åƒåœ°å€
 //gen_addr_get_frame
 //#
 //(
@@ -447,11 +425,11 @@ wire [1:0] new_write_addr_index;//ĞÂÖ¡Ğ´ÈëµØÖ·Ö¸Õë
 //    .addr_y           (y                 )
 //);
 
-//²úÉúĞı×ªÍ¼ÏñµØÖ·
+//äº§ç”Ÿæ—‹è½¬å›¾åƒåœ°å€
 gen_raotation_addr
 #
 (
-    .X_OFFSET  (640),//ÖĞĞÄµãÆ«ÖÃ
+    .X_OFFSET  (640),//ä¸­å¿ƒç‚¹åç½®
     .Y_OFFSET  (480),
     .X_SIZE    (800),
     .Y_SIZE    (600)
@@ -463,26 +441,26 @@ gen_raotation_addr
 
     .addr_fifo_full   (addr_fifo_full),
     .wr_en            (wr_en),
-    .sin_a            (sin),//sin×óÒÆ16Î»
+    .sin_a            (sin),//sinå·¦ç§»16ä½
     .cos_a            (coa),//coa
     .addr_x           (x),
     .addr_y           (y)
 );
 
-//²úÉúĞÂÖ¡ĞÅºÅnew_frame
+//äº§ç”Ÿæ–°å¸§ä¿¡å·new_frame
 gen_new_frame_sign gen_new_frame_sign
 (
     .clk              (ui_clk_2),
     .rst              (~rst_n),
     .old_frame_finish (frame_write_finish),
     .new_frame        (new_frame),
-    .new_write_index  (new_write_addr_index),//²úÉúĞÂÖ¡Ğ´ÈëµØÖ·
-    .new_read_index   (new_read_addr_index)//²úÉúĞÂÖ¡¶Á³öµØÖ·
+    .new_write_index  (new_write_addr_index),//äº§ç”Ÿæ–°å¸§å†™å…¥åœ°å€
+    .new_read_index   (new_read_addr_index)//äº§ç”Ÿæ–°å¸§è¯»å‡ºåœ°å€
 );
 
 wire [15:0] write_pixel_data;
 wire write_pixel_en;
-//ÊäÈëµØÖ·¶Á³öÏñËØ,¿éĞÎÊ½
+//è¾“å…¥åœ°å€è¯»å‡ºåƒç´ ,å—å½¢å¼
 pixel_read_block
 #
 (
@@ -504,7 +482,7 @@ pixel_read
     .addr_wr_en            (wr_en            ),
     .addr_wr_almost_full   (addr_fifo_full   ),
     
-    .wr_fifo_pixel_data   (write_pixel_data      ),//¶Á³öµÄÏñËØÊı¾İ
+    .wr_fifo_pixel_data   (write_pixel_data      ),//è¯»å‡ºçš„åƒç´ æ•°æ®
     .wr_fifo_pixel_en     (write_pixel_en        ),
     .wr_fifo_pixel_full   (1'b0                  ),
     .debug                (pixel_read_debug      ),
@@ -522,7 +500,7 @@ wire wr_block_en;
 wire [63:0] pixel_4row_n;
 wire [63:0] pixel_4row;
 assign pixel_4row = {pixel_4row_n[15:0],pixel_4row_n[31:16],pixel_4row_n[47:32],pixel_4row_n[63:48]};
-//Ô­Ê¼Í¼Ïñ×ª»»Îª¿éĞÎÊ½Ğ´Èë
+//åŸå§‹å›¾åƒè½¬æ¢ä¸ºå—å½¢å¼å†™å…¥
 pixel_to_block pixel_to_block
 (
     .pclk        (cmos_pclk),
@@ -535,7 +513,7 @@ pixel_to_block pixel_to_block
 );
 
 
-//ÏñËØÊä³öÖØĞÂĞ´Èëddr3¿ØÖÆÆ÷
+//åƒç´ è¾“å‡ºé‡æ–°å†™å…¥ddr3æ§åˆ¶å™¨
 frame_read_write frame_write_m0
 (
   .rst                        (~rst_n                   ),
@@ -561,15 +539,15 @@ frame_read_write frame_write_m0
   .write_data                 (write_pixel_data               )//
 );
 
-//osdµş¼ÓÏÔÊ¾
+//osdå åŠ æ˜¾ç¤º
 osd_display_angle  osd_display_angle(
 	.rst_n                 (rst_n                      ),
 	.pclk                  (video_clk                  ),
-    .angle                 (angle_data_latch           ),//½Ç¶È
+    .angle                 (angle_data_latch           ),//è§’åº¦
 	.i_hs                  (hs                         ),
 	.i_vs                  (vs                         ),
 	.i_de                  (de                         ),
-	.i_data                (vout_data                  ),//Ô­ÊÓÆµĞÅºÅ
+	.i_data                (vout_data                  ),//åŸè§†é¢‘ä¿¡å·
 
 	.o_hs                  (osd_hs                     ),
 	.o_vs                  (osd_vs                     ),
@@ -664,7 +642,7 @@ video_timing_data video_timing_data_m0
 
 
 //video frame data read-write control
-//Ğ´Èë½Ó¿Ú64Î»¿í
+//å†™å…¥æ¥å£64ä½å®½
 my_frame_read_write frame_read_write_m0
 (
   .rst                        (~rst_n                   ),
@@ -679,7 +657,7 @@ my_frame_read_write frame_read_write_m0
   .read_req                   (read_req                 ),
   .read_req_ack               (read_req_ack             ),
   .read_finish                (                         ),
-  .read_addr_0                (new_frame_base_addr0            ), //¶ÁĞÂÖ¡
+  .read_addr_0                (new_frame_base_addr0            ), //è¯»æ–°å¸§
   .read_addr_1                (new_frame_base_addr1            ), 
   .read_addr_2                (new_frame_base_addr2            ),
   .read_addr_3                (new_frame_base_addr3            ),
@@ -698,18 +676,18 @@ my_frame_read_write frame_read_write_m0
   .write_req                  (write_req                ),//
   .write_req_ack              (write_req_ack            ),//
   .write_finish               (                         ),
-  .write_addr_0               (24'd0                    ),//Ã¿Ö¡´¢´æ¿Õ¼äÔ¤Áô1920*1080*16bit
+  .write_addr_0               (24'd0                    ),//æ¯å¸§å‚¨å­˜ç©ºé—´é¢„ç•™1920*1080*16bit
   .write_addr_1               (24'd518400               ),
   .write_addr_2               (24'd1036800              ),
   .write_addr_3               (24'd1555200              ),
   .write_addr_index           (write_addr_index         ),
-  .write_len                  (24'd307200               ), //frame size = ÏñËØ/4£¬ÒòÎªÃ¿´ÎburstĞ´Èë64bit¼´4¸öÏñËØ
+  .write_len                  (24'd307200               ), //frame size = åƒç´ /4ï¼Œå› ä¸ºæ¯æ¬¡burstå†™å…¥64bitå³4ä¸ªåƒç´ 
   .write_en                   (wr_block_en              ),//write_en
   .write_data                 (pixel_4row               ) //write_data
 );
 
 
-//¶àÍ¨µÀÍ¬Ê±Ğ´Èë£¬²âÊÔok
+//å¤šé€šé“åŒæ—¶å†™å…¥ï¼Œæµ‹è¯•ok
 my_aq_axi_master u_aq_axi_master
   (
       .ARESETN                     (rst_n                                     ),
@@ -762,7 +740,7 @@ my_aq_axi_master u_aq_axi_master
     .WR_FIFO_EMPTY               (1'b0                                     ),
     .WR_FIFO_AEMPTY              (1'b0                                     ),
     .WR_READY                    (                                         ),
-    .MUX_wr                      (                          ),//Í¨µÀÖ¸Ê¾
+    .MUX_wr                      (                          ),//é€šé“æŒ‡ç¤º
 
     .WR_START_0                    (   wr_test_req                          ),
     .WR_ADRS_0                     (   {wr_test_addr,3'd0}                  ),
@@ -783,10 +761,10 @@ my_aq_axi_master u_aq_axi_master
     .RD_FIFO_AFULL               (1'b0                                     ),
     .RD_READY                    (                           ),
     .RD_FIFO_DATA                (rd_burst_data                            ),
-    .MUX_rd                      (                          ),//Í¨µÀÖ¸Ê¾
+    .MUX_rd                      (                          ),//é€šé“æŒ‡ç¤º
 
 //    .RD_START_0                    (   rd_test_req                          ),
-//    .RD_ADRS_0                     (   {rd_test_addr,3'b110}                ),//¾­²âÊÔ£¬ºóÈıÎ»ÍêÈ«Ã»Ê²Ã´ÂÑÓÃ£¬ÍêÈ«£¡
+//    .RD_ADRS_0                     (   {rd_test_addr,3'b110}                ),//ç»æµ‹è¯•ï¼Œåä¸‰ä½å®Œå…¨æ²¡ä»€ä¹ˆåµç”¨ï¼Œå®Œå…¨ï¼
 //    .RD_LEN_0                      (   {rd_test_len,3'd0}                   ),
 //    .RD_FIFO_WE_0                  (   rd_test_data_valid                   ),
 //    .RD_DONE_0                     (   rd_test_finish                       ),
@@ -800,7 +778,7 @@ my_aq_axi_master u_aq_axi_master
     .DEBUG                       (                                     )
 );
 
-//ÓÃÓÚÍ¼ÏñĞı×ªµÄ¶Á³öaxi¿ØÖÆÆ÷
+//ç”¨äºå›¾åƒæ—‹è½¬çš„è¯»å‡ºaxiæ§åˆ¶å™¨
 aq_axi_master rotating_aq_axi_master
 (
       .ARESETN                     (rst_n                                     ),
@@ -871,7 +849,7 @@ aq_axi_master rotating_aq_axi_master
     .DEBUG                       (                                        )
 );
 
-//ddr3¿ØÖÆÆ÷
+//ddr3æ§åˆ¶å™¨
 ddr3 u_ipsl_hmemc_top (
     .pll_refclk_in        (sys_clk    ),
     .ddr_rstn_key         (rst_n      ),   
