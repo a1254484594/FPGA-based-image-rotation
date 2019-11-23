@@ -1,0 +1,136 @@
+%%% protect protected_file
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-dspmac|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\bin64\\c_vhdl.exe":1560764244
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\location.map":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\std.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\snps_haps_pkg.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\std1164.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\numeric.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\umr_capim.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\arith.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\unsigned.vhd":1560764264
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\img_buf\\ImageXlib_utils.vhd":1484405411
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\img_buf\\ImageXlib_arch.vhd":1484405411
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\signed.vhd":1560764264
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\img_buf\\linebuffer_Wapper.vhd":1484405412
+@E8lFkRDCDCHMLVkVCWs_NCbbsH
+DLssN$FRIsb	
+NlsNCs0CR_MFFDV_H#MCR0HMCsoC
+sbNN0lCC#sRNDlbCb#_CDs_HRMCHCM0o
+CsbNNslCC0sNR80IN_HE80R0HMCsoC
+bHMkO0RC4R-
+bHMkI0RsD_O	4R-
+bHMkI0RsM_CR
+-4HkMb0sRI_0s#R
+-4HkMb0NR80HN_M4R-
+bHMks0R8M_CR
+-4HkMb08Rs_	ODR
+-4HkMb08Rs_0s#R
+-4Fbk0k80RN_0NFRk0-C4
+MF8l8CkD
+8lFkRDCNHO0P8C_C$DN
+LDHs$NsRsIF	N
+bsCNl0RCsNHO0PHC_M0bk_l#Nb#DC_sbC_MDHCMRH0CCosN
+bsCNl0RCsPC_8DRN$HCM0o
+CsbNNslCC0s_RE8NCD$MRH0CCosN
+bsCNl0RCsHkMb0E_OsNFl_sVFlRN0HCM0o
+CsbNNslCC0skRF00bk_sOEF_lNVlFsNH0RMo0CCHs
+M0bkRROC-H4
+M0bkR	ODR
+-4HkMb0#RP_RHM-H4
+M0bkR_E#H-MR4M
+HbRk08_HMPHND84R-
+0FkbRk0PC_s#_C0FRk0-F4
+kk0b0#RE_0FkR
+-4Fbk0kP0R#k_F04R-
+0FkbRk080Fk_DPNH-8R4k
+F00bkRsOEF_lNc_.jDCHM_DPNH-8R4M
+C88lFk
+DClkF8DlCRO__EbCHb
+LDHs$NsRsIF	N
+bsCNl0RCsM_klOMENM#CDR0HMCsoC
+sbNN0lCCMsRkEl__b0N#MRH0CCosN
+bsCNl0RCs8NN0_8IH0HERMo0CCHs
+M0bkRROC-H4
+M0bkR	ODR
+-4HkMb0NR80HN_M4R-
+bHMk#0RE0HV_RCM-F4
+kk0b0NR80FN_k-0R4M
+C88lFk
+DClkF8DECR_bbHCH
+DLssN$FRIsb	
+NlsNCs0CRlMk_0E_NRb#HCM0o
+CsbNNslCC0sNR80IN_HE80R0HMCsoC
+bHMkO0RC4R-
+bHMkO0RD-	R4M
+HbRk08NN0_RHM-H4
+M0bkRH#EVC0_M4R-
+0FkbRk08NN0_0FkR
+-4ClM8FD8kCF
+l8CkDR#LNC8_._MDHCVLkV
+CsDsHLNRs$I	Fs
+sbNN0lCC8sRN_0NI0H8EMRH0CCosN
+bsCNl0RCs#bNlD_C#b_CsDCHMR0HMCsoC
+sbNN0lCCMsRFV_F_MDHCH#RMo0CCHs
+M0bkRROC-H4
+M0bkR_IsORD	-H4
+M0bkR_IsC-MR4M
+HbRk0Iss_#-0R4M
+HbRk08NN0_RHM-H4
+M0bkR_s8C-MR4M
+HbRk0sO8_D-	R4M
+HbRk0ss8_#-0R4k
+F00bkR08NNk_F04R-
+8CMlkF8DlC
+FD8kCNRL##C_HDMoCH_DMkCLVsVC
+LDHs$NsRsIF	N
+bsCNl0RCs8NN0_8IH0HERMo0CCbs
+NlsNCs0CRl#Nb#DC_sbC_MDHCMRH0CCosM
+HbRk0O-CR4M
+HbRk0IOs_D-	R4M
+HbRk0ICs_M4R-
+bHMkI0Rs#_s04R-
+bHMk80RN_0NH-MR4M
+HbRk0sC8_M4R-
+bHMks0R8D_O	4R-
+bHMks0R8#_s04R-
+0FkbRk08NN0_0FkR
+-4ClM8FD8kCF
+l8CkDRMDHCVLkV
+CsDsHLNRs$I	Fs
+sbNN0lCC8sRN_0NI0H8EMRH0CCosN
+bsCNl0RCs#bNlD_C#b_CsDCHMR0HMCsoC
+sbNN0lCCMsRFV_F_MDHCH#RMo0CCbs
+NlsNCs0CRNVC0sEC_0Fkb#k0RFLFDMCN
+bHMkO0RC4R-
+bHMkI0RsD_O	4R-
+bHMkI0RsM_CR
+-4HkMb0sRI_0s#R
+-4HkMb0NR80HN_M4R-
+0FkbRk0I0sHC__EbMFH0RCs-F4
+kk0b0NRD#I0_sF_DOHN0F-MR4M
+HbRk0sO8_D-	R4M
+HbRk0sC8_M4R-
+bHMks0R8#_s04R-
+bHMkO0RNN#O8CC_M4R-
+0FkbRk0s8CN_bE_F0HMC-sR4k
+F00bkR#DN08_s_ODFNF0HM4R-
+0FkbRk08NN0_0FkR
+-4ClM8FD8kCF
+l8CkDR_8bLlsN
+LDHs$NsRsIF	N
+bsCNl0RCs8NN0_8IH0HERMo0CCbs
+NlsNCs0CRllC_x#HCMRH0CCosM
+HbRk0O-CR4M
+HbRk08RHM-H4
+M0bkR_IsC-MR4M
+HbRk0IOs_D-	R4M
+HbRk0INs_8R8s-H4
+M0bkR_s8C-MR4M
+HbRk0sO8_D-	R4M
+HbRk0sN8_8R8s-F4
+kk0b0FR8k-0R4M
+C88lFk
+DC
+
+@ 

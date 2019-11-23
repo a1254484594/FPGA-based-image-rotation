@@ -1,0 +1,16 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_phy_io.v":175:41:175:51|Tristate driver DQS_DRIFT_H_1 (in view: work.ipsl_phy_io_Z3(verilog)) on net DQS_DRIFT_H_1 (in view: work.ipsl_phy_io_Z3(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_phy_io.v":175:41:175:51|Tristate driver DQS_DRIFT_H_2 (in view: work.ipsl_phy_io_Z3(verilog)) on net DQS_DRIFT_H_2 (in view: work.ipsl_phy_io_Z3(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_phy_io.v":174:41:174:51|Tristate driver DQS_DRIFT_L_1 (in view: work.ipsl_phy_io_Z3(verilog)) on net DQS_DRIFT_L_1 (in view: work.ipsl_phy_io_Z3(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_phy_io.v":174:41:174:51|Tristate driver DQS_DRIFT_L_2 (in view: work.ipsl_phy_io_Z3(verilog)) on net DQS_DRIFT_L_2 (in view: work.ipsl_phy_io_Z3(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_phy_io.v":100:41:100:47|Tristate driver PSLVERR (in view: work.ipsl_phy_io_Z3(verilog)) on net PSLVERR (in view: work.ipsl_phy_io_Z3(verilog)) has its enable tied to GND.
+@N: BN115 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":284:1:284:6|Removing instance u_prbs (in view: work.test_wr_ctrl_64bit_Z2(verilog)) of type view:work.prbs31_128bit_1_Z1_0(verilog) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":174:0:174:5|Removing sequential instance error (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y_all[128:1] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: MO225 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v":36:0:36:5|There are no possible illegal states for state machine state[3:0] (in view: work.ipsl_ddrphy_dll_update_ctrl(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":293:0:293:5|There are no possible illegal states for state machine state[1:0] (in view: work.ipsl_ddrphy_update_ctrl_16BIT_2s_0s_1s_2s_3s_1(verilog)); safe FSM implementation is not required.
+@N: MF578 |Incompatible asynchronous control logic preventing generated clock conversion.
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synplify.sap.

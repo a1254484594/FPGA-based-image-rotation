@@ -1,0 +1,450 @@
+#OPTIONS:"|-mixedhdl|-modhint|C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\synthesize\\synplify_impl\\synwork\\_verilog_hintfile|-top|top|-layerid|0|-orig_srs|C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\synthesize\\synplify_impl\\synwork\\synplify_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-dspmac|-nram|-divnmod|-nostructver|-I|C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b|-I|C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\synthesize\\|-I|C:\\pango\\PDS_2019.1-patch11\\syn\\lib|-v2001|-devicelib|C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\generic\\logos.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\bin64\\c_ver.exe":1560764244
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\synthesize\\synplify_impl\\synwork\\_verilog_hintfile":1574502957
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\generic\\logos.v":1560764252
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vlog\\hypermods.v":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vlog\\umr_capim.v":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vlog\\scemi_objects.v":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vlog\\scemi_pipes.svh":1560764264
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\i2c_master\\i2c_config.v":1500957176
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\i2c_master\\i2c_master_bit_ctrl.v":1500957176
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\i2c_master\\i2c_master_defines.v":1500957176
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\i2c_master\\i2c_master_byte_ctrl.v":1500957176
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\i2c_master\\i2c_master_defines.v":1500957176
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\i2c_master\\i2c_master_top.v":1500957176
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\dvi_tx\\color_bar.v":1571742314
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\dvi_tx\\video_define.v":1573484654
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\dvi_tx\\dvi_encoder.v":1519814004
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\dvi_tx\\encode.v":1216887230
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\dvi_tx\\serdes_4b_10to1.v":1557130518
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\dvi_tx\\video_define.v":1573484654
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\frame_fifo_read.v":1574066305
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\frame_fifo_write.v":1571848236
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\frame_read_write.v":1574133313
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\aq_axi_master.v":1572313712
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\cmos_8_16bit.v":1500957176
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\cmos_write_req_gen.v":1570257504
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\ax_debounce.v":1569338252
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\dvi_tx\\video_timing_data.v":1500957176
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\gen_new_frame_sign.v":1572415120
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\my_aq_axi_master.v":1572337600
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\usart_tx_rx.v":1573637151
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\get_mpu_angle.v":1573642387
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\my_lut_ov5640_rgb565_1280_960.v":1574158889
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\lut_sin_cos.v":1573446683
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\my_frame_read_write.v":1574153208
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\calculate_ddr3_addr_block.v":1573890691
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\top.v":1574502623
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\osd\\soure\\osd_display_angle.v":1573988352
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\osd\\soure\\timing_gen_xy.v":1557796769
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\Binary2BCD.v":1573977849
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\pixel_to_block.v":1573989671
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\gen_addr_filt.v":1574497372
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\pixel_filter_v2.0.v":1574499744
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\pixel_read_block_filt_V2.0.v":1574495530
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\test\\key_adj_angle.v":1574483654
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\ddr3\\rtl\\ipsl_ddrphy_training_ctrl.v":1573746424
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\ddr3\\rtl\\ipsl_ddrphy_dll_update_ctrl.v":1573746424
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\APM_11mult11\\APM_11mult11.v":1571072020
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\APM_s8_mult_us8\\APM_s8_mult_us8.v":1574236440
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\APM_s16_mult_us8\\APM_s16_mult_us8.v":1574236615
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\APM_multi_add_s16\\APM_multi_add_s16.v":1573392234
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\afifo_8in8out\\rtl\\ipm_distributed_sdpram_v1_2_afifo_8in8out.v":1573569089
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\afifo_8in8out\\afifo_8in8out.v":1573569089
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\afifo_8in8out\\rtl\\ipm_distributed_fifo_v1_2_afifo_8in8out.v":1573569089
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\osd_rom\\rtl\\ipml_rom_v1_3_osd_rom.v":1573906778
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\osd_rom\\osd_rom.v":1573906778
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\ddr3\\rtl\\ipsl_ddrphy_reset_ctrl.v":1573746424
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\fifo_26i_26o\\rtl\\ipml_fifo_v1_4_fifo_26i_26o.v":1572411804
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\fifo_16i_16o\\rtl\\ipml_fifo_v1_4_fifo_16i_16o.v":1574495563
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\fifo_38i_38o\\rtl\\ipml_fifo_v1_4_fifo_38i_38o.v":1574489404
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\afifo_16i_64o_512\\rtl\\ipml_fifo_v1_4_afifo_16i_64o_512.v":1574068035
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\afifo_64i_16o_128\\rtl\\ipml_fifo_v1_4_afifo_64i_16o_128.v":1569556256
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\afifo_64i_64o_512\\rtl\\ipml_fifo_v1_4_afifo_64i_64o_512.v":1574158879
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\ddr3\\rtl\\ipsl_ddrc_reset_ctrl.v":1573746424
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\fifo_26i_26o\\fifo_26i_26o.v":1572411804
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\fifo_38i_38o\\fifo_38i_38o.v":1574489405
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\fifo_16i_16o\\fifo_16i_16o.v":1574495563
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\afifo_64i_16o_128\\afifo_64i_16o_128.v":1569556256
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\afifo_16i_64o_512\\afifo_16i_64o_512.v":1574068035
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\afifo_64i_64o_512\\afifo_64i_64o_512.v":1574158879
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\ddr3\\rtl\\pll\\pll_50_400.v":1574153254
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\video_pll\\video_pll.v":1573484751
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\ddr3\\rtl\\ipsl_ddrphy_update_ctrl.v":1573746424
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\afifo_8in8out\\rtl\\ipm_distributed_fifo_ctr_v1_0.v":1560764220
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\afifo_16i_64o_512\\rtl\\ipml_fifo_ctrl_v1_3.v":1560764208
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\ddr3\\rtl\\ipsl_hmemc_phy_top.v":1573746424
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\ddr3\\rtl\\ipsl_ddrc_apb_reset.v":1573746424
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\ddr3\\rtl\\ipsl_hmemc_ddrc_top.v":1573746424
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\osd_rom\\rtl\\ipml_spram_v1_3_osd_rom.v":1573906778
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\osd_rom\\rtl\\osd_rom_init_param.v":1573906779
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\ddr3\\ddr3.v":1574153254
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\APM_11mult11\\rtl\\ipml_mult_v1_1.v":1571072020
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\APM_multi_add_s16\\rtl\\ipml_multadd_v1_1.v":1573392234
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\afifo_16i_64o_512\\rtl\\ipml_sdpram_v1_4_afifo_16i_64o_512.v":1574068035
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\fifo_26i_26o\\rtl\\ipml_sdpram_v1_4_fifo_26i_26o.v":1572411804
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\fifo_16i_16o\\rtl\\ipml_sdpram_v1_4_fifo_16i_16o.v":1574495563
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\fifo_38i_38o\\rtl\\ipml_sdpram_v1_4_fifo_38i_38o.v":1574489404
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\afifo_64i_16o_128\\rtl\\ipml_sdpram_v1_4_afifo_64i_16o_128.v":1569556256
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\afifo_64i_64o_512\\rtl\\ipml_sdpram_v1_4_afifo_64i_64o_512.v":1574158879
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\ipcore\\ddr3\\rtl\\ipsl_phy_io.v":1573746424
+#OPTIONS:"|-mixedhdl|-top|work.linebuffer_Wapper|-mpparams|C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\synthesize\\synplify_impl\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\synthesize\\synplify_impl\\synwork\\synplify_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-dspmac|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\bin64\\c_vhdl.exe":1560764244
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\location.map":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\std.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\snps_haps_pkg.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\std1164.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\numeric.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\umr_capim.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\arith.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\unsigned.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\hyperents.vhd":1560764264
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\img_buf\\ImageXlib_utils.vhd":1484405411
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\img_buf\\ImageXlib_arch.vhd":1484405411
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\signed.vhd":1560764264
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\img_buf\\linebuffer_Wapper.vhd":1484405412
+0			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_config.v" verilog
+1			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v" verilog
+2		*	"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_defines.v" verilog
+3			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_byte_ctrl.v" verilog
+4			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_top.v" verilog
+5			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\color_bar.v" verilog
+6		*	"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\video_define.v" verilog
+7			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\dvi_encoder.v" verilog
+8			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\encode.v" verilog
+9			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\serdes_4b_10to1.v" verilog
+10			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\frame_fifo_read.v" verilog
+11			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\frame_fifo_write.v" verilog
+12			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\frame_read_write.v" verilog
+13			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\aq_axi_master.v" verilog
+14			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\cmos_8_16bit.v" verilog
+15			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\cmos_write_req_gen.v" verilog
+16			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\ax_debounce.v" verilog
+17			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\video_timing_data.v" verilog
+18			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_new_frame_sign.v" verilog
+19			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\my_aq_axi_master.v" verilog
+20			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\usart_tx_rx.v" verilog
+21			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\get_mpu_angle.v" verilog
+22			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\my_lut_ov5640_rgb565_1280_960.v" verilog
+23			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\lut_sin_cos.v" verilog
+24			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\my_frame_read_write.v" verilog
+25			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\calculate_ddr3_addr_block.v" verilog
+26			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\top.v" verilog
+27			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\osd\soure\osd_display_angle.v" verilog
+28			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\osd\soure\timing_gen_xy.v" verilog
+29			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\Binary2BCD.v" verilog
+30			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_to_block.v" verilog
+31			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_addr_filt.v" verilog
+32			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v" verilog
+33			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_read_block_filt_V2.0.v" verilog
+34			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\key_adj_angle.v" verilog
+35			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v" verilog
+36			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v" verilog
+37			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\APM_11mult11\APM_11mult11.v" verilog
+38			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\APM_s8_mult_us8\APM_s8_mult_us8.v" verilog
+39			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\APM_s16_mult_us8\APM_s16_mult_us8.v" verilog
+40			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\APM_multi_add_s16\APM_multi_add_s16.v" verilog
+41			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_8in8out\rtl\ipm_distributed_sdpram_v1_2_afifo_8in8out.v" verilog
+42			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_8in8out\afifo_8in8out.v" verilog
+43			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_8in8out\rtl\ipm_distributed_fifo_v1_2_afifo_8in8out.v" verilog
+44			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\osd_rom\rtl\ipml_rom_v1_3_osd_rom.v" verilog
+45			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\osd_rom\osd_rom.v" verilog
+46			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v" verilog
+47			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_26i_26o\rtl\ipml_fifo_v1_4_fifo_26i_26o.v" verilog
+48			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_16i_16o\rtl\ipml_fifo_v1_4_fifo_16i_16o.v" verilog
+49			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_38i_38o\rtl\ipml_fifo_v1_4_fifo_38i_38o.v" verilog
+50			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_v1_4_afifo_16i_64o_512.v" verilog
+51			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_16o_128\rtl\ipml_fifo_v1_4_afifo_64i_16o_128.v" verilog
+52			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_64o_512\rtl\ipml_fifo_v1_4_afifo_64i_64o_512.v" verilog
+53			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v" verilog
+54			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_26i_26o\fifo_26i_26o.v" verilog
+55			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_38i_38o\fifo_38i_38o.v" verilog
+56			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_16i_16o\fifo_16i_16o.v" verilog
+57			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_16o_128\afifo_64i_16o_128.v" verilog
+58			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\afifo_16i_64o_512.v" verilog
+59			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_64o_512\afifo_64i_64o_512.v" verilog
+60			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\pll\pll_50_400.v" verilog
+61			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\video_pll\video_pll.v" verilog
+62			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v" verilog
+63			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_8in8out\rtl\ipm_distributed_fifo_ctr_v1_0.v" verilog
+64			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_ctrl_v1_3.v" verilog
+65			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v" verilog
+66			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v" verilog
+67			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v" verilog
+68			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v" verilog
+69		*	"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\osd_rom\rtl\osd_rom_init_param.v" verilog
+70			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\ddr3.v" verilog
+71			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\APM_11mult11\rtl\ipml_mult_v1_1.v" verilog
+72			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\APM_multi_add_s16\rtl\ipml_multadd_v1_1.v" verilog
+73			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v" verilog
+74			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v" verilog
+75			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_16i_16o\rtl\ipml_sdpram_v1_4_fifo_16i_16o.v" verilog
+76			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_38i_38o\rtl\ipml_sdpram_v1_4_fifo_38i_38o.v" verilog
+77			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v" verilog
+78			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_64o_512\rtl\ipml_sdpram_v1_4_afifo_64i_64o_512.v" verilog
+79			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_phy_io.v" verilog
+80			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\linebuffer_Wapper.vhd" vhdl
+81			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd" vhdl
+82			"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_utils.vhd" vhdl
+#Dependency Lists(Uses List)
+0 4
+1 2
+2 -1
+3 1 2
+4 2 3
+5 6
+6 -1
+7 9 8
+8 -1
+9 -1
+10 -1
+11 -1
+12 10 57 11 58
+13 -1
+14 -1
+15 -1
+16 -1
+17 6 5
+18 -1
+19 -1
+20 42
+21 -1
+22 -1
+23 -1
+24 10 57 11 59
+25 37
+26 70 13 19 24 17 15 14 22 0 7 61 27 30 12 32 33 31 18 23 34 21 20 16
+27 28 45 29
+28 -1
+29 -1
+30 80
+31 40
+32 39 38
+33 56 55 25 54
+34 -1
+35 -1
+36 -1
+37 71
+38 71
+39 71
+40 72
+41 -1
+42 43
+43 63 41
+44 69 68
+45 44
+46 -1
+47 64 74
+48 64 75
+49 64 76
+50 64 73
+51 64 77
+52 64 78
+53 66
+54 47
+55 49
+56 48
+57 51
+58 50
+59 52
+60 -1
+61 -1
+62 -1
+63 -1
+64 -1
+65 79 62 36 35 46
+66 -1
+67 53
+68 69
+69 -1
+70 67 65 60
+71 -1
+72 -1
+73 -1
+74 -1
+75 -1
+76 -1
+77 -1
+78 -1
+79 -1
+80 82 81
+81 82
+82 -1
+#Dependency Lists(Users Of)
+0 26
+1 3
+2 4 3 1
+3 4
+4 0
+5 17
+6 17 5
+7 26
+8 7
+9 7
+10 24 12
+11 24 12
+12 26
+13 26
+14 26
+15 26
+16 26
+17 26
+18 26
+19 26
+20 26
+21 26
+22 26
+23 26
+24 26
+25 33
+26 -1
+27 26
+28 27
+29 27
+30 26
+31 26
+32 26
+33 26
+34 26
+35 65
+36 65
+37 25
+38 32
+39 32
+40 31
+41 43
+42 20
+43 42
+44 45
+45 27
+46 65
+47 54
+48 56
+49 55
+50 58
+51 57
+52 59
+53 67
+54 33
+55 33
+56 33
+57 24 12
+58 12
+59 24
+60 70
+61 26
+62 65
+63 43
+64 52 51 50 49 48 47
+65 70
+66 53
+67 70
+68 44
+69 68 44
+70 26
+71 39 38 37
+72 40
+73 50
+74 47
+75 48
+76 49
+77 51
+78 52
+79 65
+80 30
+81 80
+82 80 81
+#Design Unit to File Association
+module work dp_bram 81
+arch work dp_bram rtl 81
+module work linebuffer 81
+arch work linebuffer rtl 81
+module work base_single_linebuffer 81
+arch work base_single_linebuffer rtl 81
+module work base_2d_linebuffer 81
+arch work base_2d_linebuffer rtl 81
+module work h_pipe 81
+arch work h_pipe rtl 81
+module work mc_h_pipe 81
+arch work mc_h_pipe rtl 81
+module work active_delay 81
+arch work active_delay rtl 81
+module work linebuffer_wapper 80
+arch work linebuffer_wapper rtl 80
+module work ipsl_hmemc_ddrc_top 67
+module work ipsl_hmemc_phy_top 65
+module work ipsl_phy_io 79
+module work ipsl_ddrphy_update_ctrl 62
+module work pll_50_400 60
+module work ipsl_ddrc_reset_ctrl 53
+module work ipsl_ddrc_apb_reset 66
+module work ipml_fifo_v1_4_afifo_64i_64o_512 52
+module work ipml_sdpram_v1_4_afifo_64i_64o_512 78
+module work ipml_fifo_v1_4_afifo_64i_16o_128 51
+module work ipml_sdpram_v1_4_afifo_64i_16o_128 77
+module work ipml_fifo_v1_4_afifo_16i_64o_512 50
+module work ipml_sdpram_v1_4_afifo_16i_64o_512 73
+module work ipml_fifo_v1_4_fifo_38i_38o 49
+module work ipml_sdpram_v1_4_fifo_38i_38o 76
+module work ipml_fifo_v1_4_fifo_16i_16o 48
+module work ipml_sdpram_v1_4_fifo_16i_16o 75
+module work ipml_fifo_v1_4_fifo_26i_26o 47
+module work ipml_fifo_ctrl_v1_3 64
+module work ipml_sdpram_v1_4_fifo_26i_26o 74
+module work ipsl_ddrphy_reset_ctrl 46
+module work ipml_rom_v1_3_osd_rom 44
+module work ipml_spram_v1_3_osd_rom 68
+module work ipm_distributed_fifo_ctr_v1_0 63
+module work ipm_distributed_fifo_v1_2_afifo_8in8out 43
+module work ipm_distributed_sdpram_v1_2_afifo_8in8out 41
+module work ipml_multadd_v1_1 72
+module work ipml_mult_v1_1 71
+module work ipsl_ddrphy_dll_update_ctrl 36
+module work ipsl_ddrphy_training_ctrl 35
+module work fifo_16i_16o 56
+module work fifo_38i_38o 55
+module work fifo_26i_26o 54
+module work APM_s16_mult_us8 39
+module work APM_s8_mult_us8 38
+module work APM_multi_add_s16 40
+module work timing_gen_xy 28
+module work osd_rom 45
+module work Binary2BCD 29
+module work top 26
+module work ddr3 70
+module work video_pll 61
+module work osd_display_angle 27
+module work pixel_to_block 30
+module work pixel_filter 32
+module work pixel_read_block_filt 33
+module work gen_addr_filt 31
+module work key_adj_angle 34
+module work calculate_ddr3_addr_block 25
+module work APM_11mult11 37
+module work my_frame_read_write 24
+module work afifo_64i_64o_512 59
+module work lut_sin_cos 23
+module work lut_ov5640_rgb565_1280_960 22
+module work get_mpu_angle 21
+module work usart_tx_rx 20
+module work afifo_8in8out 42
+module work my_aq_axi_master 19
+module work gen_new_frame_sign 18
+module work video_timing_data 17
+module work ax_debounce 16
+module work cmos_write_req_gen 15
+module work cmos_8_16bit 14
+module work aq_axi_master 13
+module work frame_read_write 12
+module work afifo_64i_16o_128 57
+module work afifo_16i_64o_512 58
+module work frame_fifo_write 11
+module work frame_fifo_read 10
+module work dvi_encoder 7
+module work serdes_4b_10to1 9
+module work encode 8
+module work color_bar 5
+module work i2c_master_byte_ctrl 3
+module work i2c_master_bit_ctrl 1
+module work i2c_config 0
+module work i2c_master_top 4

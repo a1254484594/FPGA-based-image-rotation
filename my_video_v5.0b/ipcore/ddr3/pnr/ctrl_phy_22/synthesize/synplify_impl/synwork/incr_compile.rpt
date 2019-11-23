@@ -1,0 +1,83 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch11\syn
+OS: Windows 6.2
+
+Hostname: DESKTOP-J96F9GG
+
+Implementation : synplify_impl
+Synopsys HDL compiler and linker, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+1        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 16
+MID:  lib.cell.view
+0        work.ddr3.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+1        work.ipsl_ddrc_apb_reset.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+2        work.ipsl_ddrc_reset_ctrl.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+3        work.ipsl_ddrphy_dll_update_ctrl.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+4        work.ipsl_ddrphy_reset_ctrl.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+5        work.ipsl_ddrphy_training_ctrl.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+6        work.ipsl_ddrphy_update_ctrl.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+7        work.ipsl_hmemc_ddrc_top.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+8        work.ipsl_hmemc_phy_top.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+9        work.ipsl_hmemc_top_test.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (module definition)
+10       work.ipsl_phy_io.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+11       work.pll_50_400.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+12       work.prbs31_128bit.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+13       work.test_main_ctrl.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+14       work.test_rd_ctrl_64bit.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+15       work.test_wr_ctrl_64bit.verilog may have changed because the following files changed:
+                        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-10-23 10:32:21, 2019-10-23 13:22:09) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 20
+FID:  path (timestamp)
+0        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\ddr3.v (2019-10-23 10:32:21)
+2        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v (2019-09-25 16:42:07)
+3        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_main_ctrl.v (2019-09-25 16:42:07)
+4        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v (2019-09-25 16:42:07)
+5        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v (2019-09-25 16:42:07)
+6        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v (2019-09-25 16:42:07)
+7        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v (2019-09-25 16:42:07)
+8        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v (2019-09-25 16:42:07)
+9        C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v (2019-09-25 16:42:07)
+10       C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v (2019-09-25 16:42:07)
+11       C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v (2019-09-25 16:42:07)
+12       C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v (2019-09-25 16:42:07)
+13       C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v (2019-09-25 16:42:07)
+14       C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_phy_io.v (2019-09-25 16:42:07)
+15       C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\pll\pll_50_400.v (2019-10-23 10:32:21)
+16       C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v (2019-06-17 17:37:32)
+17       C:\pango\PDS_2019.1-patch11\syn\lib\vlog\hypermods.v (2019-06-17 17:37:44)
+18       C:\pango\PDS_2019.1-patch11\syn\lib\vlog\scemi_objects.v (2019-06-17 17:37:44)
+19       C:\pango\PDS_2019.1-patch11\syn\lib\vlog\scemi_pipes.svh (2019-06-17 17:37:44)
+20       C:\pango\PDS_2019.1-patch11\syn\lib\vlog\umr_capim.v (2019-06-17 17:37:44)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

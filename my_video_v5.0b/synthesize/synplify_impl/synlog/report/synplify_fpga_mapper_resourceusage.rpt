@@ -1,0 +1,206 @@
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: pgl22gbg324-7
+Cell usage:
+GTP_APM_E1      14 uses
+GTP_DDC_E1      5 uses
+GTP_DDRC        1 use
+GTP_DDRPHY      1 use
+GTP_DFF         543 uses
+GTP_DFF_C       1003 uses
+GTP_DFF_CE      1507 uses
+GTP_DFF_E       443 uses
+GTP_DFF_P       54 uses
+GTP_DFF_PE      3 uses
+GTP_DFF_R       77 uses
+GTP_DFF_RE      64 uses
+GTP_DFF_S       12 uses
+GTP_DFF_SE      14 uses
+GTP_DLATCH_CE   6 uses
+GTP_DLL         2 uses
+GTP_DRM18K      19 uses
+GTP_DRM9K       2 uses
+GTP_GRS         1 use
+GTP_INV         89 uses
+GTP_IOCLKBUF    2 uses
+GTP_IOCLKDIV    1 use
+GTP_IODELAY     16 uses
+GTP_ISERDES     16 uses
+GTP_LUT2        696 uses
+GTP_LUT3        765 uses
+GTP_LUT4        559 uses
+GTP_LUT5        618 uses
+GTP_LUT5CARRY   1466 uses
+GTP_LUT5M       241 uses
+GTP_MUX2LUT6    120 uses
+GTP_MUX2LUT7    59 uses
+GTP_OSERDES     54 uses
+GTP_PLL_E1      2 uses
+GTP_RAM16X1DP   16 uses
+GTP_ROM128X1    29 uses
+GTP_ROM256X1    154 uses
+GTP_ROM32X1     13 uses
+GTP_ROM64X1     30 uses
+
+I/O ports: 87
+GTP_INBUF      16 uses
+GTP_INBUFG     2 uses
+GTP_IOBUF      18 uses
+GTP_IOBUFCO    2 uses
+GTP_OUTBUF     6 uses
+GTP_OUTBUFT    37 uses
+GTP_OUTBUFTCO  1 use
+
+
+RAM/ROM usage summary
+
+Distributed Rams : 230.00 of 1110 (20.72%)
+
+
+Mapping Summary:
+Total LUTs: 5782 of 17536 (32.97%)
+	LUTs as dram: 16 of 4440 (0.36%)
+	LUTs as logic: 5766 
+Total Registers: 3720 of 26304 (14.14%)
+Total Latches: 6
+Total Muxes:   179
+
+DRM18K:
+Total DRM18K =  20 of 48 (41.67%)
+
+APMs:
+Total APMs =  14.00 of 30 (46.67%)
+
+Total I/O primitives =  82 of 240 (34.17%)
+
+
+ Number of unique control sets:              127
+ CLK(clkout1_i), C(global_reset_i_0), P(GND), CE(dll_step_copy_synced4_NE_i_0)		: 8
+ CLK(clkout1_i), C(GND), P(global_reset_i_0), CE(VCC)		: 5
+ CLK(clkout1_i), C(global_reset_i_0), P(GND), CE(VCC)		: 40
+ CLK(dll_update_n_i), C(global_reset_i_0), P(GND), CE(VCC)		: 8
+ CLK(clkout1_i), C(GND), P(GND), CE(VCC)		: 34
+ CLK(clkout1_i), C(GND), P(global_reset_i_0), CE(N_80_i_0)		: 1
+ CLK(clkout1_i), C(global_reset_i_0), P(GND), CE(N_80_i_0)		: 1
+ CLK(clkout1_i), C(rst_n_c_i_0), P(GND), CE(VCC)		: 17
+ CLK(clkout1_i), C(GND), P(rst_n_c_i_0), CE(VCC)		: 1
+ CLK(clkout1_i), C(rst_n_c_i_0), P(GND), CE(N_6_i_0)		: 8
+ CLK(clkout1_i), C(presetn_i_0), P(GND), CE(VCC)		: 3
+ CLK(clkout1_i), C(presetn_i_0), P(GND), CE(cnte)		: 7
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(un1_init_preset8_0_a2)		: 1
+ CLK(clkout1_i), C(GND), P(resetn_i_0), CE(un1_init_preset8_0_a2)		: 1
+ CLK(clkout1_i), C(GND), P(resetn_i_0), CE(VCC)		: 1
+ CLK(clkout1_i), C(GND), P(resetn_i_0), CE(ddrc_init_done)		: 1
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(ddrc_init_done)		: 1
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(ddrc_rst_cnte)		: 5
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(rst_cnt7)		: 5
+ CLK(clkout4_i), C(rst_n_c_i_0), P(GND), CE(VCC)		: 42
+ CLK(clkout4_i), C(GND), P(GND), CE(VCC)		: 186
+ CLK(clkout4_i), C(GND), P(rst_n_c_i_0), CE(VCC)		: 3
+ CLK(clkout4_i), C(rst_n_c_i_0), P(GND), CE(rd_state_0_sqmuxa)		: 8
+ CLK(clkout4_i), C(rst_n_c_i_0), P(GND), CE(wr_state[2])		: 21
+ CLK(clkout4_i), C(rst_n_c_i_0), P(GND), CE(un1_M_AXI_AWLOCK_15_0)		: 21
+ CLK(clkout4_i), C(rst_n_c_i_0), P(GND), CE(bvalid_2)		: 21
+ CLK(clkout4_i), C(rst_n_c_i_0), P(GND), CE(reg_w_lene)		: 8
+ CLK(clkout4_i), C(rst_n_c_i_0), P(GND), CE(reg_r_lene)		: 8
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(VCC)		: 309
+ CLK(clkout3_i), C(GND), P(GND), CE(VCC)		: 9
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(N_4328[0])		: 3
+ CLK(clkout3_i), C(GND), P(rst_n_c_i_0), CE(VCC)		: 9
+ CLK(clkout4_i), C(rst_n_c_i_0), P(GND), CE(new_frame)		: 12
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(reg_w_lene)		: 8
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(reg_r_lene)		: 8
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(rd_fifo_cnte)		: 32
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(wait_cnte)		: 8
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(read_cnte)		: 19
+ CLK(clkout0_i), C(read_fifo_aclr), P(GND), CE(VCC)		: 37
+ CLK(clkout3_i), C(read_fifo_aclr), P(GND), CE(VCC)		: 44
+ CLK(clkout0_i), C(GND), P(read_fifo_aclr), CE(VCC)		: 1
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(write_cnte)		: 19
+ CLK(clkout3_i), C(write_fifo_aclr), P(GND), CE(VCC)		: 84
+ CLK(cmos_pclk_c[0]), C(write_fifo_aclr), P(GND), CE(VCC)		: 44
+ CLK(clkout3_i), C(GND), P(write_fifo_aclr), CE(VCC)		: 2
+ CLK(clkout0_i), C(rst_n_c_i_0), P(GND), CE(VCC)		: 90
+ CLK(clkout0_i), C(rst_n_c_i_0), P(GND), CE(hs_reg5)		: 12
+ CLK(clkout0_i), C(GND), P(GND), CE(rst_n_c)		: 3
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(write_req5)		: 2
+ CLK(cmos_pclk_c[0]), C(rst_n_c_i_0), P(GND), CE(VCC)		: 23
+ CLK(cmos_pclk_c[0]), C(GND), P(GND), CE(VCC)		: 186
+ CLK(sys_clk_c[0]), R(core_cmd46), S(GND), CE(clk_en)		: 15
+ CLK(sys_clk_c[0]), R(un1_cSCL8_3_i_0), S(GND), CE(VCC)		: 12
+ CLK(sys_clk_c[0]), C(GND), P(GND), CE(VCC)		: 28
+ CLK(sys_clk_c[0]), R(rst_n_c_i_0), S(GND), CE(VCC)		: 6
+ CLK(sys_clk_c[0]), C(GND), P(GND), CE(cnte)		: 16
+ CLK(sys_clk_c[0]), R(core_cmd46), S(GND), CE(VCC)		: 4
+ CLK(sys_clk_c[0]), C(GND), P(GND), CE(un1_sda_oen_0_sqmuxa_0)		: 2
+ CLK(sys_clk_c[0]), C(GND), P(GND), CE(un1_scl_oen_0_sqmuxa_0)		: 2
+ CLK(sys_clk_c[0]), R(i2c_al), S(GND), CE(VCC)		: 3
+ CLK(sys_clk_c[0]), C(GND), P(GND), CE(un1_cSCL8_3_i_0)		: 6
+ CLK(sys_clk_c[0]), R(rst_n_c_i_0), S(GND), CE(shift_ns)		: 3
+ CLK(sys_clk_c[0]), R(core_cmd46), S(GND), CE(core_ack)		: 1
+ CLK(sys_clk_c[0]), C(GND), P(GND), CE(core_cmd_4_sqmuxa_i_0)		: 4
+ CLK(sys_clk_c[0]), R(sr_2200), S(GND), CE(un1_rst_2_i_0)		: 8
+ CLK(sys_clk_c[0]), C(rst_n_c_i_0), P(GND), CE(VCC)		: 83
+ CLK(sys_clk_c[0]), C(rst_n_c_i_0), P(GND), CE(done)		: 3
+ CLK(sys_clk_c[0]), C(GND), P(rst_n_c_i_0), CE(VCC)		: 8
+ CLK(sys_clk_c[0]), C(rst_n_c_i_0), P(GND), CE(lut_indexe)		: 10
+ CLK(clkout1_i), R(TMDS_mod5[2]), S(GND), CE(CO0)		: 1
+ CLK(clkout1_i), R(TMDS_mod5[2]), S(GND), CE(VCC)		: 9
+ CLK(clkout0_i), C(GND), P(GND), CE(VCC)		: 112
+ CLK(clkout0_i), C(rst_n_c_i_0), P(GND), CE(y_cnte)		: 12
+ CLK(clkout0_i), C(GND), P(GND), CE(un1_flash_i_0)		: 12
+ CLK(clkout0_i), R(un1_pos_vs), S(GND), CE(un1_flash)		: 12
+ CLK(clkout0_i), R(un1_pos_vs), S(GND), CE(VCC)		: 2
+ CLK(clkout0_i), C(GND), P(GND), CE(n_0115)		: 2
+ CLK(clkout0_i), R(pos_x[6]), S(GND), CE(VCC)		: 2
+ CLK(clkout0_i), R(pos_x_i_0[6]), S(GND), CE(VCC)		: 2
+ CLK(clkout0_i), C(GND), P(GND), CE(ram_addr_c6e)		: 14
+ CLK(clkout0_i), C(GND), P(GND), CE(ram_addr_c5e)		: 14
+ CLK(clkout0_i), C(GND), P(GND), CE(ram_addr_c3e)		: 14
+ CLK(clkout0_i), C(GND), P(GND), CE(ram_addr_c2e)		: 14
+ CLK(clkout0_i), C(GND), P(GND), CE(ram_addr_c1e)		: 14
+ CLK(clkout0_i), C(GND), P(GND), CE(ram_addr_c4e)		: 4
+ CLK(clkout0_i), R(ram_addr_c113), S(GND), CE(ram_addr_c4e)		: 10
+ CLK(clkout0_i), R(ram_addr_c113), S(GND), CE(osd_region_active)		: 14
+ CLK(clkout0_i), R(osd_region_active_d1_i_0), S(GND), CE(VCC)		: 3
+ CLK(clkout0_i), R(v_data_0_sqmuxa), S(GND), CE(VCC)		: 12
+ CLK(cmos_pclk_c[0]), C(GND), P(GND), CE(d_rd_en[0])		: 64
+ CLK(cmos_pclk_c[0]), R(d_read_h_pointer_0_0_sqmuxa_1), S(GND), CE(VCC)		: 11
+ CLK(cmos_pclk_c[0]), R(t_write_h_pointer_0_sqmuxa_1), S(GND), CE(VCC)		: 11
+ CLK(cmos_pclk_c[0]), C(write_req), P(GND), CE(VCC)		: 20
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(N_14_0_i_0)		: 19
+ CLK(clkout4_i), C(write_fifo_aclr), P(GND), CE(VCC)		: 38
+ CLK(clkout4_i), C(new_frame), P(GND), CE(pipeline_s5)		: 16
+ CLK(clkout4_i), C(new_frame), P(GND), CE(write_pixel_en)		: 75
+ CLK(clkout4_i), C(new_frame), P(GND), CE(VCC)		: 121
+ CLK(clkout4_i), C(new_frame), P(GND), CE(pipeline_s2)		: 96
+ CLK(clkout4_i), C(new_frame), P(GND), CE(pipeline_s3)		: 48
+ CLK(clkout4_i), C(new_frame), P(GND), CE(pipeline_s0)		: 32
+ CLK(clkout4_i), C(GND), P(new_frame), CE(VCC)		: 24
+ CLK(clkout4_i), C(new_frame), P(GND), CE(STATE_132_d)		: 20
+ CLK(clkout4_i), C(new_frame), P(GND), CE(STATE_d[3])		: 22
+ CLK(clkout4_i), C(GND), P(GND), CE(un1_block_data_buf_0_sqmuxa)		: 256
+ CLK(clkout4_i), C(GND), P(GND), CE(pixel_loca_buf_0_sqmuxa_1)		: 16
+ CLK(clkout4_i), C(new_frame), P(GND), CE(last_addr_0_sqmuxa)		: 300
+ CLK(clkout4_i), C(new_frame), P(GND), CE(addr_ack_2_sqmuxa)		: 22
+ CLK(clkout4_i), C(new_frame), P(GND), CE(last_datace[0])		: 64
+ CLK(clkout4_i), C(new_frame), P(GND), CE(last_datace[64])		: 64
+ CLK(clkout4_i), C(new_frame), P(GND), CE(last_datace[128])		: 64
+ CLK(clkout4_i), C(new_frame), P(GND), CE(last_datace[192])		: 64
+ CLK(clkout4_i), C(new_frame), P(GND), CE(rd_fifo_ddr3_en10)		: 2
+ CLK(clkout4_i), C(new_frame), P(GND), CE(wr_decimal_data_0_sqmuxa)		: 16
+ CLK(clkout4_i), C(new_frame), P(GND), CE(rvalid_2)		: 3
+ CLK(clkout4_i), C(new_frame), P(GND), CE(STATE[5])		: 59
+ CLK(clkout4_i), C(new_frame), P(GND), CE(new_addr_valid_d1)		: 58
+ CLK(clkout4_i), C(new_frame), P(GND), CE(new_addr_valid_d2)		: 40
+ CLK(clkout4_i), C(rst_n_c_i_0), P(GND), CE(new_read_index4)		: 2
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(angle_data4)		: 16
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(new_angle_data5)		: 16
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(mpu_rd_rx_en)		: 24
+ CLK(sys_clk_c[0]), C(rst_n_c_i_0), P(GND), CE(tx_fifo_rd_en)		: 8
+ CLK(sys_clk_c[0]), C(rst_n_c_i_0), P(GND), CE(un1_tx_ctrl17_i_0)		: 2
+ CLK(sys_clk_c[0]), C(rst_n_c_i_0), P(GND), CE(tx_buf_0_sqmuxa)		: 9
+ CLK(sys_clk_c[0]), C(rst_n_c_i_0), P(GND), CE(tx_ctrl)		: 11
+ CLK(clkout3_i), C(rst_n_c_i_0), P(GND), CE(q_rege)		: 64
+

@@ -1,0 +1,4 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, Entity: dp_bram_16_1280 Architecture: rtl, 0h:00m:00s,     89 MB
+work, Entity: linebuffer_16_1280_4_false Architecture: rtl, 0h:00m:00s,     89 MB
+work, Entity: work_linebuffer_wapper_rtl_4_1280_16_1_no_of_linessamples_per_linedata_width Architecture: rtl, 0h:00m:00s,     89 MB

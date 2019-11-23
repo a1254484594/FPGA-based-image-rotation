@@ -1,0 +1,273 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":730:7:730:18|Top entity is set to active_delay.
+@N|Running in 64-bit mode
+@N: CG334 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":137:12:137:24|Read directive translate_off.
+@N: CG333 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":139:12:139:23|Read directive translate_on.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":406:41:406:49|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":406:51:406:63|Read a parallel_case directive.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":410:47:410:55|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":410:57:410:69|Read a parallel_case directive.
+@N: CG334 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_byte_ctrl.v":69:12:69:24|Read directive translate_off.
+@N: CG333 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_byte_ctrl.v":71:12:71:23|Read directive translate_on.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_byte_ctrl.v":230:34:230:42|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_byte_ctrl.v":230:44:230:56|Read a parallel_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":660:40:660:52|Read a parallel_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":656:40:656:52|Read a parallel_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_16i_16o\rtl\ipml_sdpram_v1_4_fifo_16i_16o.v":656:40:656:52|Read a parallel_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_38i_38o\rtl\ipml_sdpram_v1_4_fifo_38i_38o.v":656:40:656:52|Read a parallel_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":656:40:656:52|Read a parallel_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_64o_512\rtl\ipml_sdpram_v1_4_afifo_64i_64o_512.v":656:40:656:52|Read a parallel_case directive.
+@N: CG334 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":137:12:137:24|Read directive translate_off.
+@N: CG333 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":139:12:139:23|Read directive translate_on.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":406:41:406:49|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":406:51:406:63|Read a parallel_case directive.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":410:47:410:55|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":410:57:410:69|Read a parallel_case directive.
+@N: CG334 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_byte_ctrl.v":69:12:69:24|Read directive translate_off.
+@N: CG333 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_byte_ctrl.v":71:12:71:23|Read directive translate_on.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_byte_ctrl.v":230:34:230:42|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_byte_ctrl.v":230:44:230:56|Read a parallel_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":660:40:660:52|Read a parallel_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":656:40:656:52|Read a parallel_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_16i_16o\rtl\ipml_sdpram_v1_4_fifo_16i_16o.v":656:40:656:52|Read a parallel_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_38i_38o\rtl\ipml_sdpram_v1_4_fifo_38i_38o.v":656:40:656:52|Read a parallel_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":656:40:656:52|Read a parallel_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_64o_512\rtl\ipml_sdpram_v1_4_afifo_64i_64o_512.v":656:40:656:52|Read a parallel_case directive.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\ax_debounce.v":22:8:22:18|Synthesizing module ax_debounce in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\ax_debounce.v":87:22:87:31|Removing redundant assignment.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_8in8out\rtl\ipm_distributed_sdpram_v1_2_afifo_8in8out.v":22:7:22:47|Synthesizing module ipm_distributed_sdpram_v1_2_afifo_8in8out in library work.
+@N: CL134 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_8in8out\rtl\ipm_distributed_sdpram_v1_2_afifo_8in8out.v":82:4:82:9|Found RAM mem, depth=16, width=8
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_8in8out\rtl\ipm_distributed_fifo_ctr_v1_0.v":18:7:18:35|Synthesizing module ipm_distributed_fifo_ctr_v1_0 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_8in8out\rtl\ipm_distributed_fifo_v1_2_afifo_8in8out.v":21:7:21:45|Synthesizing module ipm_distributed_fifo_v1_2_afifo_8in8out in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_8in8out\afifo_8in8out.v":20:7:20:19|Synthesizing module afifo_8in8out in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\usart_tx_rx.v":3:7:3:17|Synthesizing module usart_tx_rx in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\usart_tx_rx.v":102:14:102:20|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\usart_tx_rx.v":103:20:103:32|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\usart_tx_rx.v":124:22:124:27|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\usart_tx_rx.v":198:34:198:38|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\usart_tx_rx.v":208:33:208:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\usart_tx_rx.v":219:33:219:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\usart_tx_rx.v":230:33:230:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\usart_tx_rx.v":252:27:252:37|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\usart_tx_rx.v":261:24:261:30|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\usart_tx_rx.v":264:23:264:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\usart_tx_rx.v":265:19:265:25|Removing redundant assignment.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\get_mpu_angle.v":3:7:3:19|Synthesizing module get_mpu_angle in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\get_mpu_angle.v":51:26:51:43|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\get_mpu_angle.v":52:26:52:43|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\get_mpu_angle.v":53:26:53:43|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\get_mpu_angle.v":65:22:65:35|Removing redundant assignment.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\key_adj_angle.v":1:7:1:19|Synthesizing module key_adj_angle in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\key_adj_angle.v":29:20:29:31|Removing redundant assignment.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\lut_sin_cos.v":4:7:4:17|Synthesizing module lut_sin_cos in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_new_frame_sign.v":2:7:2:24|Synthesizing module gen_new_frame_sign in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_new_frame_sign.v":43:17:43:25|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_new_frame_sign.v":61:22:61:35|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_new_frame_sign.v":62:23:62:37|Removing redundant assignment.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":65:7:65:16|Synthesizing module GTP_APM_E1 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\APM_multi_add_s16\rtl\ipml_multadd_v1_1.v":18:11:18:27|Synthesizing module ipml_multadd_v1_1 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\APM_multi_add_s16\APM_multi_add_s16.v":19:7:19:23|Synthesizing module APM_multi_add_s16 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_addr_filt.v":2:7:2:19|Synthesizing module gen_addr_filt in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_addr_filt.v":65:18:65:27|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_addr_filt.v":66:18:66:27|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_addr_filt.v":75:22:75:31|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_addr_filt.v":76:22:76:31|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_addr_filt.v":91:20:91:29|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_addr_filt.v":98:18:98:27|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_addr_filt.v":99:18:99:27|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_addr_filt.v":205:13:205:17|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_addr_filt.v":206:15:206:21|Removing redundant assignment.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":20:7:20:35|Synthesizing module ipml_sdpram_v1_4_fifo_26i_26o in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1409:7:1409:16|Synthesizing module GTP_DRM18K in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_ctrl_v1_3.v":21:7:21:25|Synthesizing module ipml_fifo_ctrl_v1_3 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_26i_26o\rtl\ipml_fifo_v1_4_fifo_26i_26o.v":25:7:25:33|Synthesizing module ipml_fifo_v1_4_fifo_26i_26o in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_26i_26o\fifo_26i_26o.v":18:7:18:18|Synthesizing module fifo_26i_26o in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\APM_11mult11\rtl\ipml_mult_v1_1.v":18:7:18:20|Synthesizing module ipml_mult_v1_1 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\APM_11mult11\APM_11mult11.v":18:7:18:18|Synthesizing module APM_11mult11 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\calculate_ddr3_addr_block.v":4:7:4:31|Synthesizing module calculate_ddr3_addr_block in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_38i_38o\rtl\ipml_sdpram_v1_4_fifo_38i_38o.v":20:7:20:35|Synthesizing module ipml_sdpram_v1_4_fifo_38i_38o in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_ctrl_v1_3.v":21:7:21:25|Synthesizing module ipml_fifo_ctrl_v1_3 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_38i_38o\rtl\ipml_fifo_v1_4_fifo_38i_38o.v":25:7:25:33|Synthesizing module ipml_fifo_v1_4_fifo_38i_38o in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_38i_38o\fifo_38i_38o.v":18:7:18:18|Synthesizing module fifo_38i_38o in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_16i_16o\rtl\ipml_sdpram_v1_4_fifo_16i_16o.v":20:7:20:35|Synthesizing module ipml_sdpram_v1_4_fifo_16i_16o in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_ctrl_v1_3.v":21:7:21:25|Synthesizing module ipml_fifo_ctrl_v1_3 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_16i_16o\rtl\ipml_fifo_v1_4_fifo_16i_16o.v":25:7:25:33|Synthesizing module ipml_fifo_v1_4_fifo_16i_16o in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_16i_16o\fifo_16i_16o.v":18:7:18:18|Synthesizing module fifo_16i_16o in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_read_block_filt_V2.0.v":3:7:3:27|Synthesizing module pixel_read_block_filt in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\APM_11mult11\rtl\ipml_mult_v1_1.v":18:7:18:20|Synthesizing module ipml_mult_v1_1 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\APM_s8_mult_us8\APM_s8_mult_us8.v":18:7:18:21|Synthesizing module APM_s8_mult_us8 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\APM_11mult11\rtl\ipml_mult_v1_1.v":18:7:18:20|Synthesizing module ipml_mult_v1_1 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\APM_s16_mult_us8\APM_s16_mult_us8.v":18:7:18:22|Synthesizing module APM_s16_mult_us8 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":3:7:3:18|Synthesizing module pixel_filter in library work.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val11_b_d1[7] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val11_b_d1[6] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val11_b_d1[5] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val11_g_d1[7] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val11_g_d1[6] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val11_r_d1[7] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val11_r_d1[6] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val11_r_d1[5] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val12_b_d1[7] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val12_b_d1[6] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val12_b_d1[5] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val12_g_d1[7] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val12_g_d1[6] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val12_r_d1[7] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val12_r_d1[6] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val12_r_d1[5] is always 0.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":20:7:20:40|Synthesizing module ipml_sdpram_v1_4_afifo_16i_64o_512 in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1333:7:1333:15|Synthesizing module GTP_DRM9K in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_ctrl_v1_3.v":21:7:21:25|Synthesizing module ipml_fifo_ctrl_v1_3 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_v1_4_afifo_16i_64o_512.v":25:7:25:38|Synthesizing module ipml_fifo_v1_4_afifo_16i_64o_512 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\afifo_16i_64o_512.v":18:7:18:23|Synthesizing module afifo_16i_64o_512 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\frame_fifo_write.v":32:7:32:22|Synthesizing module frame_fifo_write in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":20:7:20:40|Synthesizing module ipml_sdpram_v1_4_afifo_64i_16o_128 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_ctrl_v1_3.v":21:7:21:25|Synthesizing module ipml_fifo_ctrl_v1_3 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_16o_128\rtl\ipml_fifo_v1_4_afifo_64i_16o_128.v":25:7:25:38|Synthesizing module ipml_fifo_v1_4_afifo_64i_16o_128 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_16o_128\afifo_64i_16o_128.v":18:7:18:23|Synthesizing module afifo_64i_16o_128 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\frame_fifo_read.v":31:7:31:21|Synthesizing module frame_fifo_read in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\frame_read_write.v":31:7:31:22|Synthesizing module frame_read_write in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_to_block.v":3:7:3:20|Synthesizing module pixel_to_block in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_to_block.v":107:25:107:33|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_to_block.v":126:25:126:33|Removing redundant assignment.
+@N: CG794 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_to_block.v":56:0:56:19|Using module linebuffer_Wapper from library work
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\Binary2BCD.v":5:7:5:16|Synthesizing module Binary2BCD in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\Binary2BCD.v":32:16:32:22|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\Binary2BCD.v":37:29:37:43|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\Binary2BCD.v":42:28:42:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\Binary2BCD.v":47:28:47:41|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\Binary2BCD.v":54:19:54:26|Removing redundant assignment.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":19:7:19:29|Synthesizing module ipml_spram_v1_3_osd_rom in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\osd_rom\rtl\ipml_rom_v1_3_osd_rom.v":20:7:20:27|Synthesizing module ipml_rom_v1_3_osd_rom in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\osd_rom\osd_rom.v":18:7:18:13|Synthesizing module osd_rom in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\osd\soure\timing_gen_xy.v":29:7:29:19|Synthesizing module timing_gen_xy in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\osd\soure\timing_gen_xy.v":104:11:104:15|Removing redundant assignment.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\osd\soure\osd_display_angle.v":3:7:3:23|Synthesizing module osd_display_angle in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\osd\soure\osd_display_angle.v":163:13:163:16|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\osd\soure\osd_display_angle.v":164:13:164:17|Removing redundant assignment.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\osd\soure\osd_display_angle.v":139:0:139:5|Register bit n_001[1] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\osd\soure\osd_display_angle.v":139:0:139:5|Register bit n_001[3] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\osd\soure\osd_display_angle.v":139:0:139:5|Register bit n_01[3] is always 0.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":2251:7:2251:16|Synthesizing module GTP_PLL_E1 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\video_pll\video_pll.v":4:7:4:15|Synthesizing module video_pll in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\encode.v":46:7:46:12|Synthesizing module encode in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":2154:7:2154:17|Synthesizing module GTP_OSERDES in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":2212:7:2212:17|Synthesizing module GTP_OUTBUFT in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\serdes_4b_10to1.v":3:7:3:21|Synthesizing module serdes_4b_10to1 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\dvi_encoder.v":2:7:2:17|Synthesizing module dvi_encoder in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":143:7:143:25|Synthesizing module i2c_master_bit_ctrl in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":221:23:221:25|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":418:38:418:44|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":419:38:419:44|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":427:38:427:44|Removing redundant assignment.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_byte_ctrl.v":75:7:75:26|Synthesizing module i2c_master_byte_ctrl in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_top.v":30:7:30:20|Synthesizing module i2c_master_top in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_config.v":30:7:30:16|Synthesizing module i2c_config in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_config.v":113:27:113:31|Removing redundant assignment.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\my_lut_ov5640_rgb565_1280_960.v":31:7:31:32|Synthesizing module lut_ov5640_rgb565_1280_960 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\cmos_8_16bit.v":30:7:30:18|Synthesizing module cmos_8_16bit in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\cmos_write_req_gen.v":32:7:32:24|Synthesizing module cmos_write_req_gen in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\color_bar.v":33:7:33:15|Synthesizing module color_bar in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\color_bar.v":236:14:236:21|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\color_bar.v":249:11:249:15|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\color_bar.v":261:12:261:17|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\color_bar.v":273:14:273:21|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\color_bar.v":285:12:285:17|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\color_bar.v":297:14:297:21|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\color_bar.v":359:17:359:25|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\color_bar.v":360:17:360:25|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\color_bar.v":361:17:361:25|Removing redundant assignment.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\video_timing_data.v":30:7:30:23|Synthesizing module video_timing_data in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_64o_512\rtl\ipml_sdpram_v1_4_afifo_64i_64o_512.v":20:7:20:40|Synthesizing module ipml_sdpram_v1_4_afifo_64i_64o_512 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_ctrl_v1_3.v":21:7:21:25|Synthesizing module ipml_fifo_ctrl_v1_3 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_64o_512\rtl\ipml_fifo_v1_4_afifo_64i_64o_512.v":25:7:25:38|Synthesizing module ipml_fifo_v1_4_afifo_64i_64o_512 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_64o_512\afifo_64i_64o_512.v":18:7:18:23|Synthesizing module afifo_64i_64o_512 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\my_frame_read_write.v":34:7:34:25|Synthesizing module my_frame_read_write in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\my_aq_axi_master.v":39:7:39:22|Synthesizing module my_aq_axi_master in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\aq_axi_master.v":39:7:39:19|Synthesizing module aq_axi_master in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\pll\pll_50_400.v":5:7:5:16|Synthesizing module pll_50_400 in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v":1:7:1:28|Synthesizing module ipsl_ddrphy_reset_ctrl in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v":1:7:1:31|Synthesizing module ipsl_ddrphy_training_ctrl in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v":34:37:34:61|Removing redundant assignment.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v":1:7:1:33|Synthesizing module ipsl_ddrphy_dll_update_ctrl in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":1:7:1:29|Synthesizing module ipsl_ddrphy_update_ctrl in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1316:7:1316:13|Synthesizing module GTP_DLL in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":696:7:696:16|Synthesizing module GTP_DDRPHY in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1737:7:1737:18|Synthesizing module GTP_IOCLKBUF in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1766:7:1766:18|Synthesizing module GTP_IOCLKDIV in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":195:7:195:16|Synthesizing module GTP_DDC_E1 in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1779:7:1779:17|Synthesizing module GTP_IODELAY in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1819:7:1819:17|Synthesizing module GTP_ISERDES in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1612:7:1612:16|Synthesizing module GTP_INBUFG in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":2175:7:2175:16|Synthesizing module GTP_OUTBUF in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1645:7:1645:15|Synthesizing module GTP_IOBUF in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":2226:7:2226:19|Synthesizing module GTP_OUTBUFTCO in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_phy_io.v":27:7:27:17|Synthesizing module ipsl_phy_io in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1636:7:1636:13|Synthesizing module GTP_INV in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v":1661:7:1661:17|Synthesizing module GTP_IOBUFCO in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v":1:7:1:24|Synthesizing module ipsl_hmemc_phy_top in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v":1:7:1:25|Synthesizing module ipsl_ddrc_apb_reset in library work.
+@N: CG364 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":2:7:2:26|Synthesizing module ipsl_ddrc_reset_ctrl in library work.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":93:15:93:21|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":122:20:122:31|Removing redundant assignment.
+@N: CG179 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\top.v":433:28:433:43|Removing redundant assignment.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\top.v":346:0:346:5|Trying to extract state machine for register tx_wr_cnt.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\top.v":40:21:40:24|Input key1 is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v":215:25:215:33|Input dfi_error is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v":216:25:216:38|Input dfi_error_info is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_phy_io.v":90:41:90:52|Input SRB_CORE_CLK is unused.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":293:0:293:5|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v":36:0:36:5|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v":52:0:52:5|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\aq_axi_master.v":342:2:342:7|Trying to extract state machine for register rd_state.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\aq_axi_master.v":170:2:170:7|Trying to extract state machine for register wr_state.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\aq_axi_master.v":67:16:67:24|Input M_AXI_BID is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\aq_axi_master.v":68:16:68:26|Input M_AXI_BRESP is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\aq_axi_master.v":69:16:69:26|Input M_AXI_BUSER is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\aq_axi_master.v":88:16:88:24|Input M_AXI_RID is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\aq_axi_master.v":90:16:90:26|Input M_AXI_RRESP is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\aq_axi_master.v":92:16:92:26|Input M_AXI_RUSER is unused.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\my_aq_axi_master.v":378:2:378:7|Trying to extract state machine for register rd_state.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\my_aq_axi_master.v":194:2:194:7|Trying to extract state machine for register wr_state.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\my_aq_axi_master.v":67:16:67:24|Input M_AXI_BID is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\my_aq_axi_master.v":68:16:68:26|Input M_AXI_BRESP is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\my_aq_axi_master.v":69:16:69:26|Input M_AXI_BUSER is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\my_aq_axi_master.v":88:16:88:24|Input M_AXI_RID is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\my_aq_axi_master.v":90:16:90:26|Input M_AXI_RRESP is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\my_aq_axi_master.v":92:16:92:26|Input M_AXI_RUSER is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_64o_512\rtl\ipml_sdpram_v1_4_afifo_64i_64o_512.v":49:40:49:49|Input wr_byte_en is unused.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_config.v":81:0:81:5|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_top.v":87:0:87:5|Trying to extract state machine for register state.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_byte_ctrl.v":201:1:201:6|Trying to extract state machine for register c_state.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\i2c_master\i2c_master_bit_ctrl.v":384:4:384:9|Trying to extract state machine for register c_state.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\dvi_tx\serdes_4b_10to1.v":4:16:4:18|Input clk is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\osd_rom\rtl\ipml_spram_v1_3_osd_rom.v":47:38:47:47|Input wr_byte_en is unused.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\frame_fifo_read.v":108:0:108:5|Trying to extract state machine for register state.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":49:40:49:49|Input wr_byte_en is unused.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\frame_fifo_write.v":108:0:108:5|Trying to extract state machine for register state.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\frame_fifo_write.v":46:34:46:50|Input wr_burst_data_req is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":49:40:49:49|Input wr_byte_en is unused.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val11_b_d2[5] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val11_r_d2[5] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val12_b_d2[5] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val12_r_d2[5] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val11_g_d2[6] is always 0.
+@N: CL189 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_filter_v2.0.v":124:0:124:5|Register bit val12_g_d2[6] is always 0.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_read_block_filt_V2.0.v":285:0:285:5|Trying to extract state machine for register STATE.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\pixel_read_block_filt_V2.0.v":38:26:38:39|Input rd_ddr3_finish is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_16i_16o\rtl\ipml_sdpram_v1_4_fifo_16i_16o.v":49:40:49:49|Input wr_byte_en is unused.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_38i_38o\rtl\ipml_sdpram_v1_4_fifo_38i_38o.v":49:40:49:49|Input wr_byte_en is unused.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\calculate_ddr3_addr_block.v":71:0:71:5|Trying to extract state machine for register STATE.
+@N: CL159 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":49:40:49:49|Input wr_byte_en is unused.
+@N: CL201 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\test\gen_addr_filt.v":32:0:32:5|Trying to extract state machine for register div_state.
+@N:"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\linebuffer_Wapper.vhd":8:7:8:23|Top entity is set to linebuffer_Wapper.
+@N: Setting default value for generic no_of_lines to 4;
+@N: Setting default value for generic samples_per_line to 1280;
+@N: Setting default value for generic data_width to 16;
+@N: CD630 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\linebuffer_Wapper.vhd":8:7:8:23|Synthesizing work.linebuffer_wapper.rtl.
+@N: CD630 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":126:7:126:16|Synthesizing work.linebuffer.rtl.
+@N: CD630 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":57:7:57:13|Synthesizing work.dp_bram.rtl.
+@N: CL134 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":83:9:83:17|Found RAM mem_array, depth=1280, width=16
+@N|Running in 64-bit mode
+

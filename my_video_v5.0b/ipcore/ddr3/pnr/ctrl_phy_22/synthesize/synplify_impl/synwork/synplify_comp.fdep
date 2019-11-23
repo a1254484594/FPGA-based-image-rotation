@@ -1,0 +1,90 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\synthesize\\synplify_impl\\synwork\\synplify_comp.srs|-top|ipsl_hmemc_top_test|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-dspmac|-nram|-divnmod|-nostructver|-I|C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\pnr\\ctrl_phy_22|-I|C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\synthesize\\|-I|C:\\pango\\PDS_2019.1-patch11\\syn\\lib|-v2001|-devicelib|C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\generic\\logos.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\bin64\\c_ver.exe":1560764244
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\generic\\logos.v":1560764252
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vlog\\hypermods.v":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vlog\\umr_capim.v":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vlog\\scemi_objects.v":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vlog\\scemi_pipes.svh":1560764264
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\example_design\\rtl\\prbs31_128bit.v":1569400927
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\example_design\\rtl\\test_main_ctrl.v":1569400927
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\rtl\\pll\\pll_50_400.v":1571797941
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\rtl\\ipsl_ddrc_apb_reset.v":1569400927
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\rtl\\ipsl_ddrc_reset_ctrl.v":1569400927
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\rtl\\ipsl_ddrphy_dll_update_ctrl.v":1569400927
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\rtl\\ipsl_ddrphy_reset_ctrl.v":1569400927
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\rtl\\ipsl_ddrphy_training_ctrl.v":1569400927
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\rtl\\ipsl_ddrphy_update_ctrl.v":1569400927
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\rtl\\ipsl_hmemc_ddrc_top.v":1569400927
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\rtl\\ipsl_hmemc_phy_top.v":1569400927
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\rtl\\ipsl_phy_io.v":1569400927
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\ddr3.v":1571797941
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\example_design\\rtl\\test_rd_ctrl_64bit.v":1569400927
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\example_design\\rtl\\test_wr_ctrl_64bit.v":1569400927
+#CUR:"C:\\Users\\zzl\\Desktop\\FPGA\\PANGO\\my_video_v1.3\\ipcore\\ddr3\\example_design\\rtl\\ipsl_hmemc_top_test.v":1571808129
+0			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v" verilog
+1			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_main_ctrl.v" verilog
+2			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\pll\pll_50_400.v" verilog
+3			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v" verilog
+4			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v" verilog
+5			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v" verilog
+6			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v" verilog
+7			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v" verilog
+8			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v" verilog
+9			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v" verilog
+10			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v" verilog
+11			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\rtl\ipsl_phy_io.v" verilog
+12			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\ddr3.v" verilog
+13			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v" verilog
+14			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v" verilog
+15			"C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 -1
+3 -1
+4 3
+5 -1
+6 -1
+7 -1
+8 -1
+9 4
+10 11 8 5 7 6
+11 -1
+12 9 10 2
+13 -1
+14 0
+15 12 13 14 1
+#Dependency Lists(Users Of)
+0 14 1
+1 15
+2 12
+3 4
+4 9
+5 10
+6 10
+7 10
+8 10
+9 12
+10 12
+11 10
+12 15
+13 15
+14 15
+15 -1
+#Design Unit to File Association
+module work ipsl_hmemc_top_test 15
+module work test_wr_ctrl_64bit 14
+module work test_rd_ctrl_64bit 13
+module work ddr3 12
+module work ipsl_hmemc_phy_top 10
+module work ipsl_phy_io 11
+module work ipsl_hmemc_ddrc_top 9
+module work ipsl_ddrphy_update_ctrl 8
+module work ipsl_ddrphy_training_ctrl 7
+module work ipsl_ddrphy_reset_ctrl 6
+module work ipsl_ddrphy_dll_update_ctrl 5
+module work ipsl_ddrc_reset_ctrl 4
+module work ipsl_ddrc_apb_reset 3
+module work pll_50_400 2
+module work test_main_ctrl 1
+module work prbs31_128bit 0

@@ -1,0 +1,65 @@
+@N: Setting default value for generic no_of_lines to 4;
+@N: Setting default value for generic samples_per_line to 1280;
+@N: Setting default value for generic data_width to 16;
+@N: CD630 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\linebuffer_Wapper.vhd":8:7:8:23|Synthesizing work.linebuffer_wapper.rtl.
+@N: CD630 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":126:7:126:16|Synthesizing work.linebuffer.rtl.
+@W: CD638 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":158:9:158:10|Signal hi is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD796 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":167:9:167:17|Bit 0 of signal app_wr_en is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":167:9:167:17|Bit 4 of signal app_wr_en is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD638 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":169:9:169:17|Signal mem_wr_en is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":172:9:172:24|Signal app_rd_h_pointer_4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Signal app_wr_h_pointer_4 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Signal app_wr_h_pointer_0 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":57:7:57:13|Synthesizing work.dp_bram.rtl.
+Post processing for work.dp_bram.rtl
+Running optimization stage 1 on dp_bram .......
+@N: CL134 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":83:9:83:17|Found RAM mem_array, depth=1280, width=16
+Post processing for work.linebuffer.rtl
+Running optimization stage 1 on linebuffer .......
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":172:9:172:24|Bit 0 of signal app_rd_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":172:9:172:24|Bit 1 of signal app_rd_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":172:9:172:24|Bit 2 of signal app_rd_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":172:9:172:24|Bit 3 of signal app_rd_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":172:9:172:24|Bit 4 of signal app_rd_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":172:9:172:24|Bit 5 of signal app_rd_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":172:9:172:24|Bit 6 of signal app_rd_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":172:9:172:24|Bit 7 of signal app_rd_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":172:9:172:24|Bit 8 of signal app_rd_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":172:9:172:24|Bit 9 of signal app_rd_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":172:9:172:24|Bit 10 of signal app_rd_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 0 of signal app_wr_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 1 of signal app_wr_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 2 of signal app_wr_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 3 of signal app_wr_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 4 of signal app_wr_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 5 of signal app_wr_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 6 of signal app_wr_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 7 of signal app_wr_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 8 of signal app_wr_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 9 of signal app_wr_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 10 of signal app_wr_h_pointer_4 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 0 of signal app_wr_h_pointer_0 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 1 of signal app_wr_h_pointer_0 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 2 of signal app_wr_h_pointer_0 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 3 of signal app_wr_h_pointer_0 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 4 of signal app_wr_h_pointer_0 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 5 of signal app_wr_h_pointer_0 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 6 of signal app_wr_h_pointer_0 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 7 of signal app_wr_h_pointer_0 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 8 of signal app_wr_h_pointer_0 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 9 of signal app_wr_h_pointer_0 is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":173:9:173:24|Bit 10 of signal app_wr_h_pointer_0 is floating -- simulation mismatch possible.
+@W: CL265 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":277:3:277:4|Removing unused bit 4 of d_rd_en_7(4 downto 0). Either assign all bits or reduce the width of the signal.
+@W: CL271 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":233:3:233:4|Pruning unused bits 4 to 3 of d_cascade_en_7(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Post processing for work.linebuffer_wapper.rtl
+Running optimization stage 1 on work_linebuffer_wapper_rtl_4_1280_16_1_no_of_linessamples_per_linedata_width .......
+Running optimization stage 2 on dp_bram_16_1280 .......
+Running optimization stage 2 on linebuffer_16_1280_4_false .......
+@W: CL279 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":277:3:277:4|Pruning register bits 3 to 1 of d_rd_en(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL157 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd":308:65:308:65|Output data_out has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+Running optimization stage 2 on work_linebuffer_wapper_rtl_4_1280_16_1_no_of_linessamples_per_linedata_width .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\synthesize\synplify_impl\synwork\layer1.rt.csv
+

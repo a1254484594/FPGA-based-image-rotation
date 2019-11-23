@@ -1,0 +1,186 @@
+[INFO][2019-10-23 13:15:58] [2920] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\main.cpp:50] : /***************************Start jtagserver***************************/
+[INFO][2019-10-23 13:15:58] [2920] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\main.cpp:51] : Path: C:/pango/PDS_2019.1-patch11/bin
+[INFO][2019-10-23 13:15:58] [2920] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\main.cpp:52] : Version: 44256
+[DEBUG][2019-10-23 13:15:59] [2920] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:162] : Add a new user_thread, socket descriptor is 1124 user_thread id is 0000000000000B68
+[DEBUG][2019-10-23 13:15:59] [2920] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:163] : After adding, map size is : 1
+[DEBUG][2019-10-23 13:15:59] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:91] : ConnectionThread::run :thread id0000000000003BB4
+[DEBUG][2019-10-23 13:15:59] [2920] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:162] : Add a new user_thread, socket descriptor is 1132 user_thread id is 0000000000000B68
+[DEBUG][2019-10-23 13:15:59] [2920] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:163] : After adding, map size is : 2
+[DEBUG][2019-10-23 13:15:59] [11672] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:91] : ConnectionThread::run :thread id0000000000002D98
+[DEBUG][2019-10-23 13:15:59] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:105] : IP address of connecting client is : ::ffff:127.0.0.1
+[DEBUG][2019-10-23 13:15:59] [11672] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:105] : IP address of connecting client is : ::ffff:127.0.0.1
+[DEBUG][2019-10-23 13:15:59] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:656] : Remove the header data from the client, index : 0
+[DEBUG][2019-10-23 13:15:59] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:707] : _total_bytes_size : 158
+[DEBUG][2019-10-23 13:15:59] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:656] : Remove the header data from the client, index : 0
+[DEBUG][2019-10-23 13:15:59] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:707] : _total_bytes_size : 92
+[DEBUG][2019-10-23 13:15:59] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:370] : cmd id :40012cmd name : get_cable_paras
+[DEBUG][2019-10-23 13:15:59] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:375] : begin to exec cmd
+[DEBUG][2019-10-23 13:15:59] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:138] : cmd operation get_cable_paras releases locker
+[DEBUG][2019-10-23 13:15:59] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:656] : Remove the header data from the client, index : 0
+[DEBUG][2019-10-23 13:15:59] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:707] : _total_bytes_size : 96
+[DEBUG][2019-10-23 13:15:59] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:370] : cmd id :20001cmd name : Open config cable
+[DEBUG][2019-10-23 13:15:59] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:375] : begin to exec cmd
+[DEBUG][2019-10-23 13:15:59] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:527] : Begin to exec DeviceManager InitDeviceChain
+[DEBUG][2019-10-23 13:16:00] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x10303899
+[DEBUG][2019-10-23 13:16:00] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:16:00] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:16:00] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:16:00] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:16:00] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:579] : End to exec DeviceManager iniDeviceChain
+[DEBUG][2019-10-23 13:16:00] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:138] : cmd operation Open config cable releases locker
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:656] : Remove the header data from the client, index : 0
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:707] : _total_bytes_size : 96
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:370] : cmd id :20001cmd name : Open config cable
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:375] : begin to exec cmd
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:527] : Begin to exec DeviceManager InitDeviceChain
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x10303899
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:579] : End to exec DeviceManager iniDeviceChain
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:138] : cmd operation Open config cable releases locker
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:656] : Remove the header data from the client, index : 0
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:707] : _total_bytes_size : 688
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:370] : cmd id :20002cmd name : Program
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:375] : begin to exec cmd
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:778] : Begin DeviceManager::Handle FPGA :thread id0000000000003BB4
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:477] : Begin to exec DeviceManager IsOKtoRun
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:527] : Begin to exec DeviceManager InitDeviceChain
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x10303899
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:579] : End to exec DeviceManager iniDeviceChain
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:512] : End to exec DeviceManager IsOKtoRun
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:211] : begin to GetDeviceID in the PGImpact.
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:221] : device id is 271595673
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:222] : end to GetDeviceID in the PGImpact.
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:1567] : begin to programe in the PGImpact.
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:606] : begin to write bit file in the PGImpact.
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 6
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 10
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 15
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 20
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 25
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 30
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 35
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 40
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 45
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 50
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 55
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 60
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 65
+[DEBUG][2019-10-23 13:16:03] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 70
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 75
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 80
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 85
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 90
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 95
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 100
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:625] : end to write bit file in the PGImpact.
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:240] : begin to read back the value of config registerregAddr is 9dataNum is 1
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:242] : step1: load CFGI instruction into IR, Instruction is:651
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:248] : step2.1: write synchronized word :20131220
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:256] : step2.2 write NOP command to CMDR register and package header 1 :2826960897
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:270] : step2.3: read specific register and package header 1 :2990538753
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:277] : step3 load CFGO command into IR, Instruction is :652
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:286] : end to read back the value of config register status reg value is 541064352
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:652] : the value in the status register is :541064352
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:1616] : end to programe in the PGImpact.
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:889] : End DeviceManager::HandleFPGA :thread id0000000000003BB4
+[DEBUG][2019-10-23 13:16:04] [15284] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:138] : cmd operation Program releases locker
+[INFO][2019-10-23 13:25:30] [13716] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\main.cpp:50] : /***************************Start jtagserver***************************/
+[INFO][2019-10-23 13:25:30] [13716] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\main.cpp:51] : Path: C:/pango/PDS_2019.1-patch11/bin
+[INFO][2019-10-23 13:25:30] [13716] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\main.cpp:52] : Version: 44256
+[DEBUG][2019-10-23 13:25:31] [13716] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:162] : Add a new user_thread, socket descriptor is 1116 user_thread id is 0000000000003594
+[DEBUG][2019-10-23 13:25:31] [13716] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:163] : After adding, map size is : 1
+[DEBUG][2019-10-23 13:25:31] [13716] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:162] : Add a new user_thread, socket descriptor is 1124 user_thread id is 0000000000003594
+[DEBUG][2019-10-23 13:25:31] [13716] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:163] : After adding, map size is : 2
+[DEBUG][2019-10-23 13:25:31] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:91] : ConnectionThread::run :thread id0000000000001F04
+[DEBUG][2019-10-23 13:25:31] [8900] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:91] : ConnectionThread::run :thread id00000000000022C4
+[DEBUG][2019-10-23 13:25:31] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:105] : IP address of connecting client is : ::ffff:127.0.0.1
+[DEBUG][2019-10-23 13:25:31] [8900] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:105] : IP address of connecting client is : ::ffff:127.0.0.1
+[DEBUG][2019-10-23 13:25:31] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:656] : Remove the header data from the client, index : 0
+[DEBUG][2019-10-23 13:25:31] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:707] : _total_bytes_size : 158
+[DEBUG][2019-10-23 13:25:31] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:656] : Remove the header data from the client, index : 0
+[DEBUG][2019-10-23 13:25:31] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:707] : _total_bytes_size : 92
+[DEBUG][2019-10-23 13:25:31] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:370] : cmd id :40012cmd name : get_cable_paras
+[DEBUG][2019-10-23 13:25:31] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:375] : begin to exec cmd
+[DEBUG][2019-10-23 13:25:31] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:138] : cmd operation get_cable_paras releases locker
+[DEBUG][2019-10-23 13:25:31] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:656] : Remove the header data from the client, index : 0
+[DEBUG][2019-10-23 13:25:31] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:707] : _total_bytes_size : 96
+[DEBUG][2019-10-23 13:25:31] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:370] : cmd id :20001cmd name : Open config cable
+[DEBUG][2019-10-23 13:25:31] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:375] : begin to exec cmd
+[DEBUG][2019-10-23 13:25:31] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:527] : Begin to exec DeviceManager InitDeviceChain
+[DEBUG][2019-10-23 13:25:32] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x10303899
+[DEBUG][2019-10-23 13:25:32] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:25:32] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:25:32] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:25:32] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:25:32] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:579] : End to exec DeviceManager iniDeviceChain
+[DEBUG][2019-10-23 13:25:32] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:138] : cmd operation Open config cable releases locker
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:656] : Remove the header data from the client, index : 0
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:707] : _total_bytes_size : 96
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:370] : cmd id :20001cmd name : Open config cable
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:375] : begin to exec cmd
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:527] : Begin to exec DeviceManager InitDeviceChain
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x10303899
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:579] : End to exec DeviceManager iniDeviceChain
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:138] : cmd operation Open config cable releases locker
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:656] : Remove the header data from the client, index : 0
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:707] : _total_bytes_size : 688
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:370] : cmd id :20002cmd name : Program
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:375] : begin to exec cmd
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:778] : Begin DeviceManager::Handle FPGA :thread id0000000000001F04
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:477] : Begin to exec DeviceManager IsOKtoRun
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:527] : Begin to exec DeviceManager InitDeviceChain
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x10303899
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:258] : the idcode from the scanning is: 0x0
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:579] : End to exec DeviceManager iniDeviceChain
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:512] : End to exec DeviceManager IsOKtoRun
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:211] : begin to GetDeviceID in the PGImpact.
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:221] : device id is 271595673
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:222] : end to GetDeviceID in the PGImpact.
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:1567] : begin to programe in the PGImpact.
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:606] : begin to write bit file in the PGImpact.
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 6
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 10
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 15
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 20
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 25
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 30
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 35
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 40
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 45
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 50
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 55
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 60
+[DEBUG][2019-10-23 13:25:36] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 65
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 70
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 75
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 80
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 85
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 90
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 95
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsconnectionthread.cpp:609] : progress bar is 100
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:625] : end to write bit file in the PGImpact.
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:240] : begin to read back the value of config registerregAddr is 9dataNum is 1
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:242] : step1: load CFGI instruction into IR, Instruction is:651
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:248] : step2.1: write synchronized word :20131220
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:256] : step2.2 write NOP command to CMDR register and package header 1 :2826960897
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:270] : step2.3: read specific register and package header 1 :2990538753
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:277] : step3 load CFGO command into IR, Instruction is :652
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:286] : end to read back the value of config register status reg value is 541064352
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:652] : the value in the status register is :541064352
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsdevicepango.cpp:1616] : end to programe in the PGImpact.
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsmanagerbase.cpp:889] : End DeviceManager::HandleFPGA :thread id0000000000001F04
+[DEBUG][2019-10-23 13:25:37] [7940] - [f:\wf\2019.1\config\pds\fab_develop\branches\pds_2019.1\source\sw\cdt\jtagserver\jsjtagserver.cpp:138] : cmd operation Program releases locker

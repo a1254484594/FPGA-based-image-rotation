@@ -1,0 +1,145 @@
+#project files
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/i2c_master/i2c_config.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/i2c_master/i2c_master_bit_ctrl.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/i2c_master/i2c_master_byte_ctrl.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/i2c_master/i2c_master_top.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/dvi_tx/color_bar.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/dvi_tx/dvi_encoder.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/dvi_tx/encode.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/dvi_tx/serdes_4b_10to1.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/dvi_tx/video_define.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/frame_fifo_read.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/frame_fifo_write.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/frame_read_write.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/aq_axi_master.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/cmos_8_16bit.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/cmos_write_req_gen.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/ax_debounce.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/dvi_tx/video_timing_data.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/gen_new_frame_sign.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/my_aq_axi_master.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/usart_tx_rx.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/get_mpu_angle.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/my_lut_ov5640_rgb565_1280_960.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/lut_sin_cos.v"
+add_file -vhdl  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/img_buf/linebuffer_Wapper.vhd"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/my_frame_read_write.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/calculate_ddr3_addr_block.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/top.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/osd/soure/osd_display_angle.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/osd/soure/timing_gen_xy.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/Binary2BCD.v"
+add_file -vhdl  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/img_buf/ImageXlib_arch.vhd"
+add_file -vhdl  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/img_buf/ImageXlib_utils.vhd"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/pixel_to_block.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/gen_addr_filt.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/pixel_filter_v2.0.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/pixel_read_block_filt_V2.0.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/source/test/key_adj_angle.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/ddr3/rtl/ipsl_ddrphy_training_ctrl.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/ddr3/rtl/ipsl_ddrphy_dll_update_ctrl.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/APM_11mult11/APM_11mult11.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/APM_s8_mult_us8/APM_s8_mult_us8.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/APM_s16_mult_us8/APM_s16_mult_us8.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/APM_multi_add_s16/APM_multi_add_s16.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/afifo_8in8out/rtl/ipm_distributed_sdpram_v1_2_afifo_8in8out.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/afifo_8in8out/afifo_8in8out.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/afifo_8in8out/rtl/ipm_distributed_fifo_v1_2_afifo_8in8out.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/osd_rom/rtl/ipml_rom_v1_3_osd_rom.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/osd_rom/osd_rom.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/ddr3/rtl/ipsl_ddrphy_reset_ctrl.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/fifo_26i_26o/rtl/ipml_fifo_v1_4_fifo_26i_26o.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/fifo_16i_16o/rtl/ipml_fifo_v1_4_fifo_16i_16o.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/fifo_38i_38o/rtl/ipml_fifo_v1_4_fifo_38i_38o.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/afifo_16i_64o_512/rtl/ipml_fifo_v1_4_afifo_16i_64o_512.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/afifo_64i_16o_128/rtl/ipml_fifo_v1_4_afifo_64i_16o_128.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/afifo_64i_64o_512/rtl/ipml_fifo_v1_4_afifo_64i_64o_512.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/ddr3/rtl/ipsl_ddrc_reset_ctrl.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/fifo_26i_26o/fifo_26i_26o.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/fifo_38i_38o/fifo_38i_38o.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/fifo_16i_16o/fifo_16i_16o.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/afifo_64i_16o_128/afifo_64i_16o_128.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/afifo_16i_64o_512/afifo_16i_64o_512.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/afifo_64i_64o_512/afifo_64i_64o_512.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/ddr3/rtl/pll/pll_50_400.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/video_pll/video_pll.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/ddr3/rtl/ipsl_ddrphy_update_ctrl.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/afifo_8in8out/rtl/ipm_distributed_fifo_ctr_v1_0.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/afifo_16i_64o_512/rtl/ipml_fifo_ctrl_v1_3.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/ddr3/rtl/ipsl_hmemc_phy_top.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/ddr3/rtl/ipsl_ddrc_apb_reset.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/ddr3/rtl/ipsl_hmemc_ddrc_top.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/osd_rom/rtl/ipml_spram_v1_3_osd_rom.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/ddr3/ddr3.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/APM_11mult11/rtl/ipml_mult_v1_1.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/APM_multi_add_s16/rtl/ipml_multadd_v1_1.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/afifo_16i_64o_512/rtl/ipml_sdpram_v1_4_afifo_16i_64o_512.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/fifo_26i_26o/rtl/ipml_sdpram_v1_4_fifo_26i_26o.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/fifo_16i_16o/rtl/ipml_sdpram_v1_4_fifo_16i_16o.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/fifo_38i_38o/rtl/ipml_sdpram_v1_4_fifo_38i_38o.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/afifo_64i_16o_128/rtl/ipml_sdpram_v1_4_afifo_64i_16o_128.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/afifo_64i_64o_512/rtl/ipml_sdpram_v1_4_afifo_64i_64o_512.v"
+add_file -verilog  "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ipcore/ddr3/rtl/ipsl_phy_io.v"
+add_file -constraint "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/ddr3_ov5640_hdmi.fdc"
+
+#implementation: "synplify_impl"
+impl -add "C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b/synthesize/synplify_impl" -type fpga
+
+#device options
+set_option -technology Logos
+set_option -part PGL22G
+set_option -speed_grade -7
+set_option -package BG324
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module top
+
+set_option -fanout_limit 1000
+set_option -disable_io_insertion 0
+set_option -update_models_cp 0
+set_option -rw_check_on_ram 1
+set_option -run_prop_extract 1
+set_option -resolve_multiple_driver 0
+
+set_option -symbolic_fsm_compiler 1
+set_option -resource_sharing 1
+set_option -pipe 1
+set_option -retiming 1
+set_option -distributed_compile 0
+
+set_option -frequency auto
+set_option -auto_constrain_io 0
+
+set_option -num_critical_paths 9
+set_option -num_startend_points 3
+
+set_option -vlog_std v2001
+set_option -compiler_compatible 0
+set_option -dup 0
+set_option -multi_file_compilation_unit 1
+set_option -beta_vfeatures 0
+set_option -synthesis_onoff_pragma 0
+set_option -vhdl2008 0
+set_option -supporttypedflt 0
+set_option -beta_vhfeatures 0
+set_option -default_enum_encoding default
+set_option -looplimit 2000
+set_option -project_relative_includes 1
+set_option -include_path {C:/Users/Administrator.1FIX62AK6M9QF8G/Desktop/fpga/my_video_v5.0b}
+set_option -fix_gated_and_generated_clocks 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+# NFilter
+set_option -no_sequential_opt 0
+
+set_option -write_verilog 1
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file synplify.vm
+
+#set log file
+project -log_file synplify.log

@@ -1,0 +1,1285 @@
+# Wed Oct 23 13:23:17 2019
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch11\syn
+OS: Windows 6.2
+
+Hostname: DESKTOP-J96F9GG
+
+Implementation : synplify_impl
+Synopsys Generic Technology Mapper, Version map2019q1p1, Build 1238R, Built Mar 15 2019 09:38:46
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 119MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 119MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 121MB peak: 123MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 210MB peak: 210MB)
+
+@N: MO111 :|Tristate driver dqs_drift_l_t[0] (in view: work.ipsl_hmemc_phy_top_Z4(verilog)) on net dqs_drift_l[0] (in view: work.ipsl_hmemc_phy_top_Z4(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver dqs_drift_l_t[1] (in view: work.ipsl_hmemc_phy_top_Z4(verilog)) on net dqs_drift_l[1] (in view: work.ipsl_hmemc_phy_top_Z4(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver dqs_drift_h_t[0] (in view: work.ipsl_hmemc_phy_top_Z4(verilog)) on net dqs_drift_h[0] (in view: work.ipsl_hmemc_phy_top_Z4(verilog)) has its enable tied to GND.
+@N: MO111 :|Tristate driver dqs_drift_h_t[1] (in view: work.ipsl_hmemc_phy_top_Z4(verilog)) on net dqs_drift_h[1] (in view: work.ipsl_hmemc_phy_top_Z4(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT204 |Auto Constrain mode is disabled because clocks are defined in the SDC file
+
+            pll_refclk_in
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 215MB peak: 215MB)
+
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[32] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[33] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[34] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[35] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[36] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[41] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[42] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[43] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[44] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[45] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[46] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[47] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[48] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[49] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[50] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[51] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[52] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[53] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[54] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[55] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[56] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[57] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[58] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[59] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[60] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[61] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[62] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[63] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[64] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[65] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[66] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[67] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[68] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[69] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[70] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[71] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[72] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[73] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[74] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[75] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[76] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[77] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[78] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[79] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[80] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[81] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[82] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[83] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[84] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[85] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[86] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[87] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[88] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[89] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[90] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[91] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[92] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[93] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[94] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[95] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[96] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[117] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[118] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[119] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[120] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[121] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[122] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[123] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[124] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[125] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[126] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[127] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":164:0:164:5|Removing sequential instance latch_y[128] (in view: work.prbs31_128bit_1_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":174:0:174:5|Removing sequential instance insert_er_d[0] (in view: work.prbs31_128bit_1_Z1(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":174:0:174:5|Removing sequential instance insert_er_d[1] (in view: work.prbs31_128bit_1_Z1(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\prbs31_128bit.v":174:0:174:5|Removing sequential instance insert_er_d[2] (in view: work.prbs31_128bit_1_Z1(verilog)) because it does not drive other instances.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing instance u_test_wr_ctrl.axi_awlen_1[3] because it is equivalent to instance u_test_wr_ctrl.axi_awlen_1[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing instance u_test_wr_ctrl.axi_awlen_1[2] because it is equivalent to instance u_test_wr_ctrl.axi_awlen_1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Found counter in view:work.test_wr_ctrl_64bit_Z2(verilog) instance init_addr[28:2] 
+@N: MO231 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Found counter in view:work.test_wr_ctrl_64bit_Z2(verilog) instance axi_awid[7:0] 
+@N: MO231 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Found counter in view:work.test_wr_ctrl_64bit_Z2(verilog) instance cnt_len[4:0] 
+@N: MO231 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Found counter in view:work.test_wr_ctrl_64bit_Z2(verilog) instance execute_wr_cnt[15:0] 
+@N: MF179 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":251:25:251:53|Found 16 by 16 bit equality operator ('==') write_finished (in view: work.test_wr_ctrl_64bit_Z2(verilog))
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":94:0:94:5|Removing instance u_test_rd_ctrl.axi_arlen_1[3] because it is equivalent to instance u_test_rd_ctrl.axi_arlen_1[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":94:0:94:5|Removing instance u_test_rd_ctrl.axi_arlen_1[2] because it is equivalent to instance u_test_rd_ctrl.axi_arlen_1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":94:0:94:5|Removing instance u_test_rd_ctrl.axi_araddr_1[7] because it is equivalent to instance u_test_rd_ctrl.axi_arlen_1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":94:0:94:5|Removing instance u_test_rd_ctrl.axi_araddr_1[6] because it is equivalent to instance u_test_rd_ctrl.axi_arlen_1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":94:0:94:5|Removing instance u_test_rd_ctrl.axi_araddr_1[5] because it is equivalent to instance u_test_rd_ctrl.axi_arlen_1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":94:0:94:5|Removing instance u_test_rd_ctrl.axi_araddr_1[4] because it is equivalent to instance u_test_rd_ctrl.axi_arlen_1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":94:0:94:5|Removing instance u_test_rd_ctrl.axi_araddr_1[3] because it is equivalent to instance u_test_rd_ctrl.axi_arlen_1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":94:0:94:5|Removing instance u_test_rd_ctrl.axi_araddr_1[2] because it is equivalent to instance u_test_rd_ctrl.axi_arlen_1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":94:0:94:5|Removing instance u_test_rd_ctrl.axi_araddr_1[1] because it is equivalent to instance u_test_rd_ctrl.axi_arlen_1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":147:0:147:5|Found counter in view:work.test_rd_ctrl_64bit_27s_16s_10s_27s_1s_4s_0s_1s_2s(verilog) instance cnt_len[4:0] 
+@N: MO231 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Found counter in view:work.test_rd_ctrl_64bit_27s_16s_10s_27s_1s_4s_0s_1s_2s(verilog) instance execute_rd_cnt[15:0] 
+@N: MF179 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":185:25:185:53|Found 16 by 16 bit equality operator ('==') read_finished (in view: work.test_rd_ctrl_64bit_27s_16s_10s_27s_1s_4s_0s_1s_2s(verilog))
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":94:0:94:5|Removing sequential instance axi_arlen_1[1] (in view: work.test_rd_ctrl_64bit_27s_16s_10s_27s_1s_4s_0s_1s_2s(verilog)) because it does not drive other instances.
+@N: MO231 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v":52:0:52:5|Found counter in view:work.ipsl_ddrphy_reset_ctrl(verilog) instance cnt[7:0] 
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":293:0:293:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.ddrphy_update_comp_val_l[1] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.ddrphy_update_comp_val_h[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO231 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":121:0:121:5|Found counter in view:work.ipsl_ddrphy_update_ctrl_16BIT_2s_0s_1s_2s_3s_1(verilog) instance dqs_drift_h_cnt[7:0] 
+@N: MO231 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":102:0:102:5|Found counter in view:work.ipsl_ddrphy_update_ctrl_16BIT_2s_0s_1s_2s_3s_1(verilog) instance dqs_drift_l_cnt[7:0] 
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":293:0:293:5|Removing sequential instance ddrphy_update_comp_val_h[1] (in view: work.ipsl_ddrphy_update_ctrl_16BIT_2s_0s_1s_2s_3s_1(verilog)) because it does not drive other instances.
+@N: MO231 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":113:0:113:5|Found counter in view:work.ipsl_hmemc_ddrc_top_Z7(verilog) instance u_ipsl_ddrc_reset_ctrl.ddrc_rst_cnt[4:0] 
+@N: MO231 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":86:0:86:5|Found counter in view:work.ipsl_hmemc_ddrc_top_Z7(verilog) instance u_ipsl_ddrc_reset_ctrl.rst_cnt[4:0] 
+@N: MO231 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v":387:0:387:5|Found counter in view:work.ipsl_ddrc_apb_reset_Z5(verilog) instance cnt[6:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 218MB peak: 218MB)
+
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":121:0:121:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dqs_drift_h_d1[1] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dqs_drift_h_d1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":102:0:102:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dqs_drift_l_d1[1] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dqs_drift_h_d1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":102:0:102:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dqs_drift_l_d1[0] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dqs_drift_h_d1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":121:0:121:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dqs_drift_h_now[1] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dqs_drift_h_now[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":102:0:102:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dqs_drift_l_now[1] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dqs_drift_l_now[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":293:0:293:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dqs_drift_l_last[1] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dqs_drift_l_last[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":293:0:293:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dqs_drift_h_last[1] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dqs_drift_h_last[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":293:0:293:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.ddrphy_update_comp_dir_l because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.ddrphy_update_comp_dir_h. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":121:0:121:5|Removing sequential instance u_ddrphy_update_ctrl.dqs_drift_h_d1[0] (in view: work.ipsl_hmemc_phy_top_Z4(verilog)) because it does not drive other instances.
+Auto Dissolve of u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top (inst of view:work.ipsl_hmemc_phy_top_Z4(verilog))
+
+Finished factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 223MB peak: 223MB)
+
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing sequential instance u_test_wr_ctrl.normal_wr_addr_0_0[2] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing sequential instance u_test_wr_ctrl.normal_wr_addr_0_0[3] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing sequential instance u_test_wr_ctrl.normal_wr_addr_0_0[4] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing sequential instance u_test_wr_ctrl.normal_wr_addr_0_0[5] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing sequential instance u_test_wr_ctrl.normal_wr_addr_0_0[6] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing sequential instance u_test_wr_ctrl.normal_wr_addr_0_0[7] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing sequential instance u_test_wr_ctrl.normal_wr_addr_0[2] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing sequential instance u_test_wr_ctrl.normal_wr_addr_0[3] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing sequential instance u_test_wr_ctrl.normal_wr_addr_0[4] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing sequential instance u_test_wr_ctrl.normal_wr_addr_0[5] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing sequential instance u_test_wr_ctrl.normal_wr_addr_0[6] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing sequential instance u_test_wr_ctrl.normal_wr_addr_0[7] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing sequential instance u_test_wr_ctrl.axi_awaddr_1_1[6] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing sequential instance u_test_wr_ctrl.axi_awaddr_1_1[7] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing sequential instance u_test_wr_ctrl.axi_awaddr_1_1[8] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing sequential instance u_test_wr_ctrl.axi_awaddr_1_1[9] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing sequential instance u_test_wr_ctrl.axi_awaddr_1_1[10] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing sequential instance u_test_wr_ctrl.axi_awaddr_1_1[11] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing sequential instance u_test_wr_ctrl.axi_awaddr_1_1[12] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing sequential instance u_test_wr_ctrl.axi_awaddr_1_1[13] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing sequential instance u_test_wr_ctrl.axi_awaddr_1_1[14] (in view: work.ipsl_hmemc_top_test(verilog)) because it does not drive other instances.
+
+Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report_messages -log C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synlog\synplify_fpga_mapper.srr -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 358MB peak: 358MB)
+
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":54:0:54:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step_0_0[0] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step_0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":54:0:54:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step_1[0] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step_0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":54:0:54:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step_0[1] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":54:0:54:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step_0[2] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":54:0:54:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step_0[3] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":54:0:54:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step_0[4] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":54:0:54:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step_0[5] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":54:0:54:5|Removing instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step_0[6] because it is equivalent to instance u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing instance u_test_wr_ctrl.normal_wr_addr_0_0[0] because it is equivalent to instance u_test_wr_ctrl.normal_wr_addr_0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing instance u_test_wr_ctrl.normal_wr_addr_0_0[1] because it is equivalent to instance u_test_wr_ctrl.normal_wr_addr_0[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing instance u_test_wr_ctrl.normal_wr_addr_0_1[0] because it is equivalent to instance u_test_wr_ctrl.normal_wr_addr[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing instance u_test_wr_ctrl.normal_wr_addr_0_1[1] because it is equivalent to instance u_test_wr_ctrl.normal_wr_addr[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing instance u_test_wr_ctrl.normal_wr_addr_0_1[2] because it is equivalent to instance u_test_wr_ctrl.normal_wr_addr[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing instance u_test_wr_ctrl.normal_wr_addr_0_1[3] because it is equivalent to instance u_test_wr_ctrl.normal_wr_addr[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing instance u_test_wr_ctrl.normal_wr_addr_0_1[4] because it is equivalent to instance u_test_wr_ctrl.normal_wr_addr[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":164:0:164:5|Removing instance u_test_wr_ctrl.normal_wr_addr_0_1[5] because it is equivalent to instance u_test_wr_ctrl.normal_wr_addr[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":147:0:147:5|Removing instance u_test_rd_ctrl.normal_rd_addr_1[6] because it is equivalent to instance u_test_rd_ctrl.normal_rd_addr[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":147:0:147:5|Removing instance u_test_rd_ctrl.normal_rd_addr_0[6] because it is equivalent to instance u_test_rd_ctrl.normal_rd_addr[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":147:0:147:5|Removing instance u_test_rd_ctrl.normal_rd_addr_3[6] because it is equivalent to instance u_test_rd_ctrl.normal_rd_addr[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":147:0:147:5|Removing instance u_test_rd_ctrl.normal_rd_addr_2[6] because it is equivalent to instance u_test_rd_ctrl.normal_rd_addr[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing instance u_test_wr_ctrl.axi_awaddr_1_1[0] because it is equivalent to instance u_test_wr_ctrl.axi_awaddr_1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing instance u_test_wr_ctrl.axi_awaddr_1_0[0] because it is equivalent to instance u_test_wr_ctrl.axi_awaddr_1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing instance u_test_wr_ctrl.axi_awaddr_1_1[1] because it is equivalent to instance u_test_wr_ctrl.axi_awaddr_1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing instance u_test_wr_ctrl.axi_awaddr_1_0[1] because it is equivalent to instance u_test_wr_ctrl.axi_awaddr_1[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing instance u_test_wr_ctrl.axi_awaddr_1_1[2] because it is equivalent to instance u_test_wr_ctrl.axi_awaddr_1[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing instance u_test_wr_ctrl.axi_awaddr_1_0[2] because it is equivalent to instance u_test_wr_ctrl.axi_awaddr_1[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing instance u_test_wr_ctrl.axi_awaddr_1_1[3] because it is equivalent to instance u_test_wr_ctrl.axi_awaddr_1[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing instance u_test_wr_ctrl.axi_awaddr_1_0[3] because it is equivalent to instance u_test_wr_ctrl.axi_awaddr_1[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing instance u_test_wr_ctrl.axi_awaddr_1_1[4] because it is equivalent to instance u_test_wr_ctrl.axi_awaddr_1[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing instance u_test_wr_ctrl.axi_awaddr_1_0[4] because it is equivalent to instance u_test_wr_ctrl.axi_awaddr_1[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing instance u_test_wr_ctrl.axi_awaddr_1_1[5] because it is equivalent to instance u_test_wr_ctrl.axi_awaddr_1[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":104:0:104:5|Removing instance u_test_wr_ctrl.axi_awaddr_1_0[5] because it is equivalent to instance u_test_wr_ctrl.axi_awaddr_1[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":116:0:116:5|Removing instance u_test_wr_ctrl.cnt_1[7] because it is equivalent to instance u_test_wr_ctrl.cnt[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":116:0:116:5|Removing instance u_test_wr_ctrl.cnt_1[8] because it is equivalent to instance u_test_wr_ctrl.cnt[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":116:0:116:5|Removing instance u_test_wr_ctrl.cnt_1[10] because it is equivalent to instance u_test_wr_ctrl.cnt[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":116:0:116:5|Removing instance u_test_wr_ctrl.cnt_1[12] because it is equivalent to instance u_test_wr_ctrl.cnt[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":116:0:116:5|Removing instance u_test_wr_ctrl.cnt_1[13] because it is equivalent to instance u_test_wr_ctrl.cnt[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":116:0:116:5|Removing instance u_test_wr_ctrl.cnt_1[14] because it is equivalent to instance u_test_wr_ctrl.cnt[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":116:0:116:5|Removing instance u_test_wr_ctrl.cnt_1[19] because it is equivalent to instance u_test_wr_ctrl.cnt[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[0] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[1] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[2] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[3] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[4] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[5] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[6] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[7] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[8] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[9] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[10] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[11] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[12] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[13] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[14] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_wr_ctrl_64bit.v":232:0:232:5|Removing instance u_test_wr_ctrl.req_wr_cnt_0[15] because it is equivalent to instance u_test_wr_ctrl.req_wr_cnt[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[0] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[1] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[2] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[3] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[4] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[5] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[6] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[7] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[8] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[9] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[10] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[11] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[12] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[13] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[14] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":171:0:171:5|Removing instance u_test_rd_ctrl.req_rd_cnt_0[15] because it is equivalent to instance u_test_rd_ctrl.req_rd_cnt[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":147:0:147:5|Removing instance u_test_rd_ctrl.normal_rd_addr_0_0[0] because it is equivalent to instance u_test_rd_ctrl.normal_rd_addr_0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":147:0:147:5|Removing instance u_test_rd_ctrl.normal_rd_addr_2[0] because it is equivalent to instance u_test_rd_ctrl.normal_rd_addr_0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":147:0:147:5|Removing instance u_test_rd_ctrl.normal_rd_addr_1[0] because it is equivalent to instance u_test_rd_ctrl.normal_rd_addr_0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":147:0:147:5|Removing instance u_test_rd_ctrl.normal_rd_addr_3[0] because it is equivalent to instance u_test_rd_ctrl.normal_rd_addr_0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":147:0:147:5|Removing instance u_test_rd_ctrl.normal_rd_addr_2[1] because it is equivalent to instance u_test_rd_ctrl.normal_rd_addr[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":147:0:147:5|Removing instance u_test_rd_ctrl.normal_rd_addr_1[1] because it is equivalent to instance u_test_rd_ctrl.normal_rd_addr[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":147:0:147:5|Removing instance u_test_rd_ctrl.normal_rd_addr_0[1] because it is equivalent to instance u_test_rd_ctrl.normal_rd_addr[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":147:0:147:5|Removing instance u_test_rd_ctrl.normal_rd_addr_3[1] because it is equivalent to instance u_test_rd_ctrl.normal_rd_addr[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\example_design\rtl\test_rd_ctrl_64bit.v":147:0:147:5|Removing instance u_test_rd_ctrl.normal_rd_addr_1[2] because it is equivalent to instance u_test_rd_ctrl.normal_rd_addr[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Only the first 100 messages of id 'BN132' are reported. To see all messages use 'report_messages -log C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synlog\synplify_fpga_mapper.srr -id BN132' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN132} -count unlimited' in the Tcl shell.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 358MB peak: 358MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 358MB peak: 359MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 359MB peak: 359MB)
+
+@W: FX553 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v":115:15:115:18|Could not implement Block ROM for u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.data_2[43:3].
+@N: FX214 :"c:\users\zzl\desktop\fpga\pango\my_video_v1.3\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v":115:15:115:18|Generating ROM u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.data_2[43:3] (in view: work.ipsl_hmemc_ddrc_top_Z7(verilog)).
+
+Finished preparing to map (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 360MB peak: 360MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 362MB peak: 362MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:13s		     1.01ns		 763 /       423
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 362MB peak: 363MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:24s; Memory used current: 364MB peak: 364MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:24s; Memory used current: 292MB peak: 364MB)
+
+Writing Analyst data base C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synwork\synplify_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:37s; CPU Time elapsed 0h:00m:35s; Memory used current: 370MB peak: 370MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:37s; Memory used current: 402MB peak: 402MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:39s; CPU Time elapsed 0h:00m:37s; Memory used current: 402MB peak: 402MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:40s; CPU Time elapsed 0h:00m:38s; Memory used current: 362MB peak: 402MB)
+
+@N: MT615 |Found clock pll_refclk_in with period 20.00ns 
+@N: MT615 |Found clock phy_clk with period 2.00ns 
+@N: MT615 |Found clock axi_clk1 with period 10.00ns 
+@W: MT420 |Found inferred clock pll_50_400|clkout1_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_pll_50_400.pll_pclk.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|IOCLK_DIV_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.ddrc_core_clk.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_dqs_clk_regional_inferred_clock[0] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_dqs_clk_regional[0].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_dqs_clk_regional_inferred_clock[1] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_dqs_clk_regional[1].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_dqs_clk_regional_inferred_clock[2] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_dqs_clk_regional[2].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_dqs_clk_regional_inferred_clock[3] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_dqs_clk_regional[3].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_dqs_clk_regional_inferred_clock[4] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_dqs_clk_regional[4].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|dqs0_clk_r_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs0_clk_r.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[2] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[2].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|dqs_clkw290_0_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs_clkw290_0.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[3] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[3].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|dqs_90_0_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs_90_0.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[4] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[4].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[5] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[5].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[6] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[6].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[7] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[7].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[9] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[9].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|dqs_clkw_0_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs_clkw_0.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[10] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[10].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[11] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[11].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[12] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[12].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|dqs_ca_clk_r_01_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs_ca_clk_r_01.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[17] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[17].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|dqs_clkw_ca_01_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs_clkw_ca_01.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[18] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[18].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[19] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[19].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[20] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[20].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[21] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[21].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[22] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[22].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[23] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[23].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[24] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[24].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[25] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[25].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[27] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[27].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|dqs_90_1_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs_90_1.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|dqs1_clk_r_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs1_clk_r.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|dqs_clkw290_1_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs_clkw290_1.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[28] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[28].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[29] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[29].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[31] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[31].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|dqs_clkw_1_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs_clkw_1.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[32] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[32].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[33] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[33].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[34] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[34].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[35] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[35].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[36] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[36].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[37] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[37].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|dqs_ca_clk_r_03_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs_ca_clk_r_03.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[40] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[40].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|dqs_clkw_ca_03_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs_clkw_ca_03.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[41] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[41].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[42] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[42].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[43] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[43].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[44] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[44].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[45] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[45].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[46] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[46].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[47] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[47].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[48] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[48].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[49] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[49].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[51] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[51].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[52] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[52].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|dqs_ca_clk_r_04_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs_ca_clk_r_04.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[55] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[55].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|dqs_clkw_ca_04_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs_clkw_ca_04.
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[56] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[56].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[57] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[57].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[58] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[58].
+@W: MT420 |Found inferred clock ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[59] with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.buffer_clk_sys[59].
+@W: MT420 |Found inferred clock ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock with period 1000.00ns. Please declare a user-defined clock on net u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_dll_update_ctrl.dll_update_n[0].
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Oct 23 13:23:58 2019
+#
+
+
+Top view:               ipsl_hmemc_top_test
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        3
+Constraint File(s):    C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\pnr\ctrl_phy_22\ddr_324_left.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 1.008
+
+                                                             Requested     Estimated      Requested     Estimated                 Clock                              Clock               
+Starting Clock                                               Frequency     Frequency      Period        Period        Slack       Type                               Group               
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+axi_clk1                                                     100.0 MHz     190.6 MHz      10.000        5.246         4.754       generated (from pll_refclk_in)     default_clkgroup    
+ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock      1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_67
+ipsl_phy_io_Z3|IOCLK_DIV_inferred_clock                      1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_1 
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[2]              1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_8 
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[3]              1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_10
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[4]              1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_12
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[5]              1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_13
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[6]              1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_14
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[7]              1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_15
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[9]              1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_16
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[10]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_18
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[11]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_19
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[12]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_20
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[17]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_22
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[18]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_24
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[19]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_25
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[20]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_26
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[21]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_27
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[22]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_28
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[23]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_29
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[24]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_30
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[25]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_31
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[27]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_32
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[28]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_36
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[29]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_37
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[31]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_38
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[32]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_40
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[33]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_41
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[34]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_42
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[35]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_43
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[36]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_44
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[37]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_45
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[40]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_47
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[41]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_49
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[42]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_50
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[43]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_51
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[44]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_52
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[45]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_53
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[46]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_54
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[47]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_55
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[48]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_56
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[49]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_57
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[51]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_58
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[52]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_59
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[55]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_61
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[56]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_63
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[57]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_64
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[58]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_65
+ipsl_phy_io_Z3|buffer_clk_sys_inferred_clock[59]             1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_66
+ipsl_phy_io_Z3|buffer_dqs_clk_regional_inferred_clock[0]     1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_2 
+ipsl_phy_io_Z3|buffer_dqs_clk_regional_inferred_clock[1]     1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_3 
+ipsl_phy_io_Z3|buffer_dqs_clk_regional_inferred_clock[2]     1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_4 
+ipsl_phy_io_Z3|buffer_dqs_clk_regional_inferred_clock[3]     1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_5 
+ipsl_phy_io_Z3|buffer_dqs_clk_regional_inferred_clock[4]     1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_6 
+ipsl_phy_io_Z3|dqs0_clk_r_inferred_clock                     1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_7 
+ipsl_phy_io_Z3|dqs1_clk_r_inferred_clock                     1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_34
+ipsl_phy_io_Z3|dqs_90_0_inferred_clock                       1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_11
+ipsl_phy_io_Z3|dqs_90_1_inferred_clock                       1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_33
+ipsl_phy_io_Z3|dqs_ca_clk_r_01_inferred_clock                1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_21
+ipsl_phy_io_Z3|dqs_ca_clk_r_03_inferred_clock                1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_46
+ipsl_phy_io_Z3|dqs_ca_clk_r_04_inferred_clock                1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_60
+ipsl_phy_io_Z3|dqs_clkw290_0_inferred_clock                  1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_9 
+ipsl_phy_io_Z3|dqs_clkw290_1_inferred_clock                  1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_35
+ipsl_phy_io_Z3|dqs_clkw_0_inferred_clock                     1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_17
+ipsl_phy_io_Z3|dqs_clkw_1_inferred_clock                     1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_39
+ipsl_phy_io_Z3|dqs_clkw_ca_01_inferred_clock                 1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_23
+ipsl_phy_io_Z3|dqs_clkw_ca_03_inferred_clock                 1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_48
+ipsl_phy_io_Z3|dqs_clkw_ca_04_inferred_clock                 1.0 MHz       NA             1000.000      NA            NA          inferred                           Inferred_clkgroup_62
+phy_clk                                                      500.0 MHz     1008.1 MHz     2.000         0.992         1.008       generated (from pll_refclk_in)     default_clkgroup    
+pll_50_400|clkout1_inferred_clock                            1.0 MHz       120.6 MHz      1000.000      8.294         991.706     inferred                           Inferred_clkgroup_0 
+pll_refclk_in                                                50.0 MHz      NA             20.000        NA            NA          declared                           default_clkgroup    
+System                                                       1.0 MHz       3723.0 MHz     1000.000      0.269         999.731     system                             system_clkgroup     
+=========================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                 Ending                                                   |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                   pll_50_400|clkout1_inferred_clock                        |  1000.000    999.731  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                   ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock  |  1000.000    999.731  |  No paths    -      |  No paths    -      |  No paths    -    
+phy_clk                                                  phy_clk                                                  |  2.000       1.008    |  No paths    -      |  No paths    -      |  No paths    -    
+axi_clk1                                                 axi_clk1                                                 |  10.000      4.754    |  No paths    -      |  No paths    -      |  No paths    -    
+pll_50_400|clkout1_inferred_clock                        System                                                   |  1000.000    999.133  |  No paths    -      |  No paths    -      |  No paths    -    
+pll_50_400|clkout1_inferred_clock                        axi_clk1                                                 |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+pll_50_400|clkout1_inferred_clock                        pll_50_400|clkout1_inferred_clock                        |  1000.000    991.706  |  No paths    -      |  No paths    -      |  No paths    -    
+pll_50_400|clkout1_inferred_clock                        ipsl_phy_io_Z3|IOCLK_DIV_inferred_clock                  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+ipsl_phy_io_Z3|IOCLK_DIV_inferred_clock                  pll_50_400|clkout1_inferred_clock                        |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock  pll_50_400|clkout1_inferred_clock                        |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: axi_clk1
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                    Starting                                                   Arrival          
+Instance                            Reference     Type          Pin     Net                    Time        Slack
+                                    Clock                                                                       
+----------------------------------------------------------------------------------------------------------------
+u_test_rd_ctrl.axi_arvalid          axi_clk1      GTP_DFF_C     Q       axi_arvalid            0.290       4.754
+u_test_wr_ctrl.axi_awvalid          axi_clk1      GTP_DFF_C     Q       axi_awvalid            0.290       4.845
+u_test_wr_ctrl.axi_awaddr_1[21]     axi_clk1      GTP_DFF_C     Q       dsp_join_kb_18[20]     0.290       5.560
+u_test_wr_ctrl.axi_awaddr_1[20]     axi_clk1      GTP_DFF_C     Q       dsp_join_kb_18[19]     0.290       5.564
+u_test_wr_ctrl.axi_awaddr_1[27]     axi_clk1      GTP_DFF_C     Q       dsp_join_kb_18[26]     0.290       5.564
+u_test_wr_ctrl.axi_awaddr_1[18]     axi_clk1      GTP_DFF_C     Q       dsp_join_kb_18[17]     0.290       5.568
+u_test_wr_ctrl.axi_awaddr_1[19]     axi_clk1      GTP_DFF_C     Q       dsp_join_kb_18[18]     0.290       5.674
+u_test_wr_ctrl.axi_awaddr_1[25]     axi_clk1      GTP_DFF_C     Q       dsp_join_kb_18[24]     0.290       5.674
+u_test_wr_ctrl.axi_awaddr_1[17]     axi_clk1      GTP_DFF_C     Q       dsp_join_kb_18[16]     0.290       5.678
+u_test_wr_ctrl.axi_awaddr_1[24]     axi_clk1      GTP_DFF_C     Q       dsp_join_kb_18[23]     0.290       5.678
+================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                  Starting                                                       Required          
+Instance                                          Reference     Type          Pin           Net                  Time         Slack
+                                                  Clock                                                                            
+-----------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ddrc     axi_clk1      GTP_DDRC      ARVALID_1     arvalid_1            5.432        4.754
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ddrc     axi_clk1      GTP_DDRC      AWVALID_1     awvalid_1            5.443        4.845
+u_test_wr_ctrl.axi_awaddr_1[28]                   axi_clk1      GTP_DFF_C     D             axi_awaddr_7[28]     10.020       5.560
+u_test_wr_ctrl.axi_awaddr_1[27]                   axi_clk1      GTP_DFF_C     D             axi_awaddr_7[27]     10.020       5.590
+u_test_wr_ctrl.axi_awaddr_1[26]                   axi_clk1      GTP_DFF_C     D             axi_awaddr_7[26]     10.020       5.624
+u_test_wr_ctrl.axi_awaddr_1[25]                   axi_clk1      GTP_DFF_C     D             axi_awaddr_7[25]     10.020       5.658
+u_test_wr_ctrl.axi_awaddr_1[24]                   axi_clk1      GTP_DFF_C     D             axi_awaddr_7[24]     10.020       5.692
+u_test_wr_ctrl.axi_awaddr_1[23]                   axi_clk1      GTP_DFF_C     D             axi_awaddr_7[23]     10.020       5.726
+u_test_wr_ctrl.axi_awaddr_1[22]                   axi_clk1      GTP_DFF_C     D             axi_awaddr_7[22]     10.020       5.760
+u_test_wr_ctrl.axi_awaddr_1[21]                   axi_clk1      GTP_DFF_C     D             axi_awaddr_7[21]     10.020       5.794
+===================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            4.568
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.432
+
+    - Propagation time:                      0.678
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 4.754
+
+    Number of logic level(s):                0
+    Starting point:                          u_test_rd_ctrl.axi_arvalid / Q
+    Ending point:                            u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ddrc / ARVALID_1
+    The start point is clocked by            axi_clk1 [rising] on pin CLK
+    The end   point is clocked by            axi_clk1 [rising] on pin ACLK_1
+
+Instance / Net                                                  Pin           Pin               Arrival     No. of    
+Name                                              Type          Name          Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------
+u_test_rd_ctrl.axi_arvalid                        GTP_DFF_C     Q             Out     0.290     0.290       -         
+axi_arvalid                                       Net           -             -       0.388     -           7         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ddrc     GTP_DDRC      ARVALID_1     In      -         0.678       -         
+======================================================================================================================
+Total path delay (propagation time + setup) of 5.246 is 4.858(92.6%) logic and 0.388(7.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            4.557
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         5.443
+
+    - Propagation time:                      0.599
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 4.845
+
+    Number of logic level(s):                0
+    Starting point:                          u_test_wr_ctrl.axi_awvalid / Q
+    Ending point:                            u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ddrc / AWVALID_1
+    The start point is clocked by            axi_clk1 [rising] on pin CLK
+    The end   point is clocked by            axi_clk1 [rising] on pin ACLK_1
+
+Instance / Net                                                  Pin           Pin               Arrival     No. of    
+Name                                              Type          Name          Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------
+u_test_wr_ctrl.axi_awvalid                        GTP_DFF_C     Q             Out     0.290     0.290       -         
+axi_awvalid                                       Net           -             -       0.308     -           3         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ddrc     GTP_DDRC      AWVALID_1     In      -         0.599       -         
+======================================================================================================================
+Total path delay (propagation time + setup) of 5.155 is 4.847(94.0%) logic and 0.308(6.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            -0.020
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.020
+
+    - Propagation time:                      4.460
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 5.560
+
+    Number of logic level(s):                26
+    Starting point:                          u_test_wr_ctrl.axi_awaddr_1[21] / Q
+    Ending point:                            u_test_wr_ctrl.axi_awaddr_1[28] / D
+    The start point is clocked by            axi_clk1 [rising] on pin CLK
+    The end   point is clocked by            axi_clk1 [rising] on pin CLK
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                        Type              Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+u_test_wr_ctrl.axi_awaddr_1[21]             GTP_DFF_C         Q        Out     0.290     0.290       -         
+dsp_join_kb_18[20]                          Net               -        -       0.308     -           3         
+u_test_wr_ctrl.axi_awid_0_sqmuxa_i_a2_3     GTP_LUT5          I3       In      -         0.599       -         
+u_test_wr_ctrl.axi_awid_0_sqmuxa_i_a2_3     GTP_LUT5          Z        Out     0.420     1.018       -         
+axi_awid_0_sqmuxa_i_a2_3                    Net               -        -       0.269     -           1         
+u_test_wr_ctrl.axi_awid_0_sqmuxa_i_a2       GTP_LUT5          I3       In      -         1.287       -         
+u_test_wr_ctrl.axi_awid_0_sqmuxa_i_a2       GTP_LUT5          Z        Out     0.420     1.707       -         
+N_120                                       Net               -        -       0.289     -           2         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_6_cco     GTP_LUT3          I0       In      -         1.996       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_6_cco     GTP_LUT3          Z        Out     0.251     2.247       -         
+axi_awaddr_7_0_cry_6_cco                    Net               -        -       0.269     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_6         GTP_LUT5CARRY     I2       In      -         2.515       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_6         GTP_LUT5CARRY     COUT     Out     0.348     2.863       -         
+axi_awaddr_7_0_cry_6                        Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_7         GTP_LUT5CARRY     CIN      In      -         2.863       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_7         GTP_LUT5CARRY     COUT     Out     0.034     2.897       -         
+axi_awaddr_7_0_cry_7                        Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_8         GTP_LUT5CARRY     CIN      In      -         2.897       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_8         GTP_LUT5CARRY     COUT     Out     0.034     2.931       -         
+axi_awaddr_7_0_cry_8                        Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_9         GTP_LUT5CARRY     CIN      In      -         2.931       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_9         GTP_LUT5CARRY     COUT     Out     0.034     2.965       -         
+axi_awaddr_7_0_cry_9                        Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_10        GTP_LUT5CARRY     CIN      In      -         2.965       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_10        GTP_LUT5CARRY     COUT     Out     0.034     2.999       -         
+axi_awaddr_7_0_cry_10                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_11        GTP_LUT5CARRY     CIN      In      -         2.999       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_11        GTP_LUT5CARRY     COUT     Out     0.034     3.033       -         
+axi_awaddr_7_0_cry_11                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_12        GTP_LUT5CARRY     CIN      In      -         3.033       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_12        GTP_LUT5CARRY     COUT     Out     0.034     3.067       -         
+axi_awaddr_7_0_cry_12                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_13        GTP_LUT5CARRY     CIN      In      -         3.067       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_13        GTP_LUT5CARRY     COUT     Out     0.034     3.101       -         
+axi_awaddr_7_0_cry_13                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_14        GTP_LUT5CARRY     CIN      In      -         3.101       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_14        GTP_LUT5CARRY     COUT     Out     0.034     3.135       -         
+axi_awaddr_7_0_cry_14                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_15        GTP_LUT5CARRY     CIN      In      -         3.135       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_15        GTP_LUT5CARRY     COUT     Out     0.034     3.169       -         
+axi_awaddr_7_0_cry_15                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_16        GTP_LUT5CARRY     CIN      In      -         3.169       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_16        GTP_LUT5CARRY     COUT     Out     0.034     3.203       -         
+axi_awaddr_7_0_cry_16                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_17        GTP_LUT5CARRY     CIN      In      -         3.203       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_17        GTP_LUT5CARRY     COUT     Out     0.034     3.237       -         
+axi_awaddr_7_0_cry_17                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_18        GTP_LUT5CARRY     CIN      In      -         3.237       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_18        GTP_LUT5CARRY     COUT     Out     0.034     3.271       -         
+axi_awaddr_7_0_cry_18                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_19        GTP_LUT5CARRY     CIN      In      -         3.271       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_19        GTP_LUT5CARRY     COUT     Out     0.034     3.305       -         
+axi_awaddr_7_0_cry_19                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_20        GTP_LUT5CARRY     CIN      In      -         3.305       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_20        GTP_LUT5CARRY     COUT     Out     0.034     3.339       -         
+axi_awaddr_7_0_cry_20                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_21        GTP_LUT5CARRY     CIN      In      -         3.339       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_21        GTP_LUT5CARRY     COUT     Out     0.034     3.373       -         
+axi_awaddr_7_0_cry_21                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_22        GTP_LUT5CARRY     CIN      In      -         3.373       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_22        GTP_LUT5CARRY     COUT     Out     0.034     3.407       -         
+axi_awaddr_7_0_cry_22                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_23        GTP_LUT5CARRY     CIN      In      -         3.407       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_23        GTP_LUT5CARRY     COUT     Out     0.034     3.441       -         
+axi_awaddr_7_0_cry_23                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_24        GTP_LUT5CARRY     CIN      In      -         3.441       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_24        GTP_LUT5CARRY     COUT     Out     0.034     3.475       -         
+axi_awaddr_7_0_cry_24                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_25        GTP_LUT5CARRY     CIN      In      -         3.475       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_25        GTP_LUT5CARRY     COUT     Out     0.034     3.509       -         
+axi_awaddr_7_0_cry_25                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_26        GTP_LUT5CARRY     CIN      In      -         3.509       -         
+u_test_wr_ctrl.axi_awaddr_7_0_cry_26        GTP_LUT5CARRY     COUT     Out     0.034     3.543       -         
+axi_awaddr_7_0_cry_26                       Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_7_0_s_27          GTP_LUT5CARRY     CIN      In      -         3.543       -         
+u_test_wr_ctrl.axi_awaddr_7_0_s_27          GTP_LUT5CARRY     Z        Out     0.232     3.775       -         
+axi_awaddr_7_0[27]                          Net               -        -       0.269     -           1         
+u_test_wr_ctrl.axi_awaddr_7[27]             GTP_LUT4          I2       In      -         4.044       -         
+u_test_wr_ctrl.axi_awaddr_7[27]             GTP_LUT4          Z        Out     0.416     4.460       -         
+axi_awaddr_7[28]                            Net               -        -       0.000     -           1         
+u_test_wr_ctrl.axi_awaddr_1[28]             GTP_DFF_C         D        In      -         4.460       -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 4.440 is 3.037(68.4%) logic and 1.403(31.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: phy_clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                 Starting                                                                  Arrival          
+Instance                                                         Reference     Type           Pin                Net                       Time        Slack
+                                                                 Clock                                                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs0_dut     phy_clk       GTP_DDC_E1     IFIFO_RADDR[0]     dqs_ififo_rpoint_0[0]     0.464       1.008
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs0_dut     phy_clk       GTP_DDC_E1     IFIFO_RADDR[1]     dqs_ififo_rpoint_0[1]     0.464       1.008
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs0_dut     phy_clk       GTP_DDC_E1     IFIFO_RADDR[2]     dqs_ififo_rpoint_0[2]     0.464       1.008
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs2_dut     phy_clk       GTP_DDC_E1     IFIFO_RADDR[0]     dqs_ififo_rpoint_1[0]     0.464       1.008
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs2_dut     phy_clk       GTP_DDC_E1     IFIFO_RADDR[1]     dqs_ififo_rpoint_1[1]     0.464       1.008
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs2_dut     phy_clk       GTP_DDC_E1     IFIFO_RADDR[2]     dqs_ififo_rpoint_1[2]     0.464       1.008
+============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                      Starting                                                             Required          
+Instance                                                              Reference     Type            Pin          Net                       Time         Slack
+                                                                      Clock                                                                                  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr3_dut     phy_clk       GTP_ISERDES     RADDR[0]     dqs_ififo_rpoint_0[0]     1.880        1.008
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr3_dut     phy_clk       GTP_ISERDES     RADDR[1]     dqs_ififo_rpoint_0[1]     1.880        1.008
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr3_dut     phy_clk       GTP_ISERDES     RADDR[2]     dqs_ififo_rpoint_0[2]     1.880        1.008
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr4_dut     phy_clk       GTP_ISERDES     RADDR[0]     dqs_ififo_rpoint_0[0]     1.880        1.008
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr4_dut     phy_clk       GTP_ISERDES     RADDR[1]     dqs_ififo_rpoint_0[1]     1.880        1.008
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr4_dut     phy_clk       GTP_ISERDES     RADDR[2]     dqs_ififo_rpoint_0[2]     1.880        1.008
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr5_dut     phy_clk       GTP_ISERDES     RADDR[0]     dqs_ififo_rpoint_0[0]     1.880        1.008
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr5_dut     phy_clk       GTP_ISERDES     RADDR[1]     dqs_ififo_rpoint_0[1]     1.880        1.008
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr5_dut     phy_clk       GTP_ISERDES     RADDR[2]     dqs_ififo_rpoint_0[2]     1.880        1.008
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr6_dut     phy_clk       GTP_ISERDES     RADDR[0]     dqs_ififo_rpoint_0[0]     1.880        1.008
+=============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      2.000
+    - Setup time:                            0.120
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.880
+
+    - Propagation time:                      0.872
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.008
+
+    Number of logic level(s):                0
+    Starting point:                          u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs0_dut / IFIFO_RADDR[0]
+    Ending point:                            u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr3_dut / RADDR[0]
+    The start point is clocked by            phy_clk [rising] on pin CLKA
+    The end   point is clocked by            phy_clk [rising] on pin DESCLK
+
+Instance / Net                                                                        Pin                Pin               Arrival     No. of    
+Name                                                                  Type            Name               Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs0_dut          GTP_DDC_E1      IFIFO_RADDR[0]     Out     0.464     0.464       -         
+dqs_ififo_rpoint_0[0]                                                 Net             -                  -       0.408     -           8         
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr3_dut     GTP_ISERDES     RADDR[0]           In      -         0.872       -         
+=================================================================================================================================================
+Total path delay (propagation time + setup) of 0.992 is 0.584(58.9%) logic and 0.408(41.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      2.000
+    - Setup time:                            0.120
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.880
+
+    - Propagation time:                      0.872
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.008
+
+    Number of logic level(s):                0
+    Starting point:                          u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs0_dut / IFIFO_RADDR[1]
+    Ending point:                            u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr3_dut / RADDR[1]
+    The start point is clocked by            phy_clk [rising] on pin CLKA
+    The end   point is clocked by            phy_clk [rising] on pin DESCLK
+
+Instance / Net                                                                        Pin                Pin               Arrival     No. of    
+Name                                                                  Type            Name               Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs0_dut          GTP_DDC_E1      IFIFO_RADDR[1]     Out     0.464     0.464       -         
+dqs_ififo_rpoint_0[1]                                                 Net             -                  -       0.408     -           8         
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr3_dut     GTP_ISERDES     RADDR[1]           In      -         0.872       -         
+=================================================================================================================================================
+Total path delay (propagation time + setup) of 0.992 is 0.584(58.9%) logic and 0.408(41.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      2.000
+    - Setup time:                            0.120
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.880
+
+    - Propagation time:                      0.872
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.008
+
+    Number of logic level(s):                0
+    Starting point:                          u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs0_dut / IFIFO_RADDR[2]
+    Ending point:                            u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr3_dut / RADDR[2]
+    The start point is clocked by            phy_clk [rising] on pin CLKA
+    The end   point is clocked by            phy_clk [rising] on pin DESCLK
+
+Instance / Net                                                                        Pin                Pin               Arrival     No. of    
+Name                                                                  Type            Name               Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dqs0_dut          GTP_DDC_E1      IFIFO_RADDR[2]     Out     0.464     0.464       -         
+dqs_ififo_rpoint_0[2]                                                 Net             -                  -       0.408     -           8         
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.iol_iddr3_dut     GTP_ISERDES     RADDR[2]           In      -         0.872       -         
+=================================================================================================================================================
+Total path delay (propagation time + setup) of 0.992 is 0.584(58.9%) logic and 0.408(41.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: pll_50_400|clkout1_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                Starting                                                                         Arrival            
+Instance                                                                                        Reference                             Type           Pin     Net                 Time        Slack  
+                                                                                                Clock                                                                                               
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.cnt[1]      pll_50_400|clkout1_inferred_clock     GTP_DFF_CE     Q       cnt[1]              0.290       991.706
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.cnt[0]      pll_50_400|clkout1_inferred_clock     GTP_DFF_CE     Q       cnt[0]              0.290       991.754
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.cnt[4]      pll_50_400|clkout1_inferred_clock     GTP_DFF_CE     Q       cnt[4]              0.290       992.061
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.cnt[5]      pll_50_400|clkout1_inferred_clock     GTP_DFF_CE     Q       cnt[5]              0.290       992.084
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.cnt[3]      pll_50_400|clkout1_inferred_clock     GTP_DFF_CE     Q       cnt[3]              0.290       992.191
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.cnt[2]      pll_50_400|clkout1_inferred_clock     GTP_DFF_CE     Q       cnt[2]              0.290       992.239
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.cnt[6]      pll_50_400|clkout1_inferred_clock     GTP_DFF_CE     Q       cnt[6]              0.290       993.840
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.ddrc_init_start                   pll_50_400|clkout1_inferred_clock     GTP_DFF_PE     Q       ddrc_init_start     0.290       995.070
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.psel        pll_50_400|clkout1_inferred_clock     GTP_DFF_C      Q       init_psel           0.290       995.277
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.penable     pll_50_400|clkout1_inferred_clock     GTP_DFF_C      Q       init_penable        0.290       995.709
+====================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                   Starting                                                                            Required            
+Instance                                                           Reference                             Type           Pin          Net               Time         Slack  
+                                                                   Clock                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.ddrphy_dut     pll_50_400|clkout1_inferred_clock     GTP_DDRPHY     PWRITE       ddrc_pwrite       996.782      991.706
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ddrc                      pll_50_400|clkout1_inferred_clock     GTP_DDRC       PWRITE       ddrc_pwrite       996.782      991.706
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.ddrphy_dut     pll_50_400|clkout1_inferred_clock     GTP_DDRPHY     PADDR[2]     ddrc_paddr[2]     998.089      992.784
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ddrc                      pll_50_400|clkout1_inferred_clock     GTP_DDRC       PADDR[2]     ddrc_paddr[2]     998.089      992.784
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.ddrphy_dut     pll_50_400|clkout1_inferred_clock     GTP_DDRPHY     PADDR[7]     ddrc_paddr[7]     997.967      992.835
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ddrc                      pll_50_400|clkout1_inferred_clock     GTP_DDRC       PADDR[7]     ddrc_paddr[7]     997.967      992.835
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.ddrphy_dut     pll_50_400|clkout1_inferred_clock     GTP_DDRPHY     PADDR[9]     ddrc_paddr[9]     998.195      992.889
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ddrc                      pll_50_400|clkout1_inferred_clock     GTP_DDRC       PADDR[9]     ddrc_paddr[9]     998.195      992.889
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.ddrphy_dut     pll_50_400|clkout1_inferred_clock     GTP_DDRPHY     PADDR[5]     ddrc_paddr[5]     998.127      992.891
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ddrc                      pll_50_400|clkout1_inferred_clock     GTP_DDRC       PADDR[5]     ddrc_paddr[5]     998.127      992.891
+===========================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            3.218
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         996.782
+
+    - Propagation time:                      5.077
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 991.706
+
+    Number of logic level(s):                3
+    Starting point:                          u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.cnt[1] / Q
+    Ending point:                            u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.ddrphy_dut / PWRITE
+    The start point is clocked by            pll_50_400|clkout1_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            pll_50_400|clkout1_inferred_clock [rising] on pin PCLK
+
+Instance / Net                                                                                                        Pin        Pin               Arrival     No. of    
+Name                                                                                                   Type           Name       Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.cnt[1]             GTP_DFF_CE     Q          Out     0.290     0.290       -         
+cnt[1]                                                                                                 Net            -          -       2.773     -           81        
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.un2_pwrite_0_0     GTP_LUT3       I1         In      -         3.063       -         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.un2_pwrite_0_0     GTP_LUT3       Z          Out     0.306     3.369       -         
+un2_pwrite_0_0                                                                                         Net            -          -       0.269     -           1         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.un2_pwrite         GTP_LUT5       I4         In      -         3.638       -         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.un2_pwrite         GTP_LUT5       Z          Out     0.176     3.813       -         
+un2_pwrite                                                                                             Net            -          -       0.798     -           48        
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.ddrc_pwrite                              GTP_LUT2       I1         In      -         4.612       -         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.ddrc_pwrite                              GTP_LUT2       Z          Out     0.176     4.788       -         
+ddrc_pwrite                                                                                            Net            -          -       0.289     -           2         
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.ddrphy_dut                                         GTP_DDRPHY     PWRITE     In      -         5.077       -         
+=========================================================================================================================================================================
+Total path delay (propagation time + setup) of 8.294 is 4.166(50.2%) logic and 4.128(49.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      1000.000
+    - Setup time:                            3.218
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         996.782
+
+    - Propagation time:                      5.077
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 991.706
+
+    Number of logic level(s):                3
+    Starting point:                          u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.cnt[1] / Q
+    Ending point:                            u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ddrc / PWRITE
+    The start point is clocked by            pll_50_400|clkout1_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            pll_50_400|clkout1_inferred_clock [rising] on pin PCLK
+
+Instance / Net                                                                                                        Pin        Pin               Arrival     No. of    
+Name                                                                                                   Type           Name       Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.cnt[1]             GTP_DFF_CE     Q          Out     0.290     0.290       -         
+cnt[1]                                                                                                 Net            -          -       2.773     -           81        
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.un2_pwrite_0_0     GTP_LUT3       I1         In      -         3.063       -         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.un2_pwrite_0_0     GTP_LUT3       Z          Out     0.306     3.369       -         
+un2_pwrite_0_0                                                                                         Net            -          -       0.269     -           1         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.un2_pwrite         GTP_LUT5       I4         In      -         3.638       -         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.un2_pwrite         GTP_LUT5       Z          Out     0.176     3.813       -         
+un2_pwrite                                                                                             Net            -          -       0.798     -           48        
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.ddrc_pwrite                              GTP_LUT2       I1         In      -         4.612       -         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.ddrc_pwrite                              GTP_LUT2       Z          Out     0.176     4.788       -         
+ddrc_pwrite                                                                                            Net            -          -       0.289     -           2         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ddrc                                                          GTP_DDRC       PWRITE     In      -         5.077       -         
+=========================================================================================================================================================================
+Total path delay (propagation time + setup) of 8.294 is 4.166(50.2%) logic and 4.128(49.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      1000.000
+    - Setup time:                            3.218
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         996.782
+
+    - Propagation time:                      5.028
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 991.754
+
+    Number of logic level(s):                3
+    Starting point:                          u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.cnt[0] / Q
+    Ending point:                            u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.ddrphy_dut / PWRITE
+    The start point is clocked by            pll_50_400|clkout1_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            pll_50_400|clkout1_inferred_clock [rising] on pin PCLK
+
+Instance / Net                                                                                                        Pin        Pin               Arrival     No. of    
+Name                                                                                                   Type           Name       Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.cnt[0]             GTP_DFF_CE     Q          Out     0.290     0.290       -         
+cnt[0]                                                                                                 Net            -          -       2.780     -           82        
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.un2_pwrite_0_0     GTP_LUT3       I0         In      -         3.070       -         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.un2_pwrite_0_0     GTP_LUT3       Z          Out     0.251     3.321       -         
+un2_pwrite_0_0                                                                                         Net            -          -       0.269     -           1         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.un2_pwrite         GTP_LUT5       I4         In      -         3.589       -         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.u_ipsl_ddrc_apb_reset.un2_pwrite         GTP_LUT5       Z          Out     0.176     3.765       -         
+un2_pwrite                                                                                             Net            -          -       0.798     -           48        
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.ddrc_pwrite                              GTP_LUT2       I1         In      -         4.564       -         
+u_ipsl_hmemc_top.u_ipsl_hmemc_ddrc_top.u_ipsl_ddrc_reset_ctrl.ddrc_pwrite                              GTP_LUT2       Z          Out     0.176     4.740       -         
+ddrc_pwrite                                                                                            Net            -          -       0.289     -           2         
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.ddrphy_dut                                         GTP_DDRPHY     PWRITE     In      -         5.028       -         
+=========================================================================================================================================================================
+Total path delay (propagation time + setup) of 8.246 is 4.111(49.9%) logic and 4.135(50.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                      Starting                                                            Arrival            
+Instance                                                              Reference     Type           Pin               Net                  Time        Slack  
+                                                                      Clock                                                                                  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.I_GTP_DLL_copy                  System        GTP_DLL        DELAY_STEP[0]     dll_step_copy[0]     0.000       999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.I_GTP_DLL_copy                  System        GTP_DLL        DELAY_STEP[1]     dll_step_copy[1]     0.000       999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.I_GTP_DLL_copy                  System        GTP_DLL        DELAY_STEP[2]     dll_step_copy[2]     0.000       999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.I_GTP_DLL_copy                  System        GTP_DLL        DELAY_STEP[3]     dll_step_copy[3]     0.000       999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.I_GTP_DLL_copy                  System        GTP_DLL        DELAY_STEP[4]     dll_step_copy[4]     0.000       999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.I_GTP_DLL_copy                  System        GTP_DLL        DELAY_STEP[5]     dll_step_copy[5]     0.000       999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.I_GTP_DLL_copy                  System        GTP_DLL        DELAY_STEP[6]     dll_step_copy[6]     0.000       999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.I_GTP_DLL_copy                  System        GTP_DLL        DELAY_STEP[7]     dll_step_copy[7]     0.000       999.731
+u_ipsl_hmemc_top.u_pll_50_400.u_pll_e1                                System        GTP_PLL_E1     LOCK              pll_lock_c           0.000       999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ipsl_phy_io.dll_hmemc_dut     System        GTP_DLL        LOCK              dll_lock             0.000       999.751
+=============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                   Starting                                                 Required            
+Instance                                                                           Reference     Type          Pin     Net                  Time         Slack  
+                                                                                   Clock                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dll_step_copy_d1[0]     System        GTP_DFF_C     D       dll_step_copy[0]     1000.020     999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dll_step_copy_d1[1]     System        GTP_DFF_C     D       dll_step_copy[1]     1000.020     999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dll_step_copy_d1[2]     System        GTP_DFF_C     D       dll_step_copy[2]     1000.020     999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dll_step_copy_d1[3]     System        GTP_DFF_C     D       dll_step_copy[3]     1000.020     999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dll_step_copy_d1[4]     System        GTP_DFF_C     D       dll_step_copy[4]     1000.020     999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dll_step_copy_d1[5]     System        GTP_DFF_C     D       dll_step_copy[5]     1000.020     999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dll_step_copy_d1[6]     System        GTP_DFF_C     D       dll_step_copy[6]     1000.020     999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dll_step_copy_d1[7]     System        GTP_DFF_C     D       dll_step_copy[7]     1000.020     999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step[0]        System        GTP_DFF_C     D       dll_step_copy[0]     1000.020     999.731
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.last_dll_step[1]        System        GTP_DFF_C     D       dll_step_copy[2]     1000.020     999.731
+================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            -0.020
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.020
+
+    - Propagation time:                      0.289
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 999.731
+
+    Number of logic level(s):                0
+    Starting point:                          u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.I_GTP_DLL_copy / DELAY_STEP[0]
+    Ending point:                            u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dll_step_copy_d1[0] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            pll_50_400|clkout1_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                   Pin               Pin               Arrival     No. of    
+Name                                                                               Type          Name              Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.I_GTP_DLL_copy                               GTP_DLL       DELAY_STEP[0]     Out     0.000     0.000       -         
+dll_step_copy[0]                                                                   Net           -                 -       0.289     -           2         
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dll_step_copy_d1[0]     GTP_DFF_C     D                 In      -         0.289       -         
+===========================================================================================================================================================
+Total path delay (propagation time + setup) of 0.269 is -0.020(-7.4%) logic and 0.289(107.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      1000.000
+    - Setup time:                            -0.020
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.020
+
+    - Propagation time:                      0.289
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 999.731
+
+    Number of logic level(s):                0
+    Starting point:                          u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.I_GTP_DLL_copy / DELAY_STEP[1]
+    Ending point:                            u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dll_step_copy_d1[1] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            pll_50_400|clkout1_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                   Pin               Pin               Arrival     No. of    
+Name                                                                               Type          Name              Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.I_GTP_DLL_copy                               GTP_DLL       DELAY_STEP[1]     Out     0.000     0.000       -         
+dll_step_copy[1]                                                                   Net           -                 -       0.289     -           2         
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dll_step_copy_d1[1]     GTP_DFF_C     D                 In      -         0.289       -         
+===========================================================================================================================================================
+Total path delay (propagation time + setup) of 0.269 is -0.020(-7.4%) logic and 0.289(107.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      1000.000
+    - Setup time:                            -0.020
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.020
+
+    - Propagation time:                      0.289
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 999.731
+
+    Number of logic level(s):                0
+    Starting point:                          u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.I_GTP_DLL_copy / DELAY_STEP[2]
+    Ending point:                            u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dll_step_copy_d1[2] / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            pll_50_400|clkout1_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                                                   Pin               Pin               Arrival     No. of    
+Name                                                                               Type          Name              Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.I_GTP_DLL_copy                               GTP_DLL       DELAY_STEP[2]     Out     0.000     0.000       -         
+dll_step_copy[2]                                                                   Net           -                 -       0.289     -           2         
+u_ipsl_hmemc_top.u_ipsl_hmemc_phy_top.u_ddrphy_update_ctrl.dll_step_copy_d1[2]     GTP_DFF_C     D                 In      -         0.289       -         
+===========================================================================================================================================================
+Total path delay (propagation time + setup) of 0.269 is -0.020(-7.4%) logic and 0.289(107.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:39s; Memory used current: 364MB peak: 402MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:41s; CPU Time elapsed 0h:00m:39s; Memory used current: 364MB peak: 402MB)
+
+---------------------------------------
+Resource Usage Report for ipsl_hmemc_top_test 
+
+Mapping to part: pgl22gbg324-7
+Cell usage:
+GTP_DDC_E1      5 uses
+GTP_DDRC        1 use
+GTP_DDRPHY      1 use
+GTP_DFF         3 uses
+GTP_DFF_C       194 uses
+GTP_DFF_CE      190 uses
+GTP_DFF_P       9 uses
+GTP_DFF_PE      27 uses
+GTP_DLL         2 uses
+GTP_GRS         1 use
+GTP_INV         54 uses
+GTP_IOCLKBUF    2 uses
+GTP_IOCLKDIV    1 use
+GTP_IODELAY     16 uses
+GTP_ISERDES     16 uses
+GTP_LUT2        162 uses
+GTP_LUT3        84 uses
+GTP_LUT4        127 uses
+GTP_LUT5        144 uses
+GTP_LUT5CARRY   309 uses
+GTP_OSERDES     46 uses
+GTP_PLL_E1      1 use
+GTP_ROM64X1     30 uses
+
+I/O ports: 61
+GTP_INBUF      2 uses
+GTP_INBUFG     2 uses
+GTP_IOBUF      16 uses
+GTP_IOBUFCO    2 uses
+GTP_OUTBUF     7 uses
+GTP_OUTBUFT    28 uses
+GTP_OUTBUFTCO  1 use
+
+
+RAM/ROM usage summary
+Distributed Rams : 30.00 of 1110 (2.70%)
+
+
+Mapping Summary:
+Total LUTs: 886 of 17536 (5.05%)
+	LUTs as dram: 0 of 4440 (0.00%)
+	LUTs as logic: 886 
+Total Registers: 423 of 26304 (1.61%)
+
+DRM18K:
+Total DRM18K =  0 of 48 (0.00%)
+
+APMs:
+Total APMs =  0.00 of 30 (0.00%)
+
+Total I/O primitives =  58 of 240 (24.17%)
+
+
+ Number of unique control sets:              32
+ CLK(clkout1_i), C(global_reset_i_0), P(GND), CE(dll_step_copy_synced4_NE_i_0)		: 8
+ CLK(clkout1_i), C(GND), P(global_reset_i_0), CE(VCC)		: 5
+ CLK(clkout1_i), C(global_reset_i_0), P(GND), CE(VCC)		: 41
+ CLK(dll_update_n_i), C(global_reset_i_0), P(GND), CE(VCC)		: 8
+ CLK(clkout1_i), C(GND), P(GND), CE(VCC)		: 3
+ CLK(clkout1_i), C(GND), P(global_reset_i_0), CE(N_82_i_0)		: 1
+ CLK(clkout1_i), C(global_reset_i_0), P(GND), CE(N_82_i_0)		: 1
+ CLK(clkout1_i), C(resetn_c_i_0), P(GND), CE(VCC)		: 17
+ CLK(clkout1_i), C(GND), P(resetn_c_i_0), CE(VCC)		: 1
+ CLK(clkout1_i), C(resetn_c_i_0), P(GND), CE(N_6_i_0)		: 8
+ CLK(clkout1_i), C(presetn_i_0), P(GND), CE(VCC)		: 3
+ CLK(clkout1_i), C(presetn_i_0), P(GND), CE(cnte)		: 7
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(un1_init_preset8_0_a2)		: 1
+ CLK(clkout1_i), C(GND), P(resetn_i_0), CE(un1_init_preset8_0_a2)		: 1
+ CLK(clkout1_i), C(GND), P(resetn_i_0), CE(VCC)		: 1
+ CLK(clkout1_i), C(GND), P(resetn_i_0), CE(ddrc_init_done)		: 1
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(ddrc_init_done)		: 1
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(ddrc_rst_cnte)		: 5
+ CLK(clkout1_i), C(resetn_i_0), P(GND), CE(rst_cnt7)		: 5
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(state_0_sqmuxa)		: 25
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(VCC)		: 125
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(N_27_i_0)		: 5
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(rvalid_1)		: 16
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(N_972_0)		: 8
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(N_30_i_0)		: 2
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(N_58_i_0)		: 16
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(init_addr7)		: 27
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(N_125_i_0)		: 8
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(execute_wr_cnte)		: 16
+ CLK(clkout3), C(GND), P(resetn_c_i_0), CE(N_36_i_0)		: 24
+ CLK(clkout3), C(resetn_c_i_0), P(GND), CE(N_36_i_0)		: 31
+ CLK(clkout3), C(GND), P(resetn_c_i_0), CE(VCC)		: 2
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:42s; CPU Time elapsed 0h:00m:40s; Memory used current: 225MB peak: 402MB)
+
+Process took 0h:00m:42s realtime, 0h:00m:40s cputime
+# Wed Oct 23 13:23:59 2019
+
+###########################################################]

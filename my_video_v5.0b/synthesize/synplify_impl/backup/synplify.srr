@@ -1,0 +1,244 @@
+#Build: Synplify Pro (R) P-2019.03P-Beta2, Build 3717R, Feb 25 2019
+#install: C:\pango\PDS_2019.1-patch11\syn
+#OS: Windows 8 6.2
+#Hostname: 1FIX62AK6M9QF8G
+
+# Thu Nov 14 22:56:43 2019
+
+#Implementation: synplify_impl
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch11\syn
+OS: Windows 6.2
+
+Hostname: 1FIX62AK6M9QF8G
+
+Implementation : synplify_impl
+Synopsys HDL Compiler, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch11\syn
+OS: Windows 6.2
+
+Hostname: 1FIX62AK6M9QF8G
+
+Implementation : synplify_impl
+Synopsys Verilog Compiler, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+@N|Running in 64-bit mode
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\generic\logos.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\pango\PDS_2019.1-patch11\syn\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_config.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_bit_ctrl.v" (library work)
+@N: CG334 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_bit_ctrl.v":137:12:137:24|Read directive translate_off.
+@N: CG333 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_bit_ctrl.v":139:12:139:23|Read directive translate_on.
+@I:"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_bit_ctrl.v":"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_defines.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_bit_ctrl.v":185:36:185:45|Unrecognized synthesis directive enum_state. Verify the correct directive name.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_bit_ctrl.v":406:41:406:49|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_bit_ctrl.v":406:51:406:63|Read a parallel_case directive.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_bit_ctrl.v":410:47:410:55|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_bit_ctrl.v":410:57:410:69|Read a parallel_case directive.
+@W: CG286 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_bit_ctrl.v":410:24:410:27|Case statement has both a full_case directive and a default clause -- ignoring full_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_byte_ctrl.v" (library work)
+@N: CG334 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_byte_ctrl.v":69:12:69:24|Read directive translate_off.
+@N: CG333 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_byte_ctrl.v":71:12:71:23|Read directive translate_on.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_byte_ctrl.v":199:32:199:41|Unrecognized synthesis directive enum_state. Verify the correct directive name.
+@N: CG346 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_byte_ctrl.v":230:34:230:42|Read full_case directive.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_byte_ctrl.v":230:44:230:56|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\i2c_master\i2c_master_top.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\dvi_tx\color_bar.v" (library work)
+@I:"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\dvi_tx\color_bar.v":"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\dvi_tx\video_define.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\dvi_tx\dvi_encoder.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\dvi_tx\encode.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\dvi_tx\encode.v":7:9:7:12|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\dvi_tx\serdes_4b_10to1.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\frame_fifo_read.v" (library work)
+@W: CG921 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\frame_fifo_read.v":80:37:80:44|read_cnt is already declared in this scope.
+@W: CG921 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\frame_fifo_read.v":110:10:110:17|read_cnt is already declared in this scope.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\frame_fifo_write.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\frame_read_write.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\aq_axi_master.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\cmos_8_16bit.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\cmos_write_req_gen.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\test\ax_debounce.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\test\ax_debounce.v":4:26:4:29|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\test\calculate_ddr3_addr.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\test\gen_addr_get_frame.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\dvi_tx\video_timing_data.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\test\gen_new_frame_sign.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\top.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\test\my_aq_axi_master.v" (library work)
+@W: CG921 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\test\my_aq_axi_master.v":162:6:162:11|MUX_wr is already declared in this scope.
+@W: CG921 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\test\my_aq_axi_master.v":163:6:163:11|MUX_rd is already declared in this scope.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\test\usart_tx_rx.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\test\pixel_read_V2.5b.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\test\get_mpu_angle.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\test\my_lut_ov5640_rgb565_1280_960.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\test\gen_rotation_addr.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\test\lut_sin_cos.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\APM_11mult11\APM_11mult11.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\APM_multi_add_s16\APM_multi_add_s16.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_8in8out\rtl\ipm_distributed_sdpram_v1_2_afifo_8in8out.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_8in8out\afifo_8in8out.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_8in8out\rtl\ipm_distributed_fifo_v1_2_afifo_8in8out.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_fifo_v1_4_fifo_22i_22o.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_fifo_v1_4_fifo_26i_26o.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_v1_4_afifo_16i_64o_512.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_fifo_v1_4_afifo_64i_16o_128.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\fifo_26i_26o.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\fifo_22i_22o.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\afifo_64i_16o_128.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\afifo_16i_64o_512.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\ddr3\rtl\pll\pll_50_400.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\video_pll\video_pll.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_8in8out\rtl\ipm_distributed_fifo_ctr_v1_0.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_fifo_ctrl_v1_3.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\ddr3\ddr3.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\APM_11mult11\rtl\ipml_mult_v1_1.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\APM_multi_add_s16\rtl\ipml_multadd_v1_1.v" (library work)
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":289:249:289:257|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":295:162:295:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":301:162:301:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":307:132:307:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":311:134:311:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":315:132:315:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":319:134:319:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":323:134:323:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":327:126:327:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":331:133:331:141|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":335:125:335:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":339:143:339:151|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":343:151:343:159|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":347:140:347:148|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":351:156:351:164|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":355:154:355:162|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":359:155:359:163|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":363:125:363:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":367:126:367:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":372:132:372:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":376:136:376:144|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":381:132:381:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":385:148:385:156|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":389:146:389:154|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":393:150:393:158|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":397:138:397:146|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_16i_64o_512\rtl\ipml_sdpram_v1_4_afifo_16i_64o_512.v":660:40:660:52|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":289:249:289:257|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":295:162:295:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":301:162:301:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":307:132:307:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":311:134:311:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":315:132:315:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":319:134:319:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":323:134:323:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":327:126:327:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":331:133:331:141|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":335:125:335:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":339:143:339:151|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":343:151:343:159|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":347:140:347:148|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":351:156:351:164|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":355:154:355:162|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":359:155:359:163|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":363:125:363:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":367:126:367:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":372:132:372:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":376:136:376:144|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":381:132:381:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":385:148:385:156|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":389:146:389:154|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":393:150:393:158|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":397:138:397:146|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_22i_22o\rtl\ipml_sdpram_v1_4_fifo_22i_22o.v":656:40:656:52|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":289:249:289:257|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":295:162:295:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":301:162:301:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":307:132:307:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":311:134:311:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":315:132:315:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":319:134:319:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":323:134:323:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":327:126:327:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":331:133:331:141|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":335:125:335:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":339:143:339:151|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":343:151:343:159|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":347:140:347:148|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":351:156:351:164|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":355:154:355:162|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":359:155:359:163|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":363:125:363:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":367:126:367:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":372:132:372:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":376:136:376:144|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":381:132:381:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":385:148:385:156|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":389:146:389:154|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":393:150:393:158|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":397:138:397:146|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\fifo_26i_26o\rtl\ipml_sdpram_v1_4_fifo_26i_26o.v":656:40:656:52|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v" (library work)
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":289:249:289:257|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":295:162:295:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":301:162:301:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":307:132:307:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":311:134:311:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":315:132:315:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":319:134:319:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":323:134:323:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":327:126:327:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":331:133:331:141|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":335:125:335:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":339:143:339:151|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":343:151:343:159|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":347:140:347:148|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":351:156:351:164|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":355:154:355:162|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":359:155:359:163|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":363:125:363:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+
+Only the first 100 messages of id 'CS141' are reported. To see all messages use 'report_messages -log C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\synthesize\synplify_impl\synlog\synplify_compiler.srr -id CS141' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CS141} -count unlimited' in the Tcl shell.
+@N: CG347 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\afifo_64i_16o_128\rtl\ipml_sdpram_v1_4_afifo_64i_16o_128.v":656:40:656:52|Read a parallel_case directive.
+@I::"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\ipcore\ddr3\rtl\ipsl_phy_io.v" (library work)
+Verilog syntax check successful!
+Selecting top level module top
+@E: CG596 :"C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v3.2\source\top.v":430:5:430:11|Parameter Y_OFFST cannot be found in module gen_raotation_addr.
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Nov 14 22:56:48 2019
+
+###########################################################]
+@END
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Thu Nov 14 22:56:48 2019
+
+###########################################################]

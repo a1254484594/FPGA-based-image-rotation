@@ -1,0 +1,7 @@
+C:\pango\PDS_2019.1-patch11\syn\bin64\syn_nfilter.exe  -link  -top  top  -multisrs  C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\synthesize\synplify_impl\synwork\synplify_comp.srs  -osyn  C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\synthesize\synplify_impl\synwork\synplify_mult.srs  -log  C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\synthesize\synplify_impl\synlog\synplify_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\pango\PDS_2019.1-patch11\syn\bin64\syn_nfilter.exe -link -top top -multisrs ..\synwork\synplify_comp.srs -osyn ..\synwork\synplify_mult.srs -log ..\synlog\synplify_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\synplify_comp.srs|io:i|time:1574502981|size:394104|exec:0|csum:F7A6CAFA1DEC17BE10A725E74A85F9C8
+file:..\synwork\synplify_mult.srs|io:o|time:1574502983|size:31126|exec:0|csum:
+file:..\synlog\synplify_multi_srs_gen.srr|io:o|time:1574502983|size:1194|exec:0|csum:
+file:..\..\..\..\..\..\..\..\pango\PDS_2019.1-patch11\syn\bin64\syn_nfilter.exe|io:i|time:1560764248|size:8823808|exec:1|csum:3618916D7958985CF38A6328459776F6

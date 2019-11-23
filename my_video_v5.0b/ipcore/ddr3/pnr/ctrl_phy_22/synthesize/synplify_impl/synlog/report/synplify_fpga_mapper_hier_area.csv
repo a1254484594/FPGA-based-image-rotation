@@ -1,0 +1,18 @@
+
+. Module name, LUTS, REGISTERS, LATCHES, ADDSUB, MUXES, DEDICATED RAMS, DISTRIBUTED RAMS, MULTS, BUFS
+. ipsl_hmemc_top_test, 517, 423, 0, 0, 0, 0, 30, 0, 0
+.	. ddr3, 219, 118, 0, 0, 0, 0, 30, 0, 0
+.	.	. ipsl_hmemc_ddrc_top_Z7, 171, 25, 0, 0, 0, 0, 30, 0, 0
+.	.	.	. ipsl_ddrc_reset_ctrl_Z6, 171, 25, 0, 0, 0, 0, 30, 0, 0
+.	.	.	.	. ipsl_ddrc_apb_reset_Z5, 114, 10, 0, 0, 0, 0, 30, 0, 0
+.	.	. ipsl_hmemc_phy_top_Z4, 48, 93, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_ddrphy_dll_update_ctrl, 7, 9, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_ddrphy_reset_ctrl, 27, 32, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_ddrphy_training_ctrl, 5, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_ddrphy_update_ctrl_16BIT_2s_0s_1s_2s_3s_1, 9, 44, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_phy_io_Z3, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. pll_50_400, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. test_main_ctrl_27s_16s_27s_0s_1s_2s_3s_4s, 65, 63, 0, 0, 0, 0, 0, 0, 0
+.	.	. prbs31_128bit_1_Z1, 55, 55, 0, 0, 0, 0, 0, 0, 0
+.	. test_rd_ctrl_64bit_27s_16s_10s_27s_1s_4s_0s_1s_2s, 60, 78, 0, 0, 0, 0, 0, 0, 0
+.	. test_wr_ctrl_64bit_Z2, 155, 163, 0, 0, 0, 0, 0, 0, 0

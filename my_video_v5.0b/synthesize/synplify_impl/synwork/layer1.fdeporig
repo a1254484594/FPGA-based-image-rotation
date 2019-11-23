@@ -1,0 +1,48 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.linebuffer_Wapper|-mpparams|C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\synthesize\\synplify_impl\\synwork\\_mh_params|-layerid|1|-orig_srs|C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\synthesize\\synplify_impl\\synwork\\synplify_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-dspmac|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\bin64\\c_vhdl.exe":1560764244
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\location.map":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\std.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\snps_haps_pkg.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\std1164.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\numeric.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\umr_capim.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\arith.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\unsigned.vhd":1560764264
+#CUR:"C:\\pango\\PDS_2019.1-patch11\\syn\\lib\\vhd\\hyperents.vhd":1560764264
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\img_buf\\linebuffer_Wapper.vhd":1484405412
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\img_buf\\ImageXlib_arch.vhd":1484405411
+#CUR:"C:\\Users\\Administrator.1FIX62AK6M9QF8G\\Desktop\\fpga\\my_video_v5.0b\\source\\img_buf\\ImageXlib_utils.vhd":1484405411
+0 "C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\linebuffer_Wapper.vhd" vhdl
+1 "C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_arch.vhd" vhdl
+2 "C:\Users\Administrator.1FIX62AK6M9QF8G\Desktop\fpga\my_video_v5.0b\source\img_buf\ImageXlib_utils.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 1 2 
+1 2 
+2 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 0 
+2 1 0 
+
+# Design Unit to File Association
+arch work linebuffer_wapper rtl 0
+module work linebuffer_wapper 0
+arch work active_delay rtl 1
+module work active_delay 1
+arch work mc_h_pipe rtl 1
+module work mc_h_pipe 1
+arch work h_pipe rtl 1
+module work h_pipe 1
+arch work base_2d_linebuffer rtl 1
+module work base_2d_linebuffer 1
+arch work base_single_linebuffer rtl 1
+module work base_single_linebuffer 1
+arch work linebuffer rtl 1
+module work linebuffer 1
+arch work dp_bram rtl 1
+module work dp_bram 1
+
+# Unbound Instances to File Association

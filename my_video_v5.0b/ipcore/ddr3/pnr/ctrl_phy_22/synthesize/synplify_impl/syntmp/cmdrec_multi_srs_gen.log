@@ -1,0 +1,7 @@
+C:\pango\PDS_2019.1-patch11\syn\bin64\syn_nfilter.exe  -link  -top  ipsl_hmemc_top_test  -multisrs  C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synwork\synplify_comp.srs  -osyn  C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synwork\synplify_mult.srs  -log  C:\Users\zzl\Desktop\FPGA\PANGO\my_video_v1.3\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synlog\synplify_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\..\..\..\pango\PDS_2019.1-patch11\syn\bin64\syn_nfilter.exe -link -top ipsl_hmemc_top_test -multisrs ..\synwork\synplify_comp.srs -osyn ..\synwork\synplify_mult.srs -log ..\synlog\synplify_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\synplify_comp.srs|io:i|time:1571808189|size:128773|exec:0|csum:354391E40D9E1587EF8F3BCC2086A16F
+file:..\synwork\synplify_mult.srs|io:o|time:1571808191|size:13841|exec:0|csum:
+file:..\synlog\synplify_multi_srs_gen.srr|io:o|time:1571808191|size:1200|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\..\..\..\pango\PDS_2019.1-patch11\syn\bin64\syn_nfilter.exe|io:i|time:1560764248|size:8823808|exec:1|csum:3618916D7958985CF38A6328459776F6
